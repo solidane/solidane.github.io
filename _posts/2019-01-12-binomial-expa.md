@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Binomial expansion"
-author: Solida
+author: solida
 categories: [ Jekyll, tutorial ]
 image: assets/images/5.jpg
 ---

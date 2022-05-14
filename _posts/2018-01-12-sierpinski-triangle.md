@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sierpinski Triangle"
-author: Solida
+author: solida
 categories: [ Jekyll, tutorial ]
 image: assets/images/2.jpg
 ---
