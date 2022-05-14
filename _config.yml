@@ -5,7 +5,7 @@ baseurl: ""
 url: "https://solidane.github.io"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-author: Solids
+author: Solida
 paginate: 30
 disqus: 'demowebsite'
 locale: en_us

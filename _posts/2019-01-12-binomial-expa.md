@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Is Intelligence Enough"
-author: sal
+title:  "Binomial expansion"
+author: Solida
 categories: [ Jekyll, tutorial ]
 image: assets/images/5.jpg
 ---

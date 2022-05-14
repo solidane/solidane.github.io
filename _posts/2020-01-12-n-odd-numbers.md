@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "We all wait for summer"
+title:  "The sum of n consequent odd integers"
 categories: [ Jekyll, tutorial ]
 image: assets/images/1.jpg
 ---
