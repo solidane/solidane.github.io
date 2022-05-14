@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Proofs without words
 permalink: "/about/"
 image: assets/images/screenshot.png
 ---
