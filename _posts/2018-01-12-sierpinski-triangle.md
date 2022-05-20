@@ -5,14 +5,32 @@ author: solida
 categories: [ Jekyll, tutorial ]
 image: assets/images/2.jpg
 ---
-The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter. 
-
-As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original — which sees Little Red Riding Hood being gobbled up as well as her grandmother — is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.
-
-> It would seem the claim could also extend to die cut books in general, as we can’t find anything sooner, but do let us know in the comments if you have further light to shed on this! Such books are, of course, still popular in children’s publishing today, though the die cutting is not now limited to mere outlines, as evidenced in a beautiful 2014 version of the same Little Red Riding Hood story. 
-
-
-An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll… originated with us”. 
-
-The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes. 
+<div id="observablehq-099c322a">
+  <div class="observablehq-d3"></div>
+  <div class="observablehq-width"></div>
+  <div class="observablehq-height"></div>
+  <div class="observablehq-offset"></div>
+  <div class="observablehq-B"></div>
+  <div class="observablehq-C"></div>
+  <div class="observablehq-A"></div>
+  <div class="observablehq-viewof-recursion_depth"></div>
+  <div class="observablehq-recursion_depth"></div>
+  <div class="observablehq-remove_triangles"></div>
+</div>
+<script type="module">
+  import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+  import define from "https://api.observablehq.com/@864af2bf64442aa6/sierpinski-triangle.js?v=3";
+  (new Runtime).module(define, name => {
+    if (name === "d3") return Inspector.into("#observablehq-099c322a .observablehq-d3")();
+    if (name === "width") return Inspector.into("#observablehq-099c322a .observablehq-width")();
+    if (name === "height") return Inspector.into("#observablehq-099c322a .observablehq-height")();
+    if (name === "offset") return Inspector.into("#observablehq-099c322a .observablehq-offset")();
+    if (name === "B") return Inspector.into("#observablehq-099c322a .observablehq-B")();
+    if (name === "C") return Inspector.into("#observablehq-099c322a .observablehq-C")();
+    if (name === "A") return Inspector.into("#observablehq-099c322a .observablehq-A")();
+    if (name === "viewof recursion_depth") return Inspector.into("#observablehq-099c322a .observablehq-viewof-recursion_depth")();
+    if (name === "recursion_depth") return Inspector.into("#observablehq-099c322a .observablehq-recursion_depth")();
+    if (name === "remove_triangles") return Inspector.into("#observablehq-099c322a .observablehq-remove_triangles")();
+  });
+</script>
 
