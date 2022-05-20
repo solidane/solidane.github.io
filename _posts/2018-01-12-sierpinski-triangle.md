@@ -34,3 +34,38 @@ image: assets/images/2.jpg
   });
 </script>
 
+function remove_triangles(A, B, C, depth) {
+
+if (depth == 0){
+return
+}
+
+
+// calculate middle points
+let mAB = {
+x: (A.x + B.x) / 2,
+y: (A.y + B.y) / 2
+}
+
+let mBC = {
+x: (B.x + C.x) / 2,
+y: (B.y + C.y) / 2
+}
+
+let mAC = {
+x: (A.x + C.x) / 2,
+y: (A.y + C.y) / 2
+}
+
+d3.select("#triangle-method-svg").
+append("polygon").
+attr("class", "removed_triangle").
+attr("points", mAB.x + "," + mAB.y + " " + mBC.x + "," + mBC.y + " " + mAC.x + "," + mAC.y).
+style("fill", "white")
+
+remove_triangles(A, mAB, mAC, depth - 1)
+remove_triangles(B, mBC, mAB, depth - 1)
+remove_triangles(C, mAC, mBC, depth - 1)
+
+}
+

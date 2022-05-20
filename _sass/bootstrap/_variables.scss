@@ -178,7 +178,7 @@ $grid-breakpoints: (
 
 // Grid containers
 //
-// Define the maximum width of `.container` for different screen sizes.
+// Define the maximum width of `.containers.css` for different screen sizes.
 
 $container-max-widths: (
   sm: 540px,
@@ -527,7 +527,7 @@ $form-feedback-invalid-color:       theme-color("danger") !default;
 
 // Dropdowns
 //
-// Dropdown menu container and contents.
+// Dropdown menu containers.css and contents.
 
 $dropdown-min-width:                10rem !default;
 $dropdown-padding-y:                .5rem !default;

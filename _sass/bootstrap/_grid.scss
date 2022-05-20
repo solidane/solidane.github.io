@@ -1,6 +1,6 @@
 // Container widths
 //
-// Set the container width, and override it for fixed navbars in media queries.
+// Set the containers.css width, and override it for fixed navbars in media queries.
 
 @if $enable-grid-classes {
   .container {
@@ -9,7 +9,7 @@
   }
 }
 
-// Fluid container
+// Fluid containers.css
 //
 // Utilizes the mixin meant for fixed width containers, but with 100% width for
 // fluid, full width layouts.
