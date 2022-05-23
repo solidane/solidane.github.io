@@ -5,15 +5,29 @@ author: solida
 categories: [ Jekyll, tutorial ]
 image: assets/images/5.jpg
 ---
-Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one's self is very difficult. 
-
-> We are prone to let our mental life become invaded by legions of half truths, prejudices, and propaganda. At this point, I often wonder whether or not education is fulfilling its purpose. A great majority of the so-called educated people do not think logically and scientifically. 
-
-Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, is one of the chief aims of education. Education must enable one to sift and weigh evidence, to discern the true from the false, the real from the unreal, and the facts from the fiction.
-
-The function of education, therefore, is to teach one to think intensively and to think critically. But education which stops with efficiency may prove the greatest menace to society. The most dangerous criminal may be the man gifted with reason, but with no morals.
-
-The late Eugene Talmadge, in my opinion, possessed one of the better minds of Georgia, or even America. Moreover, he wore the Phi Beta Kappa key. By all measuring rods, Mr. Talmadge could think critically and intensively; yet he contends that I am an inferior being. Are those the types of men we call educated?
-
-We must remember that intelligence is not enough. Intelligence plus character--that is the goal of true education. The complete education gives one not only power of concentration, but worthy objectives upon which to concentrate. The broad education will, therefore, transmit to one not only the accumulated knowledge of the race but also the accumulated experience of social living.
-
+<div id="observablehq-fc37ba2b">
+  <div class="observablehq-viewof-numVars"></div>
+  <div class="observablehq-numVars"></div>
+  <div class="observablehq-binomial"></div>
+  <div class="observablehq-rectData"></div>
+  <div class="observablehq-formula"></div>
+  <div class="observablehq-rs"></div>
+  <div class="observablehq-ithLetter"></div>
+  <div class="observablehq-color"></div>
+  <div class="observablehq-d3"></div>
+</div>
+<script type="module">
+  import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+  import define from "https://api.observablehq.com/@864af2bf64442aa6/a-b-c-2.js?v=3";
+  (new Runtime).module(define, name => {
+    if (name === "viewof numVars") return Inspector.into("#observablehq-fc37ba2b .observablehq-viewof-numVars")();
+    if (name === "numVars") return Inspector.into("#observablehq-fc37ba2b .observablehq-numVars")();
+    if (name === "binomial") return Inspector.into("#observablehq-fc37ba2b .observablehq-binomial")();
+    if (name === "rectData") return Inspector.into("#observablehq-fc37ba2b .observablehq-rectData")();
+    if (name === "formula") return Inspector.into("#observablehq-fc37ba2b .observablehq-formula")();
+    if (name === "rs") return Inspector.into("#observablehq-fc37ba2b .observablehq-rs")();
+    if (name === "ithLetter") return Inspector.into("#observablehq-fc37ba2b .observablehq-ithLetter")();
+    if (name === "color") return Inspector.into("#observablehq-fc37ba2b .observablehq-color")();
+    if (name === "d3") return Inspector.into("#observablehq-fc37ba2b .observablehq-d3")();
+  });
+</script>
