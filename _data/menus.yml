@@ -4,8 +4,8 @@ topmenu:
 - title: Home
   url: ""
 
-- title: PWoW
-  url: "about/"
+- title: Submit
+  url: "submit/"
 
 - title: Contact
   url: "contact/"

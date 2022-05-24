@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Proofs without words
+title: Submit your own proof
 permalink: "/about/"
 image: assets/images/screenshot.png
 ---
