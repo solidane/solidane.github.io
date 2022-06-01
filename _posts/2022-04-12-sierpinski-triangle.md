@@ -5,23 +5,25 @@ author: solida
 categories: [ Jekyll, tutorial ]
 image: assets/images/2.jpg
 ---
+A fractal is a pattern, where as you zoom in, similar patterns appear at all smaller scales. One of the most well known examples of fractals is
+Sierpinski triangle. Wacław Sierpiński was the first mathematician to think about the properties of this triangle, but this pattern is to be found in artwork, patterns, and mosaics many centuries earlier like to be seen in the pictures below:
+
+![walking]({{ site.baseurl }}/assets/images/collage.jpg)
+
+## Removing triangles method
+
+The Sierpinski triangle may be constructed from an equilateral triangle by repeated removal of triangular subsets:
+1. Start with an equilateral triangle.
+2. Subdivide it into four smaller congruent equilateral triangles and remove the central triangle.
+3. Repeat step 2 with the smaller triangles until the end of time
+
+We can easily write a recursive function that performs the above process to a given depth, such that we get a satisfactory approximation of the Sierpinski triangle.
+
+We can visualize this process using the slider to control the stage in the construction below:
 <div id="observablehq-f40c7c08">
   <div class="observablehq-viewof-sierp_steps"></div>
   <div class="observablehq-sierp_steps"></div>
   <div class="observablehq-sierp_approx"></div>
-  <div class="observablehq-sierpIFS"></div>
-  <div class="observablehq-viewof-sierp_steps2"></div>
-  <div class="observablehq-sierp_steps2"></div>
-  <div class="observablehq-viewof-seed"></div>
-  <div class="observablehq-seed"></div>
-  <div class="observablehq-sierp_approx2"></div>
-  <div class="observablehq-viewof-start"></div>
-  <div class="observablehq-start"></div>
-  <div class="observablehq-viewof-clear"></div>
-  <div class="observablehq-clear"></div>
-  <div class="observablehq-canvas"></div>
-  <div class="observablehq-polygon"></div>
-  <div class="observablehq-MathJax"></div>
 </div>
 <script type="module">
   import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
@@ -30,18 +32,7 @@ image: assets/images/2.jpg
     if (name === "viewof sierp_steps") return Inspector.into("#observablehq-f40c7c08 .observablehq-viewof-sierp_steps")();
     if (name === "sierp_steps") return Inspector.into("#observablehq-f40c7c08 .observablehq-sierp_steps")();
     if (name === "sierp_approx") return Inspector.into("#observablehq-f40c7c08 .observablehq-sierp_approx")();
-    if (name === "sierpIFS") return Inspector.into("#observablehq-f40c7c08 .observablehq-sierpIFS")();
-    if (name === "viewof sierp_steps2") return Inspector.into("#observablehq-f40c7c08 .observablehq-viewof-sierp_steps2")();
-    if (name === "sierp_steps2") return Inspector.into("#observablehq-f40c7c08 .observablehq-sierp_steps2")();
-    if (name === "viewof seed") return Inspector.into("#observablehq-f40c7c08 .observablehq-viewof-seed")();
-    if (name === "seed") return Inspector.into("#observablehq-f40c7c08 .observablehq-seed")();
-    if (name === "sierp_approx2") return Inspector.into("#observablehq-f40c7c08 .observablehq-sierp_approx2")();
-    if (name === "viewof start") return Inspector.into("#observablehq-f40c7c08 .observablehq-viewof-start")();
-    if (name === "start") return Inspector.into("#observablehq-f40c7c08 .observablehq-start")();
-    if (name === "viewof clear") return Inspector.into("#observablehq-f40c7c08 .observablehq-viewof-clear")();
-    if (name === "clear") return Inspector.into("#observablehq-f40c7c08 .observablehq-clear")();
-    if (name === "canvas") return Inspector.into("#observablehq-f40c7c08 .observablehq-canvas")();
-    if (name === "polygon") return Inspector.into("#observablehq-f40c7c08 .observablehq-polygon")();
-    if (name === "MathJax") return Inspector.into("#observablehq-f40c7c08 .observablehq-MathJax")();
   });
 </script>
+
+## The Chaos Game

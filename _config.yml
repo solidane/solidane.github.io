@@ -2,9 +2,9 @@ title: "Affiliates"
 email: solida@students.uni-marburg.de
 timezone: UTC
 baseurl: ""
-url: "https://solidane.github.io"
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
+url: "https://visualproofs.github.io"
+logo: 'assets/images/logonew.png'
+favicon: 'assets/images/logonew.png'
 author: Solida
 paginate: 30
 disqus: 'demowebsite'
