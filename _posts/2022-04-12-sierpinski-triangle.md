@@ -2,8 +2,8 @@
 layout: post
 title:  "Sierpinski Triangle"
 author: solida
-categories: [ Jekyll, tutorial ]
-image: assets/images/2.jpg
+categories: [ Jekyll, tutorial]
+image: assets/images/Sierpinski.jpg
 ---
 A fractal is a pattern, where as you zoom in, similar patterns appear at all smaller scales. One of the most well known examples of fractals is
 Sierpinski triangle. Wacław Sierpiński was the first mathematician to think about the properties of this triangle, but this pattern is to be found in artwork, patterns, and mosaics many centuries earlier like to be seen in the pictures below:
@@ -36,3 +36,22 @@ We can visualize this process using the slider to control the stage in the const
 </script>
 
 ## The Chaos Game
+
+<div id="observablehq-a077419d">
+  <div class="observablehq-viewof-start"></div>
+  <div class="observablehq-start"></div>
+  <div class="observablehq-viewof-clear"></div>
+  <div class="observablehq-clear"></div>
+  <div class="observablehq-canvas"></div>
+</div>
+<script type="module">
+  import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+  import define from "https://api.observablehq.com/@864af2bf64442aa6/construction-of-the-serpinski-triangle.js?v=3";
+  (new Runtime).module(define, name => {
+    if (name === "viewof start") return Inspector.into("#observablehq-a077419d .observablehq-viewof-start")();
+    if (name === "start") return Inspector.into("#observablehq-a077419d .observablehq-start")();
+    if (name === "viewof clear") return Inspector.into("#observablehq-a077419d .observablehq-viewof-clear")();
+    if (name === "clear") return Inspector.into("#observablehq-a077419d .observablehq-clear")();
+    if (name === "canvas") return Inspector.into("#observablehq-a077419d .observablehq-canvas")();
+  });
+</script>

@@ -3,8 +3,8 @@ email: solida@students.uni-marburg.de
 timezone: UTC
 baseurl: ""
 url: "https://visualproofs.github.io"
-logo: 'assets/images/logonew.png'
-favicon: 'assets/images/logonew.png'
+logo: 'assets/images/12.png'
+favicon: 'assets/images/12.png'
 author: Solida
 paginate: 30
 disqus: 'demowebsite'
