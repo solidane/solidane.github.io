@@ -3,7 +3,7 @@ layout: post
 title:  "Fibonacci Sequence"
 author: solida
 categories: [ Jekyll, tutorial ]
-image: assets/images/4.jpg
+image: assets/images/Fibo.png
 ---
 
 <div id="observablehq-412999a1">

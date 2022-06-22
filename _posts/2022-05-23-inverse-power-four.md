@@ -3,7 +3,7 @@ layout: post
 title:  "Sum of inverse powers of four"
 author: solida
 categories: [ Jekyll, tutorial ]
-image: assets/images/6.jpg
+image: assets/images/Power4.png
 ---
 <div id="observablehq-6c0f974d">
   <div class="observablehq-dom"></div>

@@ -3,7 +3,7 @@ layout: post
 title:  "Binomial expansion"
 author: solida
 categories: [ Jekyll, tutorial ]
-image: assets/images/5.jpg
+image: assets/images/Binomial.png
 ---
 <div id="observablehq-fc37ba2b">
   <div class="observablehq-viewof-numVars"></div>
