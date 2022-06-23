@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The sum of n consequent odd integers"
-categories: [ Jekyll, tutorial ]
+categories: 
 image: assets/images/1.jpg
 
 ---
