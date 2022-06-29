@@ -2,7 +2,7 @@
 layout: post
 title:  "Fibonacci Sequence"
 author: solida
-categories: [ Jekyll, tutorial ]
+categories: [ , tutorial ]
 image: assets/images/pythagora-2.jpg
 ---
 The Fibonacci sequence is in mathematics a sequence of numbers, where each number is the result of the sum of the two preceding ones. 
