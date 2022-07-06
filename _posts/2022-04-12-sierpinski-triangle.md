@@ -2,7 +2,7 @@
 layout: post
 title:  "Sierpinski Triangle"
 author: solida
-categories: [ Jekyll, tutorial]
+categories: Fractals
 image: assets/images/Sierpinski.jpg
 ---
 A fractal is a pattern, where as you zoom in, similar patterns appear at all smaller scales. One of the most well known examples of fractals is

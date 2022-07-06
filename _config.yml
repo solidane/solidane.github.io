@@ -5,7 +5,7 @@ baseurl: ""
 url: "https://visualproofs.github.io"
 logo: 'assets/images/12.png'
 favicon: 'assets/images/12.png'
-author: Solida
+author: Solida Neziri
 paginate: 30
 disqus: 'demowebsite'
 locale: en_us
@@ -25,13 +25,14 @@ sass:
 # Authors
 authors:
   solida:
-    name: Solida
-    display_name: Solida
+    name: Solida Neziri
+    display_name: Solida Neziri
+    avatar: 'assets/images/sl.JPEG'
     email: solida@students.uni-marburg.de
     description: "You are currently witnessing a CS Student trying to navigate through her B.Thesis."
   georges:
     name: Georges Hattab
-    display_name: Georges
+    display_name: Georges Hattab
     email: solida@students.uni-marburg.de
     description: ""
 # Social
