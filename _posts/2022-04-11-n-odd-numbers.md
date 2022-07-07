@@ -46,10 +46,11 @@ If it would be to fit in one square, it would look something like this:
 
 To get to the next odd number we just have to add 2 to the previous odd number. Similar in this case every layers differs two blocks more or less from the neighbouring ones. Although we only illustrated for n = 3, one can see that this pattern holds!
 
+### Try it yourself
+
+Use the slider below to test it for different n-values.
 <div id="observablehq-c1e9a462">
   <div class="observablehq-viewof-n"></div>
-  <div class="observablehq-n"></div>
-  <div class="observablehq-aba"></div>
   <div class="observablehq-sumOfOdd"></div>
   <div class="observablehq-sumToTex"></div>
   <div class="observablehq-firstNOddNumbers"></div>
@@ -57,17 +58,22 @@ To get to the next odd number we just have to add 2 to the previous odd number. 
   <div class="observablehq-drawExample"></div>
   <div class="observablehq-drawDots"></div>
   <div class="observablehq-oddNums"></div>
+  <div class="observablehq-n"></div>
+  <div class="observablehq-aba"></div>
 </div>
 <script type="module">
   import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
   import define from "https://api.observablehq.com/@864af2bf64442aa6/geometric-intuition-for-sum-of-first-n-odd-numbers.js?v=3";
   (new Runtime).module(define, name => {
     if (name === "viewof n") return Inspector.into("#observablehq-c1e9a462 .observablehq-viewof-n")();
+    if (name === "sumOfOdd") return Inspector.into("#observablehq-c1e9a462 .observablehq-sumOfOdd")();
     if (name === "n") return Inspector.into("#observablehq-c1e9a462 .observablehq-n")();
     if (name === "aba") return Inspector.into("#observablehq-c1e9a462 .observablehq-aba")();
-    if (name === "sumOfOdd") return Inspector.into("#observablehq-c1e9a462 .observablehq-sumOfOdd")();
   });
 </script>
+## Mathematical form
+
+The formula to calculate this pattern is:
 
 <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
   <mrow>
