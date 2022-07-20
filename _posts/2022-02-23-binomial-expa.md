@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Polynomial expansion"
-author: Solida
+author: solida
 categories: [ Jekyll, tutorial ]
 image: assets/images/Binomial.png
 ---

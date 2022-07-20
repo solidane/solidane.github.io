@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "The sum of n consequent odd integers"
+title:  "The sum of n odd integers"
+author: solida
 categories: [Series, Algebra]
 image: assets/images/1.jpg
 
