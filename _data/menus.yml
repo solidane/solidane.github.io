@@ -4,8 +4,8 @@ topmenu:
 - title: Home
   url: ""
 
-- title: Contact
-  url: "contact/"
+- title: Contribute
+  url: "contribute/"
 
 
 # Footer Menu
@@ -15,5 +15,5 @@ footermenu:
   url: ""
 
 
-- title: Contact
-  url: "contact/"
+- title: Contribute
+  url: "contribute/"
