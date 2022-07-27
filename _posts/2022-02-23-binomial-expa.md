@@ -3,7 +3,7 @@ layout: post
 title:  "Polynomial expansion"
 author: solida
 categories: [ Jekyll, tutorial ]
-image: assets/images/Binomial.png
+image: assets/images/wth3.jpg
 ---
 A **polynomial** is defined as an expression which is made of variables, constants and exponents, that are merged 
 using the mathematical operations such as addition, subtraction, multiplication and division (No division operation by a variable).

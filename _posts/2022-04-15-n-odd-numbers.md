@@ -3,7 +3,7 @@ layout: post
 title:  "The sum of n odd integers"
 author: solida
 categories: [Series, Algebra]
-image: assets/images/1.jpg
+image: assets/images/oddn.jpg
 
 ---
 

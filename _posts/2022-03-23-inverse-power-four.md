@@ -3,7 +3,7 @@ layout: post
 title:  "Sum of inverse powers of four"
 author: solida
 categories: Series
-image: assets/images/Power4.png
+image: assets/images/powerof4.jpeg
 ---
 In mathematics, a series is the sum of the several numbers, or elements of a
 sequence. If we are dealing with a finite sequence, meaning we have a limited

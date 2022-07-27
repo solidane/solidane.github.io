@@ -3,7 +3,7 @@ layout: post
 title:  "Sierpinski Triangle"
 author: solida
 categories: Fractals
-image: assets/images/Sierpinski.jpg
+image: assets/images/sptriangle.jpg
 ---
 A fractal is a pattern, where as you zoom in, similar patterns appear at all smaller scales. One of the most well known examples of fractals is
 Sierpinski triangle. Wacław Sierpiński was the first mathematician to think about the properties of this triangle, but this pattern is to be found in artwork, patterns, and mosaics many centuries earlier like to be seen in the pictures below:

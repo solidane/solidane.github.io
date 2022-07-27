@@ -3,7 +3,7 @@ layout: post
 title:  "Fibonacci Sequence"
 author: solida
 categories: Series
-image: assets/images/pythagora-2.jpg
+image: assets/images/fibospi.jpg
 ---
 The Fibonacci sequence is in mathematics a sequence of numbers, where each number is the result of the sum of the two preceding ones. 
 This sequence typically starts from 0 and 1 (the examples in the following are also based on this), although there are other alterations.  

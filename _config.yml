@@ -4,7 +4,7 @@ timezone: UTC
 baseurl: ""
 url: "https://visualproofs.github.io"
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/circle.png'
+favicon: 'assets/images/circle.ico'
 author: Solida Neziri
 paginate: 30
 disqus: 'demowebsite'
