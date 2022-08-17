@@ -15,7 +15,7 @@ The expansion of a polynomial is an expression of the form, where no variable ap
 
 ## How to expand a Polynomial?
 
-Well if we have one or two expressions to be multiplied, one could do it easily manually, but what if we have an expression of the form: <math display="inline"> <mrow> <mo form="prefix" stretchy="false">(</mo> <mn>3</mn> <mi>x</mi> <mo>+</mo> <mn>2</mn> <msup> <mo form="postfix" stretchy="false">)</mo> <mn>4</mn> </msup> </mrow> </math> .
+Well if we have one or two expressions to be multiplied, one could do it easily manually, but what if we have an expression of the form: <math display="inline"> <mrow> <mo form="prefix" stretchy="false">(</mo> <mn>3</mn> <mi>a</mi> <mo>+</mo> <mn>2</mn> <msup> <mo form="postfix" stretchy="false">)</mo> <mn>4</mn> </msup> </mrow> </math> .
 Multiplying the whole thing 4 times by hand sure does take some time in account. 
 <p>To our luck, there are some patterns out there 
 we could use.</p>
@@ -30,7 +30,7 @@ and it is a visual representation in the form a triangular array of the binomial
 - Every number in between is the sum of the two numbers that are directly in the row above.
 
 #### How to expand with the help of the triangle?
-Given  <math display="inline"><mrow><mo form="prefix" stretchy="false">(</mo><mi>x</mi><mo>+</mo><mi>y</mi><msup><mo form="postfix" stretchy="false">)</mo><mi>n</mi></msup></mrow></math>
+Given  <math display="inline"><mrow><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msup><mo form="postfix" stretchy="false">)</mo><mi>n</mi></msup></mrow></math>
 for any power  n  you can write out the expansion using the coefficients from the triangle. 
 Note that to write the coefficients for any power  n , you need to look at row  n+1  to find the coefficients.
 
@@ -47,7 +47,7 @@ Note that to write the coefficients for any power  n , you need to look at row  
   });
 </script>>
 
-So for the example above <math display="inline"> <mrow> <mo form="prefix" stretchy="false">(</mo> <mn>3</mn> <mi>x</mi> <mo>+</mo> <mn>2</mn> <msup> <mo form="postfix" stretchy="false">)</mo> <mn>4</mn> </msup> </mrow> </math> 
+So for the example above <math display="inline"> <mrow> <mo form="prefix" stretchy="false">(</mo> <mn>3</mn> <mi>a</mi> <mo>+</mo> <mn>2</mn> <msup> <mo form="postfix" stretchy="false">)</mo> <mn>4</mn> </msup> </mrow> </math> 
 we would have to check the 5th row of Pascal's triangle to find the coefficients, which would be: 1, 4, 6, 4, 1
 Knowing the coefficients we can transform the polynom of the 4th grade to:
 
@@ -55,7 +55,7 @@ Knowing the coefficients we can transform the polynom of the 4th grade to:
   <mrow>
     <mo form="prefix" stretchy="false">(</mo>
     <mn>3</mn>
-    <mi>x</mi>
+    <mi>a</mi>
     <msup>
       <mo form="postfix" stretchy="false">)</mo>
       <mn>4</mn>
@@ -65,7 +65,7 @@ Knowing the coefficients we can transform the polynom of the 4th grade to:
     <mo>*</mo>
     <mo form="prefix" stretchy="false">(</mo>
     <mn>3</mn>
-    <mi>x</mi>
+    <mi>a</mi>
     <msup>
       <mo form="postfix" stretchy="false">)</mo>
       <mn>3</mn>
@@ -77,7 +77,7 @@ Knowing the coefficients we can transform the polynom of the 4th grade to:
     <mo>*</mo>
     <mo form="prefix" stretchy="false">(</mo>
     <mn>3</mn>
-    <mi>x</mi>
+    <mi>a</mi>
     <msup>
       <mo form="postfix" stretchy="false">)</mo>
       <mn>2</mn>
@@ -91,7 +91,7 @@ Knowing the coefficients we can transform the polynom of the 4th grade to:
     <mn>4</mn>
     <mo>*</mo>
     <mn>3</mn>
-    <mi>x</mi>
+    <mi>a</mi>
     <mo>*</mo>
     <msup>
       <mn>2</mn>
@@ -111,24 +111,24 @@ Then it's only a matter of out multiplying
   <mrow>
     <mn>81</mn>
     <msup>
-      <mi>x</mi>
+      <mi>a</mi>
       <mn>4</mn>
     </msup>
     <mo>+</mo>
     <mn>216</mn>
     <msup>
-      <mi>x</mi>
+      <mi>a</mi>
       <mn>3</mn>
     </msup>
     <mo>+</mo>
     <mn>216</mn>
     <msup>
-      <mi>x</mi>
+      <mi>a</mi>
       <mn>2</mn>
     </msup>
     <mo>+</mo>
     <mn>96</mn>
-    <mi>x</mi>
+    <mi>a</mi>
     <mo>+</mo>
     <mn>16</mn>
   </mrow>
