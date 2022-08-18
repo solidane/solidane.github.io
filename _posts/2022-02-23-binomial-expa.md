@@ -2,7 +2,7 @@
 layout: post
 title:  "Polynomial expansion"
 author: solida
-categories: [ Jekyll, tutorial ]
+categories: Algebra
 image: assets/images/wth3.jpg
 ---
 A **polynomial** is defined as an expression which is made of variables, constants and exponents, that are merged 
