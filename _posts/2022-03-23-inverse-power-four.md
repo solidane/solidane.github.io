@@ -5,13 +5,52 @@ author: solida
 categories: Series
 image: assets/images/powerof4.jpeg
 ---
-In mathematics, a series is the sum of the several numbers, or elements of a
-sequence. If we are dealing with a finite sequence, meaning we have a limited
-number of elements in a sequence, the sum of that sequence would also be a finite
-series. In the other hand a infinite series is the result of adding up a infinite
+In mathematics, a **series** is the sum of the several numbers, or elements of a
+sequence. 
+
+Based on the amount of objects in the sequence
+- If we are dealing with a <span style="color: red;">*finite*</span> sequence, meaning we have a limited
+number of elements in a sequence, the sum of that sequence would also be a <span style="color: red;">*finite*</span>
+series.  **Example**: [The sum of n odd integers](http://localhost:4000/series/algebra/2022/04/15/n-odd-numbers.html) and [Gauss Summation](https://visualproofs.github.io/series/2022/04/12/gauss.html)
+- In the other hand a <span style="color: red;">*infinite*</span> series is the result of adding up a <span style="color: red;">*infinite*</span>
 sequence of numbers. Through use of limit we can determine if a infinite series
-converges or diverges. Exe. of series we also considered are [Gauss Summation](https://visualproofs.github.io/series/2022/04/12/gauss.html)
-and [Fibonacci Sequence](https://visualproofs.github.io/series/2022/04/12/fibonacci.html).
+converges or diverges. **Example**: look below
+
+### Get your paints and brushes! We are painting in a canvas
+Okay, so we are on a task. We have this empty, square Canvas,
+
+![walking]({{ site.baseurl }}/assets/images/canvas.png)
+
+and we want to paint 1/4 of it blue
+
+![walking]({{ site.baseurl }}/assets/images/canvas1.png)
+
+we would end up with something like this. Now we want to paint another 1/16 blue
+
+![walking]({{ site.baseurl }}/assets/images/canvas2.png)
+
+and this would be the resulting look. We painted 1/4th of 1/4th of the original canvas. We continue with 1/64
+
+![walking]({{ site.baseurl }}/assets/images/canvas3.png)
+
+We paint then 1/64 * 1/4 = 1/256
+
+![walking]({{ site.baseurl }}/assets/images/canvas4.png)
+
+After that we paint blue another 1/1024
+
+![walking]({{ site.baseurl }}/assets/images/canvas5.png)
+
+and we can go so on, painting blue the 1/4^n of the surface.
+
+Now notice how we have 3 equally divided squares after each step. Notice also how from each of these squares only one
+of them is painted blue, meaning we have 3 times identical pattern occurring and only one of them 1/3 is blue coloured.
+The blue pattern represents the sum of inverse power of four, and so we can conclude that the sum of inverse power of 4 converges to
+1/3.
+
+
+### Try it yourself
+Use the slider below to see how the pattern converges to the above-mentioned value for different n-values.
 
 <div id="observablehq-6c0f974d">
   <div class="observablehq-viewof-levels"></div>
@@ -25,3 +64,53 @@ and [Fibonacci Sequence](https://visualproofs.github.io/series/2022/04/12/fibona
     if (name === "dom") return Inspector.into("#observablehq-6c0f974d .observablehq-dom")();
   });
 </script>
+
+### The math behind it
+
+<math display="block">
+  <mrow>
+    <mfrac>
+      <mn>1</mn>
+      <mn>4</mn>
+    </mfrac>
+    <mo>+</mo>
+    <mfrac>
+      <mn>1</mn>
+      <mn>16</mn>
+    </mfrac>
+    <mo>+</mo>
+    <mfrac>
+      <mn>1</mn>
+      <mn>64</mn>
+    </mfrac>
+    <mi>.</mi>
+    <mi>.</mi>
+    <mi>.</mi>
+    <mo>=</mo>
+    <mrow>
+      <munderover>
+        <mo movablelimits="false">∑</mo>
+        <mrow>
+          <mi>i</mi>
+          <mo>=</mo>
+          <mn>1</mn>
+        </mrow>
+        <mi>∞</mi>
+      </munderover>
+    </mrow>
+    <mo form="prefix" stretchy="false">(</mo>
+    <mfrac>
+      <mn>1</mn>
+      <mn>4</mn>
+    </mfrac>
+    <msup>
+      <mo form="postfix" stretchy="false">)</mo>
+      <mi>i</mi>
+    </msup>
+    <mo>=</mo>
+    <mfrac>
+      <mn>1</mn>
+      <mn>3</mn>
+    </mfrac>
+  </mrow>
+</math>
