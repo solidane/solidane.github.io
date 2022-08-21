@@ -5,12 +5,17 @@ author: solida
 categories: Fractals
 image: assets/images/sptriangle.jpg
 ---
-A fractal is a pattern, where as you zoom in, similar patterns appear at all smaller scales. One of the most well known examples of fractals is
+A fractal is a pattern, where as you zoom in, similar patterns appear at all smaller scales. Fractals can be thought of as never-ending patterns.
+
+
+
+## What is the Sierpinski's fractal?
+One of the most well known examples of fractals is
 Sierpinski triangle. Wacław Sierpiński was the first mathematician to think about the properties of this triangle, but this pattern is to be found in artwork, patterns, and mosaics many centuries earlier like to be seen in the pictures below:
 
 ![walking]({{ site.baseurl }}/assets/images/collage.jpg)
 
-## Removing triangles method
+### Removing triangles method
 
 The Sierpinski triangle may be constructed from an equilateral triangle by repeated removal of triangular subsets:
 1. Start with an equilateral triangle.
