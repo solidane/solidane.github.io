@@ -45,7 +45,7 @@ Beneath that a five-by-five square
 ![walking]({{ site.baseurl }}/assets/images/fib5.png)
 Creating one giant rectangle. Now let me ask you a question:
 
-##### Whats the area of the final rectangle?
+##### What's the area of the final rectangle?
 Well, the most trivial answer would be the sum of the areas of all the squares inside it, right! But since it 
 is a rectangle one could also multiply base and height to get the total area which would be: <math display="inline"><mrow><mn>5</mn><mo>*</mo><mo form="prefix" stretchy="false">(</mo><mn>5</mn><mo>+</mo><mn>3</mn><mo form="postfix" stretchy="false">)</mo><mo>=</mo><mn>5</mn><mo>*</mo><mn>8</mn></mrow></math>
 ,with 8 also being the next Fibonacci number on the sequence.
