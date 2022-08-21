@@ -27,10 +27,10 @@ The Sierpinski triangle may be constructed from an equilateral triangle by repea
 
 We can easily write a recursive function that performs the above process to a given depth, such that we get a satisfactory approximation of the Sierpinski triangle.
 
+#### Try it for yourself
 We can visualize this process using the slider to control the stage in the construction below:
 <div id="observablehq-f40c7c08">
   <div class="observablehq-viewof-sierp_steps"></div>
-  <div class="observablehq-sierp_steps"></div>
   <div class="observablehq-sierp_approx"></div>
 </div>
 <script type="module">
@@ -38,7 +38,6 @@ We can visualize this process using the slider to control the stage in the const
   import define from "https://api.observablehq.com/@864af2bf64442aa6/construction-of-the-serpinski-triangle.js?v=3";
   (new Runtime).module(define, name => {
     if (name === "viewof sierp_steps") return Inspector.into("#observablehq-f40c7c08 .observablehq-viewof-sierp_steps")();
-    if (name === "sierp_steps") return Inspector.into("#observablehq-f40c7c08 .observablehq-sierp_steps")();
     if (name === "sierp_approx") return Inspector.into("#observablehq-f40c7c08 .observablehq-sierp_approx")();
   });
 </script>
@@ -54,11 +53,14 @@ You repeat this process as often as you like and draw every point you obtain on 
 Some areas of the triangle are unreachable in later steps. 
 These areas form a fractal pattern. Only the first steps can reach these areas, all other points fall in between.
 
+#### Try it for yourself
+
+Click on the button start to generate a such triangle.
+You can restart to generate a new shape.
+Clicking on clear initializes start to 0
 <div id="observablehq-a077419d">
   <div class="observablehq-viewof-start"></div>
-  <div class="observablehq-start"></div>
   <div class="observablehq-viewof-clear"></div>
-  <div class="observablehq-clear"></div>
   <div class="observablehq-canvas"></div>
 </div>
 <script type="module">
@@ -66,9 +68,7 @@ These areas form a fractal pattern. Only the first steps can reach these areas, 
   import define from "https://api.observablehq.com/@864af2bf64442aa6/construction-of-the-serpinski-triangle.js?v=3";
   (new Runtime).module(define, name => {
     if (name === "viewof start") return Inspector.into("#observablehq-a077419d .observablehq-viewof-start")();
-    if (name === "start") return Inspector.into("#observablehq-a077419d .observablehq-start")();
     if (name === "viewof clear") return Inspector.into("#observablehq-a077419d .observablehq-viewof-clear")();
-    if (name === "clear") return Inspector.into("#observablehq-a077419d .observablehq-clear")();
     if (name === "canvas") return Inspector.into("#observablehq-a077419d .observablehq-canvas")();
   });
 </script>
