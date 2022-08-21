@@ -50,26 +50,18 @@ To get to the next odd number we just have to add 2 to the previous odd number. 
 ### Try it yourself
 
 Use the slider below to test it for different n-values.
-<div id="observablehq-c1e9a462">
+<div id="observablehq-98f591e4">
   <div class="observablehq-viewof-n"></div>
-  <div class="observablehq-sumOfOdd"></div>
-  <div class="observablehq-sumToTex"></div>
-  <div class="observablehq-firstNOddNumbers"></div>
-  <div class="observablehq-sum"></div>
-  <div class="observablehq-drawExample"></div>
-  <div class="observablehq-drawDots"></div>
-  <div class="observablehq-oddNums"></div>
-  <div class="observablehq-n"></div>
   <div class="observablehq-aba"></div>
+  <div class="observablehq-sumOfOdd"></div>
 </div>
 <script type="module">
   import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
   import define from "https://api.observablehq.com/@864af2bf64442aa6/geometric-intuition-for-sum-of-first-n-odd-numbers.js?v=3";
   (new Runtime).module(define, name => {
-    if (name === "viewof n") return Inspector.into("#observablehq-c1e9a462 .observablehq-viewof-n")();
-    if (name === "sumOfOdd") return Inspector.into("#observablehq-c1e9a462 .observablehq-sumOfOdd")();
-    if (name === "n") return Inspector.into("#observablehq-c1e9a462 .observablehq-n")();
-    if (name === "aba") return Inspector.into("#observablehq-c1e9a462 .observablehq-aba")();
+    if (name === "viewof n") return Inspector.into("#observablehq-98f591e4 .observablehq-viewof-n")();
+    if (name === "aba") return Inspector.into("#observablehq-98f591e4 .observablehq-aba")();
+    if (name === "sumOfOdd") return Inspector.into("#observablehq-98f591e4 .observablehq-sumOfOdd")();
   });
 </script>
 ## Mathematical form
