@@ -34,7 +34,7 @@ Given  <math display="inline"><mrow><mo form="prefix" stretchy="false">(</mo><mi
 for any power  n  you can write out the expansion using the coefficients from the triangle. 
 Note that to write the coefficients for any power  n , you need to look at row  n+1  to find the coefficients.
 
-<div id="observablehq-5dd6f1f3">
+<div id="observablehq-c7e957ce">
   <div class="observablehq-viewof-values"></div>
   <div class="observablehq-pascal"></div>
 </div>
@@ -42,10 +42,10 @@ Note that to write the coefficients for any power  n , you need to look at row  
   import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
   import define from "https://api.observablehq.com/@864af2bf64442aa6/pascals-sierpinski.js?v=3";
   (new Runtime).module(define, name => {
-    if (name === "viewof values") return Inspector.into("#observablehq-5dd6f1f3 .observablehq-viewof-values")();
-    if (name === "pascal") return Inspector.into("#observablehq-5dd6f1f3 .observablehq-pascal")();
+    if (name === "viewof values") return Inspector.into("#observablehq-c7e957ce .observablehq-viewof-values")();
+    if (name === "pascal") return Inspector.into("#observablehq-c7e957ce .observablehq-pascal")();
   });
-</script>>
+</script>
 
 So for the example above <math display="inline"> <mrow> <mo form="prefix" stretchy="false">(</mo> <mn>3</mn> <mi>a</mi> <mo>+</mo> <mn>2</mn> <msup> <mo form="postfix" stretchy="false">)</mo> <mn>4</mn> </msup> </mrow> </math> 
 we would have to check the 5th row of Pascal's triangle to find the coefficients, which would be: 1, 4, 6, 4, 1
