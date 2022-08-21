@@ -5,13 +5,16 @@ author: solida
 categories: Fractals
 image: assets/images/sptriangle.jpg
 ---
-A fractal is a pattern, where as you zoom in, similar patterns appear at all smaller scales. Fractals can be thought of as never-ending patterns.
+Fractals are irregular geometric shapes hat have the same degree of irregularity on all scales. 
+In other words a fractal is a pattern, whereas you zoom in, similar patterns appear at all smaller scales. Fractals can be thought of as never-ending patterns.
+They are capable of describing many irregularly shaped objects or spatially nonuniform phenomena in nature such as coastlines and mountain ranges.
 
 
+## Now that we know what fractals are, what is the Sierpinski's fractal?
+One of the most well known examples of fractals is the Sierpinski triangle. The easiest way to construct a such triangle is by starting with n initial, equilateral triangle
+. We then divide into 4 congruent copies and remove the center copy to construct a first approximation denoted that consists of three triangles. We then proceed recursively, defining by applying this same procedure to all triangles. 
 
-## What is the Sierpinski's fractal?
-One of the most well known examples of fractals is
-Sierpinski triangle. Wacław Sierpiński was the first mathematician to think about the properties of this triangle, but this pattern is to be found in artwork, patterns, and mosaics many centuries earlier like to be seen in the pictures below:
+Wacław Sierpiński was the first mathematician to think about the properties of this triangle, but this pattern is to be found in artwork, patterns, and mosaics many centuries earlier like to be seen in the pictures below:
 
 ![walking]({{ site.baseurl }}/assets/images/collage.jpg)
 
@@ -40,7 +43,16 @@ We can visualize this process using the slider to control the stage in the const
   });
 </script>
 
-## The Chaos Game
+### The Chaos Game
+
+The chaos game is a method to generate fractals with the help of polygons.
+
+
+The rules will be explained using the example of a triangle. It has the corner points A, B and C. You start the chaos game at a random point P1 within the triangle. To calculate the next position P2, you choose one of the three corner points of the triangle at random and place P2 in the middle of the route between point P1 and the randomly selected corner point. 
+You repeat this process as often as you like and draw every point you obtain on to the screen.
+
+Some areas of the triangle are unreachable in later steps. 
+These areas form a fractal pattern. Only the first steps can reach these areas, all other points fall in between.
 
 <div id="observablehq-a077419d">
   <div class="observablehq-viewof-start"></div>
