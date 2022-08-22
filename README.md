@@ -6,6 +6,7 @@
    1. [ Reporting Bugs ](#bugs)
    2. [ Suggesting Enhancement ](#sugg)
    3. [ Code Submission ](#subs)
+3. [ References for the Proofs ](#refs)
 
 
 
@@ -23,7 +24,7 @@ So Visual Proofs mission is about making these proofs and this way of mathematic
 These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
 <a name="bugs"></a>
-### a. Reporting Bugs
+### i. Reporting Bugs
 
 Bugs are tracked as GitHub issues. So, therefore to report bugs, create an issue on that repository and provide the following information by filling in the template.
 
@@ -37,14 +38,22 @@ Explain the problem and include additional details to help maintainers reproduce
 - If the problem wasn't triggered by a specific action, describe what you were doing before the problem happened and share more information.
 
 <a name="suggs"></a>
-### b. Suggesting Enhancement
+### ii. Suggesting Enhancement
+This subsection walks you through submitting an improvement suggestion for Visual Proofs, which might be a completely new feature or just minor improvements to existing features.
+
+Check the following list out, to make sure your suggestion is complete:
+- Use a clear and descriptive title for the issue to identify the suggestion.
+- Provide a step-by-step description of the suggested enhancement in as many details as possible. Provide specific examples to demonstrate the steps. 
+- Describe the current behavior and explain which behavior you expected to see instead and why.
+- Include screenshots and animated GIFs which help you demonstrate the steps or point out the part of Visual Proofs which the suggestion is related to.
+- Explain why this enhancement would be useful to most Visual Proof readers.
 
 <a name="subs"></a>
-### c. Code Submission
+### iii. Code Submission
 Whether it is new proofs or extending existing ones
 
 
-
-### 
+<a name="refs"></a>
+## References for the Proofs
 
 
