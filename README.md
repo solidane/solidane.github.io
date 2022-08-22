@@ -2,7 +2,7 @@
 
 ## Table of Contents
 1. [ Project's Description ](#desc)
-2. [ How to Contribute to the Project ](#contribute)
+2. [ How to Contribute to the Project ](#contribute) [ Reporting Bugs ](#bugs)
 
 
 
@@ -19,6 +19,7 @@ So Visual Proofs mission is about making these proofs and this way of mathematic
 
 These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
+<a name="bugs"></a>
 ### a. Reporting Bugs
 
 Bugs are tracked as GitHub issues. So, therefore to report bugs, create an issue on that repository and provide the following information by filling in the template.
