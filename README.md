@@ -2,7 +2,10 @@
 
 ## Table of Contents
 1. [ Project's Description ](#desc)
-2. [ How to Contribute to the Project ](#contribute) [ Reporting Bugs ](#bugs)
+2. [ How to Contribute to the Project ](#contribute) 
+   1. [ Reporting Bugs ](#bugs)
+   2. [ Suggesting Enhancement ](#sugg)
+   3. [ Code Submission ](#subs)
 
 
 
@@ -33,8 +36,11 @@ Explain the problem and include additional details to help maintainers reproduce
 - Include screenshots and animated GIFs which show you following the described steps and clearly demonstrate the problem. 
 - If the problem wasn't triggered by a specific action, describe what you were doing before the problem happened and share more information.
 
+<a name="suggs"></a>
 ### b. Suggesting Enhancement
-### c. Code Submission.
+
+<a name="subs"></a>
+### c. Code Submission
 Whether it is new proofs or extending existing ones
 
 
