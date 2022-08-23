@@ -65,8 +65,8 @@ Please send a GitHub Pull Request to VisualProofs with a clear list of what you'
 
 <a name="refs"></a>
 ## 3. References for the Proofs
-The implemented proofs were inspired by the following references. Feel free to find something interesting there, which you would want to feature on Visual Proofs
+The implemented proofs were inspired by the following references. Feel free to find something interesting there, which you would want to feature on Visual Proofs.
 
-[MAA Posts on PWoW](https://www.maa.org/press/periodicals/convergence/proofs-without-words-and-beyond-introduction)
-[Math Made Visual](https://books.google.de/books?hl=en&lr=&id=wWXxDwAAQBAJ&oi=fnd&pg=PP1&dq=visual+proof+mathematics&ots=WNh9ZnaSfr&sig=VpnaYZTxHdTfyoZrJS3GuWW7rsU&redir_esc=y#v=onepage&q=visual%20proof%20mathematics&f=false)
-[Proofs without Words](https://moodle.tau.ac.il/2018/pluginfile.php/403616/mod_resource/content/1/Nelsen%201993%20Proofs%20without%20Words.pdf)
+- [MAA Posts on PWoW](https://www.maa.org/press/periodicals/convergence/proofs-without-words-and-beyond-introduction)
+- [Math Made Visual](https://books.google.de/books?hl=en&lr=&id=wWXxDwAAQBAJ&oi=fnd&pg=PP1&dq=visual+proof+mathematics&ots=WNh9ZnaSfr&sig=VpnaYZTxHdTfyoZrJS3GuWW7rsU&redir_esc=y#v=onepage&q=visual%20proof%20mathematics&f=false)
+- [Proofs without Words](https://moodle.tau.ac.il/2018/pluginfile.php/403616/mod_resource/content/1/Nelsen%201993%20Proofs%20without%20Words.pdf)
