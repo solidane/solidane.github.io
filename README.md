@@ -50,10 +50,23 @@ Check the following list out, to make sure your suggestion is complete:
 
 <a name="subs"></a>
 ### iii. Code Submission
-Whether it is new proofs or extending existing ones
+Whether it is new proofs or extending existing ones, expansion of the website is always welcomed.
+
+**There are a few things one should keep in mind before submitting a new proof:**
+- The general post-theme should be preserved 
+  - The content structure of posts should be maintained
+  - The pictures and diagramms included should be a good representative of the topic
+- The mathematical correctness of the proof
+- The interactive part of the proof
+
+Please send a GitHub Pull Request to VisualProofs with a clear list of what you've done (read more about [pull requests](https://docs.github.com/en/pull-requests)).
+
 
 
 <a name="refs"></a>
-## References for the Proofs
+## 3. References for the Proofs
+The implemented proofs were inspired by the following references. Feel free to find something interesting there, which you would want to feature on Visual Proofs
 
-
+[MAA Posts on PWoW](https://www.maa.org/press/periodicals/convergence/proofs-without-words-and-beyond-introduction)
+[Math Made Visual](https://books.google.de/books?hl=en&lr=&id=wWXxDwAAQBAJ&oi=fnd&pg=PP1&dq=visual+proof+mathematics&ots=WNh9ZnaSfr&sig=VpnaYZTxHdTfyoZrJS3GuWW7rsU&redir_esc=y#v=onepage&q=visual%20proof%20mathematics&f=false)
+[Proofs without Words](https://moodle.tau.ac.il/2018/pluginfile.php/403616/mod_resource/content/1/Nelsen%201993%20Proofs%20without%20Words.pdf)

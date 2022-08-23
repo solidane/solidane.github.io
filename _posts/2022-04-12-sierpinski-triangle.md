@@ -25,7 +25,6 @@ The Sierpinski triangle may be constructed from an equilateral triangle by repea
 2. Subdivide it into four smaller congruent equilateral triangles and remove the central triangle.
 3. Repeat step 2 with the smaller triangles until the end of time
 
-We can easily write a recursive function that performs the above process to a given depth, such that we get a satisfactory approximation of the Sierpinski triangle.
 
 #### Try it for yourself
 We can visualize this process using the slider to control the stage in the construction below:
