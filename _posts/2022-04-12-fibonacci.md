@@ -36,7 +36,7 @@ There are many beautiful number patterns that emerge from the Fibonacci numbers.
 Let's start by putting two one-by-one squares next to one another. 
 ![walking]({{ site.baseurl }}/assets/images/fib1.png)
 
-As a result we get a one by two rectangle. Beneath that I will put a two-by-two square
+As a result we get a one by two rectangle. Beneath that let's put a two-by-two square
 ![walking]({{ site.baseurl }}/assets/images/fib2.png)
 
 And next to that, a three-by-three square
