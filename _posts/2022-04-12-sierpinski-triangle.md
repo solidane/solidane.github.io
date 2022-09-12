@@ -55,7 +55,7 @@ These areas form a fractal pattern. Only the first steps can reach these areas, 
 #### Try it for yourself
 
 Click on the button start to generate a such triangle.
-You can restart to generate a new shape.
+You can restart to regenerate the triangle differently .
 Clicking on clear initializes start to 0
 <div id="observablehq-a077419d">
   <div class="observablehq-viewof-start"></div>
