@@ -9,10 +9,10 @@ A **sequence** is in mathematics a list of numbers or objects that are in a cert
 are called <span style="color: red;">*finite*</span>, if they have a limited number of objects and oppositely <span style="color: red;">*infinite*</span>.
 
 Examples:
-- {1, 2, 3, 4,...} - is a <span style="color: red;">*infinite*</span> sequence of the natural numbers
+- {1, 2, 3, 4,...} - is an <span style="color: red;">*infinite*</span> sequence of the natural numbers
 - {2, 4, 6, 8, 10} - is a <span style="color: red;">*finite*</span> sequence of the <span style="color: purple;">*first five*</span>  even numbers
 - {Z, Y, X, W, V}  - is a <span style="color: red;">*finite*</span> sequence of the <span style="color: purple;">*last five*</span>  letters of the english alphabet.
-- {X, O, X, O,...} - is a <span style="color: red;">*infinite*</span> sequence in an <span style="color: purple;">*alternating*</span> order of X and O.
+- {X, O, X, O,...} - is an <span style="color: red;">*infinite*</span> sequence in an <span style="color: purple;">*alternating*</span> order of X and O.
 
 ### How is Fibonacci's sequence defined
 The **Fibonacci sequence** is in mathematics a sequence of numbers, where each number is the result of the sum of the two preceding ones. 
