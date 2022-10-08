@@ -3,7 +3,7 @@ layout: post
 title:  "Sierpinski Triangle"
 author: solida
 categories: Fractals
-image: assets/images/sptriangle.jpg
+image: assets/images/sptriangle.png
 ---
 Fractals are irregular geometric shapes hat have the same degree of irregularity on all scales. 
 In other words a fractal is a pattern, whereas you zoom in, similar patterns appear at all smaller scales. Fractals can be thought of as never-ending patterns.
