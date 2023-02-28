@@ -4,9 +4,8 @@ global:
   twitter: Twitter
   github: GitHub
 langs:
-  it: Italiano
   en: English
-  es: Español
+  de: Deutsch
 pages:
   example: example
   includeexample: The following text is a Jekyll include liquid tag parameter
