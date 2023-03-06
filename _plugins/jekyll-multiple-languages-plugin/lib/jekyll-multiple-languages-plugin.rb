@@ -147,9 +147,17 @@ module Jekyll
       languages.each do |lang|
 
         # Language specific config/variables
-        @dest = "#{dest_org.join('/')}/#{lang}"
+      dest_org = "/Users/solidaneziri/IdeaProjects/visualproofs.github.io/_site".split("/")
+      @dest = "#{dest_org.join('/')}/#{lang}"
 
-        self.config['baseurl'] = baseurl_org + "/" + lang
+
+       if baseurl_org.empty?
+         @config['baseurl'] = "/#{lang}"
+       else
+         @config['baseurl'] = baseurl_org.join('/') + '/' + lang
+       end
+
+
         self.config['lang']    =                     lang
 
         puts "Building site for language: \"#{self.config['lang']}\" to: #{self.dest}"
