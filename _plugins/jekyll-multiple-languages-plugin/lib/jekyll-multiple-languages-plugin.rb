@@ -147,7 +147,8 @@ module Jekyll
       languages.each do |lang|
 
         # Language specific config/variables
-        @dest                  = dest_org    + "/" + lang
+        @dest = "#{dest_org.join('/')}/#{lang}"
+
         self.config['baseurl'] = baseurl_org + "/" + lang
         self.config['lang']    =                     lang
 
