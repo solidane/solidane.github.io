@@ -3,8 +3,6 @@ layout: post
 title:  "Polynomial expansion"
 author: solida
 categories: Algebra
-permalink: /pe/
-permalink_de: /pe-de/
 image: assets/images/poexe.jpg
 ---
 {% t global.english %}

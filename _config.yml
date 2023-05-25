@@ -8,12 +8,8 @@ favicon: 'assets/images/circle.ico'
 author: Solida Neziri
 paginate: 30
 disqus: 'demowebsite'
+languages: ["en", "de"]
 defaultLang: en
-languages:
-  en:
-    output: true
-  de:
-    output: true
 languageNames:
   de: Deutsch
   en: English
@@ -55,5 +51,4 @@ plugins:
 - jekyll-seo-tag
 - jekyll-archives
 - jekyll-multiple-languages-plugin
-
 

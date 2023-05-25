@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Polynomial expansion"
-permalink: /pe/
-permalink_de: /pe-de/
 author: solida
 categories: Algebra
 image: assets/images/poexe.jpg
