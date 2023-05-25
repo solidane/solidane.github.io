@@ -9,8 +9,7 @@ author: Solida Neziri
 paginate: 30
 disqus: 'demowebsite'
 locale: en_us
-languages: ["en", "de"]
-exclude_from_localizations: ["javascript", "images", "css"]
+lang: en_us
 feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1
@@ -47,4 +46,3 @@ plugins:
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-archives
-- jekyll-multiple-languages-plugin
