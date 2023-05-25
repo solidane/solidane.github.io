@@ -35,6 +35,11 @@ authors:
     display_name: Georges Hattab
     email: solida@students.uni-marburg.de
     description: ""
+  moritz:
+    name: Moritz Weckbecker
+    display_name: Moritz Weckbecker
+    email: weckbeckerm@rki.de
+    description: "A funny placeholder quote about me"
 # Social
 social:
   instagram: https://www.instagram.com/solidaneziri/
