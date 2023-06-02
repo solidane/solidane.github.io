@@ -5,7 +5,8 @@ author: moritz
 categories: Geometry
 image: assets/images/pytagora.jpeg
 ---
-[Pythagoras von Samos (570-495 BC)](https://de.wikipedia.org/wiki/Pythagoras) war ein einflussreicher greichischer Philosoph der Antike, dessen Arbeit verschiedenste Felder von Musik und Philosophie bis hin zu Astronomie und Mathematik revolutionierte - auch wenn du ihn vermutlich nur vom berühmten Satz des Pythagoras kennst. $$a^2$$
+[Pythagoras von Samos (570-495 BC)](https://de.wikipedia.org/wiki/Pythagoras) war ein einflussreicher greichischer Philosoph der Antike, dessen Arbeit verschiedenste Felder von Musik und Philosophie bis hin zu Astronomie und Mathematik revolutionierte - auch wenn du ihn vermutlich nur vom berühmten Satz des Pythagoras kennst. $$a^2$$ \\[a^2\\] (also for display)
+\\(a^2\\) (for inline)
 
 ![walking]({{ site.baseurl }}/assets/images/pitagora.jpg)
 
