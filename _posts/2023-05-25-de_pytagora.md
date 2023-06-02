@@ -5,7 +5,7 @@ author: moritz
 categories: Geometry
 image: assets/images/pytagora.jpeg
 ---
-[Pythagoras von Samos (570-495 BC)](https://de.wikipedia.org/wiki/Pythagoras) war ein einflussreicher griechischer Philosoph der Antike, dessen Arbeit verschiedenste Felder von Musik und Philosophie bis hin zu Astronomie und Mathematik revolutionierte - auch wenn du ihn vermutlich nur vom berühmten Satz des Pythagoras kennst. 
+[Pythagoras von Samos (570-495 v. Chr.)](https://de.wikipedia.org/wiki/Pythagoras) war ein einflussreicher griechischer Philosoph der Antike, dessen Arbeit verschiedenste Felder von Musik und Philosophie bis hin zu Astronomie und Mathematik revolutionierte - auch wenn du ihn vermutlich nur vom berühmten Satz des Pythagoras kennst. 
 
 ![walking]({{ site.baseurl }}/assets/images/pitagora.jpg)
 
@@ -17,9 +17,9 @@ Dieser Satz hat zahlreiche Anwendungen unter anderem in Ingenieurswissenschaften
 
 ### Visualisieren wir ein Beispiel
 Wir malen ein rechtwinkliges Dreieck und errichten an seinen Seiten Quadrate:
-- 3*3-Quadrat an der vertikalen Seite
-- 4*4-Quadrat an der horizontalen Seite
-- 5*5-Quadrat an der Hypotenuse
+- $$3 \cross 3$$-Quadrat an der vertikalen Seite
+- $$4 \cross 4$$-Quadrat an der horizontalen Seite
+- $$5 \cross 5$$-Quadrat an der Hypotenuse
 
 ![walking]({{ site.baseurl }}/assets/images/pyta.png)
 
@@ -27,7 +27,7 @@ Nach dem Satz sollten die kleineren Quadrate zusammen exakt genauso groß sein w
 
 ##### Ist das in unserem Beispiel der Fall?
 Schauen wir es uns an! Zähle die Anzahl der kleinen Quadrate und überprüfe, ob in den beiden kleineren Quadrate zusammen genauso viele sind wie im größeren.
-Wenn du richtig gezäglt hast, solltest du $9 + 16 = 25$ herausbekommen.
+Wenn du richtig gezäglt hast, solltest du $$9 + 16 = 25$$ herausbekommen.
 
 ### Versuch es selbst
 Spiele mit den Werten für a und b herum und schau dir an, warum der Satz gilt:
@@ -69,4 +69,4 @@ Die Gleichung im Satz des Pythagoras lautet:
   </mrow>
 </math>
 
-wobei $a$ und $b$ für die Länge der Katheten steht, die am rechten Winkel anliegen, und $c$ für die Länge der Hypotenuse, die dem rechten Winkel gegenüber liegt.
+wobei $$a$$ und $$b$$ für die Länge der Katheten steht, die am rechten Winkel anliegen, und $$c$$ für die Länge der Hypotenuse, die dem rechten Winkel gegenüber liegt.
