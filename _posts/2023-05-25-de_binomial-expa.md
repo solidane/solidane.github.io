@@ -3,7 +3,7 @@ layout: post
 title:  "Polynomielle Erweiterung"
 author: moritz
 categories: Algebra
-image: assets/images/poexe.jpg
+image: assets/images/poexe.png
 ---
 Ein **Polynom** ist ein mathematischer Ausdruck, der aus Variablen, Konstanten und Exponenten besteht, welche durch mathematische Operationen wie Addieren, Subtrahieren, Multiplizieren oder Division durch Konstanten zusammengefügt wurden. 
 Eine **Erweiterung** eines Produkts von Summen nutzt das sogenannte Distributivgesetz der Multiplikation und Addition um das Produkt von Summen anders darzustellen. Wir sagen dazu auch **ausmultiplizieren**.
