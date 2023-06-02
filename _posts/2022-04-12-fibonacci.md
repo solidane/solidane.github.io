@@ -19,7 +19,7 @@ The **Fibonacci sequence** is in mathematics a sequence of numbers, where each n
 This sequence typically starts from 0 and 1 (the examples in the following are also based on this), although there are other alterations.  
 A sequence given the above-mentioned starting would be 0,1,1,2,3,5,8,13... and so on forever. 
 
-The Fibonacci numbers were mentioned by Indian mathematicians way back in 200BC, but were first properly introduced 
+The Fibonacci numbers were mentioned by Indian mathematicians way back in 200 BC, but were first properly introduced 
 to the Western mathematics by Leonardo of Pisa in the 13th century.
 
 In terms of nature the Fibonacci numbers appear very often. Things like the number of petals in a flower, seed heads, shells, hurricanes often are a Fibonacci number.
@@ -67,7 +67,7 @@ Now check this out, by diving the bigger number to the smaller one we get:
 as we continue we get closer to about 1.618 known to many people as the golden ratio.
 ### Try it yourself
 
-Get your hand dirty and use the slider below to explore how the pattern grows for different n-values.
+Get your hand dirty and use the slider below to explore how the pattern grows for different values of $$n$$.
 
 
 <div id="observablehq-412999a1">

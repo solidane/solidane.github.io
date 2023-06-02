@@ -20,7 +20,7 @@ Diesen gesamten Ausdruck viermal per Hand auszumultiplizieren dauert sehr lange.
 <p>Glücklicherweise gibt es dabei einige Muster, die wir uns zu Nutze machen können.</p>
 
 ### Erweiterung mithilfe des Pascalschen Dreiecks Expansion with Pascal's Triangle
-Das Pascalsche Dreieck hat seinen Namen dank des berühmten und revolutionären französischen Mathematiker [Blaise Pascal (1623-1662)](https://de.wikipedia.org/wiki/Blaise_Pascal). Hier werden in Form eines Dreiecks sogenannte Binomialkoeffizienten dargestellt, die essentiell für das Ausmultiplizieren von Polynomen sind. Dieses Muster war der östlichen Welt schon lang bekannt, bevor es im Westen entdeck wurde.
+Das Pascalsche Dreieck hat seinen Namen dank des berühmten und revolutionären französischen Mathematiker [Blaise Pascal (1623-1662 n. Chr.)](https://de.wikipedia.org/wiki/Blaise_Pascal). Hier werden in Form eines Dreiecks sogenannte Binomialkoeffizienten dargestellt, die essentiell für das Ausmultiplizieren von Polynomen sind. Dieses Muster war der östlichen Welt schon lang bekannt, bevor es im Westen entdeck wurde.
 
 #### Wie konstruiert man dieses Dreieck?
 - Das Dreieck startet mit einer 1 auf der linken und rechten Seite
@@ -28,7 +28,7 @@ Das Pascalsche Dreieck hat seinen Namen dank des berühmten und revolutionären 
 
 #### Wie kann man diesen Dreieck für polynomielle Erweiterung benutzen?
 #### How to expand with the help of the triangle?
-Für einen beliebigen Exponennten n können wir den Ausdruck  <math display="inline"><mrow><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msup><mo form="postfix" stretchy="false">)</mo><mi>n</mi></msup></mrow></math>
+Für einen beliebigen Exponennten $$n$$ können wir den Ausdruck  <math display="inline"><mrow><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msup><mo form="postfix" stretchy="false">)</mo><mi>n</mi></msup></mrow></math>
 <math display="inline"><mrow><mo form="prefix" stretchy="false">n</mrow></math> mithilfe der Koeffizienten im Dreieck umschreiben. 
 Um die richtigen Koeffizienten für den Ausdruck <math display="inline"><mrow><mo form="prefix" stretchy="false">n</mrow></math> zu erhalten, müssen wir uns die <math display="inline"><mrow><mo form="prefix" stretchy="false">n+1</mrow></math>-te Reihe ansehen.
 
@@ -137,7 +137,7 @@ In den vorherigen Beispielen haben wir gesehen, wie wir Binome erweitern können
 
 Jetzt zeigen und beweisen wir euch, wie man Polynome vom zweiten Grad erweitern kann.
 #### Kannst du das Muster erkennen?
-<span style="color: red;">*Spoiler:*</span> Schau dir den Beitrag zu [der Summe von n ungeraden Zahlen](https://visualproofs.github.io/series/algebra/2022/04/15/n-odd-numbers.html) an und sieht, wie wir dort Quadratzahlen darstellen.
+<span style="color: red;">*Spoiler:*</span> Schau dir den Beitrag zu [der Summe von $$n$$ ungeraden Zahlen](https://visualproofs.github.io/series/algebra/2022/04/15/n-odd-numbers.html) an und sieht, wie wir dort Quadratzahlen darstellen.
 
 Wie du dir bestimmt gedacht hast, nutzen wir dafür ein Quadrat. Demnach ist das Quadrat der Summe zweier Variablen <math display="inline"><mrow><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msup><mo form="postfix" stretchy="false">)</mo><mn>2</mn></msup> </mrow> </math> nichts anderes als die Fläche eines Quadrats mit Höhe und Breite <math display="inline"><mrow><mo form="prefix" stretchy="false">a+b</mrow></math>
 

@@ -7,10 +7,10 @@ image: assets/images/oddn.jpg
 
 ---
 The scope of odd numbers includes all of the integers, who have a remainder of one when divided by two.
-With n being an integer, the general form of an odd number would be \(2*n - 1\), and such numbers would be: 1, 3, 5, 7, 9, 11, 13...
+With $$n$$ being an integer, the general form of an odd number would be $$2n-1$$, and such numbers would be: 1, 3, 5, 7, 9, 11, 13...
 
-The sum of n odd integers is nothing else but the summation (adding up) of a series of odd numbers starting 
-from 1 up to a certain n. 
+The sum of $$n$$ odd integers is nothing else but the summation (adding up) of a series of odd numbers starting 
+from 1 up to a certain $$n$$. 
 
 ## Discovering patterns
 
@@ -20,7 +20,7 @@ Let's start small and sum up:
 - the first 4 odd numbers: 1 + 3 + 5 + 7 = 16
 
 #### Do you see a pattern emerging? 
-If you haven't noticed so far, that pattern says that if we add the first n odd numbers then the result is <math display="inline"> <msup> <mi>n</mi> <mn>2</mn> </msup> </math>. 
+If you haven't noticed so far, that pattern says that if we add the first $$n$$ odd numbers then the result is <math display="inline"> <msup> <mi>n</mi> <mn>2</mn> </msup> </math>. 
 We might be up to something, if this pattern holds?
 
 #### Are the sums of odd numbers related to square numbers?
@@ -44,11 +44,11 @@ Let's add the next odd number, 5, to the existing blocks.
 If we try to fit it in one square, it would look something like this:
 ![walking]({{ site.baseurl }}/assets/images/9cube.png)
 
-To get to the next odd number we just have to add 2 to the previous odd number and to get to the next square, we always need 2 more blocks than before. Although we only illustrated for n = 3,we can see that this pattern holds!
+To get to the next odd number we just have to add 2 to the previous odd number and to get to the next square, we always need 2 more blocks than before. Although we only illustrated for $$n = 3$$,we can see that this pattern holds!
 
 ### Try it yourself
 
-Use the slider below to test it for different values of n.
+Use the slider below to test it for different values of $$n$$.
 <div id="observablehq-98f591e4">
   <div class="observablehq-viewof-n"></div>
   <div class="observablehq-aba"></div>

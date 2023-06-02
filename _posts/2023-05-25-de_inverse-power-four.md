@@ -16,30 +16,30 @@ Wir haben den Auftrag bekommen eine wunderschön leere, quadratische Leinwand zu
 
 ![walking]({{ site.baseurl }}/assets/images/canvas.png)
 
-Wir fangen an genau 1/4 des Quadrats blau anzumalen. Das Ganze sieht dann in etwa so aus.
+Wir fangen an genau $$\frac{1}{4}$$ des Quadrats blau anzumalen. Das Ganze sieht dann in etwa so aus.
 
 ![walking]({{ site.baseurl }}/assets/images/canvas1.png)
 
-Als nächstes bemalen wir 1/16, also 1/4 von 1/4, der Fläche blau, was dann so ausschaut.
+Als nächstes bemalen wir $$\frac{1}{16}$$, also $$\frac{1}{4}$$ von $$\frac{1}{4}$$, der Fläche blau, was dann so ausschaut.
 
 ![walking]({{ site.baseurl }}/assets/images/canvas2.png)
 
-Weiter geht's mit 1/64, also 1/4 von 1/16.
+Weiter geht's mit $$\frac{1}{64}$$ , also $$\frac{1}{4}$$ von $$\frac{1}{16}$$.
 
 ![walking]({{ site.baseurl }}/assets/images/canvas3.png)
 
-Wir fahren nach diesem Muster fort und bemalen nun 1/4 * 1/64 = 1/256
+Wir fahren nach diesem Muster fort und bemalen nun $$\frac{1}{4} \times \frac{1}{64} = \frac{1}{256}$$.
 
 ![walking]({{ site.baseurl }}/assets/images/canvas4.png)
 
-Danach bemalen wir wieder 1/4 der vorherigen Fläche, dieses Mal also 1/1024.
+Danach bemalen wir wieder $$\frac{1}{4}$$ der vorherigen Fläche, dieses Mal also $$\frac{1}{1024}$$.
 
 ![walking]({{ site.baseurl }}/assets/images/canvas5.png)
 
-Wir machen immer so weiter und bemalen im n-ten Schritt genau 1/4^n der Fläche blau.
+Wir machen immer so weiter und bemalen im $$n$$-ten Schritt genau $$\left(\frac{1}{4}\right)^n$$ der Fläche blau.
 
-Nach jedem Schritt haben wir genau 3 gleich große Quadrate von dem jeweils eins blau und die anderen beiden weiß sind. Im vierten Quadrat findet sich genau das selbe Muster im kleineren Maßstab, auch hier ist wieder eins der Quadrate blau und die anderen beiden weiß. Dieses Muster wiederholt sich unendlich und demnach haben wir am Ende genau 1/3 unserer Leinwand blau angemalt.
-Dieses blaue Muster repräsentiert die inversen Potenzen der Zahl 4 und wir können daraus schließen, dass die Summe der inversen Potenzen von 4 im Grenzwert genau 1/3 ist.
+Nach jedem Schritt haben wir genau 3 gleich große Quadrate von dem jeweils eins blau und die anderen beiden weiß sind. Im vierten Quadrat findet sich genau das selbe Muster im kleineren Maßstab, auch hier ist wieder eins der Quadrate blau und die anderen beiden weiß. Dieses Muster wiederholt sich unendlich und demnach haben wir am Ende genau $$\frac{1}{3}$$ unserer Leinwand blau angemalt.
+Dieses blaue Muster repräsentiert die inversen Potenzen der Zahl 4 und wir können daraus schließen, dass die Summe der inversen Potenzen von 4 im Grenzwert genau $$\frac{1}{3}$$ ist.
 
 
 

@@ -21,36 +21,36 @@ Okay, so we are on a task. We have this empty, square Canvas,
 
 ![walking]({{ site.baseurl }}/assets/images/canvas.png)
 
-and we want to paint 1/4 of it blue
+and we want to paint $$\frac{1}{4}$$ of it blue
 
 ![walking]({{ site.baseurl }}/assets/images/canvas1.png)
 
-we would end up with something like this. Now we want to paint another 1/16 blue
+we would end up with something like this. Now we want to paint another $$\frac{1}{16}$$ blue
 
 ![walking]({{ site.baseurl }}/assets/images/canvas2.png)
 
-and this would be the resulting look. We painted 1/4th of 1/4th of the original canvas. We continue with 1/64
+and this would be the resulting look. So we additionally painted $$\frac{1}{4}$$-th of $$\frac{1}{4}$$-th of the original canvas. We continue with $$\frac{1}{64}$$:
 
 ![walking]({{ site.baseurl }}/assets/images/canvas3.png)
 
-We paint then 1/64 * 1/4 = 1/256
+We paint then $$\frac{1}{64} \times \frac{1}{4} = \frac{1}{256}$$.
 
 ![walking]({{ site.baseurl }}/assets/images/canvas4.png)
 
-After that we paint blue another 1/1024
+After that we paint blue another $$\frac{1}{1024}$$
 
 ![walking]({{ site.baseurl }}/assets/images/canvas5.png)
 
-and we can go so on, painting blue the 1/4^n of the surface.
+and we can go so on, painting blue the $$\left(\frac{1}{4}\right)^n$$ of the surface.
 
 Now notice how we have 3 equally divided squares after each step. Notice also how from each of these squares only one
-of them is painted blue, meaning we have 3 times identical pattern occurring and only one of them 1/3 is blue coloured.
+of them is painted blue, meaning we have 3 times identical pattern occurring and only one of them $$\frac{1}{3}$$ is blue coloured.
 The blue pattern represents the sum of inverse power of four, and so we can conclude that the sum of inverse power of 4 converges to
-1/3.
+$$\frac{1}{3}$$.
 
 
 ### Try it yourself
-Use the slider below to see how the pattern converges to the above-mentioned value for different n-values.
+Use the slider below to see how the pattern converges to the above-mentioned value for different values of $$n$$.
 
 <div id="observablehq-6c0f974d">
   <div class="observablehq-viewof-levels"></div>

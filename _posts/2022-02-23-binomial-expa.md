@@ -32,7 +32,7 @@ and it is a visual representation in the form a triangular array of the binomial
 #### How to expand with the help of the triangle?
 Given  <math display="inline"><mrow><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msup><mo form="postfix" stretchy="false">)</mo><mi>n</mi></msup></mrow></math>
 for any power  n  you can write out the expansion using the coefficients from the triangle. 
-Note that to write the coefficients for any power  n , you need to look at row  n+1  to find the coefficients.
+Note that to write the coefficients for any power $$n$$, you need to look at row $$n+1$$ to find the coefficients.
 
 <div id="observablehq-c7e957ce">
   <div class="observablehq-viewof-values"></div>
@@ -139,11 +139,11 @@ In the above examples we saw how one could expand binomials, but what if we have
 
 In the following we are going to try and visually prove how polynomials of the 2nd degree can be extended.
 #### Let's play detective! Can you spot a pattern?
-<span style="color: red;">*Spoiler Alert:*</span> Check the post about [The sum of n odd integers](https://visualproofs.github.io/series/algebra/2022/04/15/n-odd-numbers.html)
+<span style="color: red;">*Spoiler Alert:*</span> Check the post about [The sum of $$n$$ odd integers](https://visualproofs.github.io/series/algebra/2022/04/15/n-odd-numbers.html)
 and see what we used to represent square numbers.
 
 As you may have guessed it, we used a square. So for example if we want to calculate the sum of two variables <math display="inline"><mrow><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msup><mo form="postfix" stretchy="false">)</mo><mn>2</mn></msup> </mrow> </math>
-the result leads to the same as what we would get when calculating the surface area of a square of height and width a + b
+the result leads to the same as what we would get when calculating the surface area of a square of height and width $$a + b$$
 
 ![walking]({{ site.baseurl }}/assets/images/Identity.png)
 
