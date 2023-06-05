@@ -17,9 +17,9 @@ Dieser Satz hat zahlreiche Anwendungen unter anderem in Ingenieurswissenschaften
 
 ### Visualisieren wir ein Beispiel
 Wir malen ein rechtwinkliges Dreieck und errichten an seinen Seiten Quadrate:
-- $$3\times 3$$-Quadrat an der vertikalen Seite
-- $$4 \times 4$$-Quadrat an der horizontalen Seite
-- $$5 \times 5$$-Quadrat an der Hypotenuse
+- <math display="inline"><mn>3</mn><mo>&times;</mo><mn>3</mn></math>-Quadrat an der vertikalen Seite
+- <math display="inline"><mn>4</mn><mo>&times;</mo><mn>4</mn></math>-Quadrat an der horizontalen Seite
+- <math display="inline"><mn>5</mn><mo>&times;</mo><mn>5</mn></math>-Quadrat an der Hypotenuse
 
 ![walking]({{ site.baseurl }}/assets/images/pyta.png)
 
@@ -30,7 +30,7 @@ Schauen wir es uns an! Zähle die Anzahl der kleinen Quadrate und überprüfe, o
 Wenn du richtig gezählt hast, solltest du $$9+16=25$$ herausbekommen.
 
 ### Versuch es selbst
-Spiele mit den Werten für a und b herum und schau dir an, warum der Satz gilt:
+Spiele mit den Werten für <math display="inline"><mi>a</mi></math> und <math display="inline"><mi>b</mi></math> herum und schau dir an, warum der Satz gilt:
 <div id="observablehq-21c7f424">
   <div class="observablehq-viewof-a"></div>
   <div class="observablehq-viewof-b"></div>
@@ -69,4 +69,4 @@ Die Gleichung im Satz des Pythagoras lautet:
   </mrow>
 </math>
 
-wobei $$a$$ und $$b$$ für die Länge der Katheten steht, die am rechten Winkel anliegen, und $$c$$ für die Länge der Hypotenuse, die dem rechten Winkel gegenüber liegt.
+wobei <math display="inline"><mi>a</mi></math> und <math display="inline"><mi>b</mi></math> für die Länge der Katheten steht, die am rechten Winkel anliegen, und <math display="inline"><mi>ac/mi></math> für die Länge der Hypotenuse, die dem rechten Winkel gegenüber liegt.
