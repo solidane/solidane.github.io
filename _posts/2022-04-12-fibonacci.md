@@ -17,12 +17,12 @@ Examples:
 ### How is Fibonacci's sequence defined
 The **Fibonacci sequence** is in mathematics a sequence of numbers, where each number is the result of the sum of the two preceding ones. 
 This sequence typically starts from 0 and 1 (the examples in the following are also based on this), although there are other alterations.  
-A sequence given the above-mentioned starting would be 0,1,1,2,3,5,8,13... and so on forever. 
+A sequence given the above-mentioned would start with 0,1,1,2,3,5,8,13... and then continue in this manner forever.
 
 The Fibonacci numbers were mentioned by Indian mathematicians way back in 200 BC, but were first properly introduced 
 to the Western mathematics by Leonardo of Pisa in the 13th century.
 
-In terms of nature the Fibonacci numbers appear very often. Things like the number of petals in a flower, seed heads, shells, hurricanes often are a Fibonacci number.
+In terms of nature the Fibonacci numbers appear very often. Things like the number of petals in a flower, seed heads, shells, hurricanes often follow patterns according to the Fibonacci numbers.
 This famous sequence has appliance in many departments from computer science to photography, where it's also strongly
 correlated to what we know as the [golden ratio](https://en.wikipedia.org/wiki/Golden_ratio). 
 
@@ -133,4 +133,4 @@ and
   </mrow>
 </math>
 
-for n>1
+for $$n>1$$
