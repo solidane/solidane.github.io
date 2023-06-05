@@ -33,41 +33,41 @@ There are many beautiful number patterns that emerge from the Fibonacci numbers.
 
 
 ### How to visually understand these numbers
-Let's start by putting two one-by-one squares next to one another. 
+Let's start by putting two <math display="inline"><mn>1</mn><mo>&times;</mo><mn>1</mn></math> squares next to one another. 
 ![walking]({{ site.baseurl }}/assets/images/fib1.png)
 
-As a result we get a one by two rectangle. Beneath that let's put a two-by-two square
+As a result we get a <math display="inline"><mn>1</mn><mo>&times;</mo><mn>2</mn></math> rectangle. Beneath that let's put a <math display="inline"><mn>2</mn><mo>&times;</mo><mn>2</mn></math> square
 ![walking]({{ site.baseurl }}/assets/images/fib2.png)
 
-And next to that, a three-by-three square
+And next to that, a <math display="inline"><mn>3</mn><mo>&times;</mo><mn>3</mn></math> square
 ![walking]({{ site.baseurl }}/assets/images/fib3.png)
-Beneath that a five-by-five square
+Beneath that a <math display="inline"><mn>5</mn><mo>&times;</mo><mn>5</mn></math> square
 ![walking]({{ site.baseurl }}/assets/images/fib5.png)
 Creating one giant rectangle. Now let me ask you a question:
 
 ##### What's the area of the final rectangle?
 Well, the most trivial answer would be the sum of the areas of all the squares inside it, right! But since it 
-is a rectangle one could also multiply base and height to get the total area which would be: <math display="inline"><mrow><mn>5</mn><mo>*</mo><mo form="prefix" stretchy="false">(</mo><mn>5</mn><mo>+</mo><mn>3</mn><mo form="postfix" stretchy="false">)</mo><mo>=</mo><mn>5</mn><mo>*</mo><mn>8</mn></mrow></math>
+is a rectangle one could also multiply base and height to get the total area which would be: <math display="inline"><mrow><mn>5</mn><mo>&times;</mo><mo form="prefix" stretchy="false">(</mo><mn>5</mn><mo>+</mo><mn>3</mn><mo form="postfix" stretchy="false">)</mo><mo>=</mo><mn>5</mn><mo>&times;</mo><mn>8</mn></mrow></math>
 ,with 8 also being the next Fibonacci number on the sequence.
 
 If we continue like this we will be generating rectangles of the following forms:
-- <math display="inline"><mrow><mn>8</mn><mo>*</mo><mn>13</mn></mrow></math> 
-- <math display="inline"><mrow><mn>13</mn><mo>*</mo><mn>21</mn></mrow></math>
-- <math display="inline"><mrow><mn>21</mn><mo>*</mo><mn>34</mn></mrow></math>
-- <math display="inline"><mrow><mn>34</mn><mo>*</mo><mn>55</mn></mrow></math>
-- <math display="inline"><mrow><mn>55</mn><mo>*</mo><mn>89</mn></mrow></math>
+- <math display="inline"><mrow><mn>8</mn><mo>&times;</mo><mn>13</mn></mrow></math> 
+- <math display="inline"><mrow><mn>13</mn><mo>&times;</mo><mn>21</mn></mrow></math>
+- <math display="inline"><mrow><mn>21</mn><mo>&times;</mo><mn>34</mn></mrow></math>
+- <math display="inline"><mrow><mn>34</mn><mo>&times;</mo><mn>55</mn></mrow></math>
+- <math display="inline"><mrow><mn>55</mn><mo>&times;</mo><mn>89</mn></mrow></math>
 
 Now check this out, by diving the bigger number to the smaller one we get:
-- <math display="inline"><mrow><mn>13</mn><mo lspace="0.2222em" rspace="0.2222em">:</mo><mn>8</mn><mo>=</mo><mn>1.625</mn></mrow></math>
-- <math display="inline"><mrow><mn>21</mn><mo lspace="0.2222em" rspace="0.2222em">:</mo><mn>13</mn><mo>=</mo><mn>1.615</mn></mrow></math>
-- <math display="inline"><mrow><mn>34</mn><mo lspace="0.2222em" rspace="0.2222em">:</mo><mn>21</mn><mo>=</mo><mn>1.619</mn></mrow></math>
-- <math display="inline"><mrow><mn>55</mn><mo lspace="0.2222em" rspace="0.2222em">:</mo><mn>34</mn><mo>=</mo><mn>1.6176</mn></mrow></math>
-- <math display="inline"><mrow><mn>89</mn><mo lspace="0.2222em" rspace="0.2222em">:</mo><mn>55</mn><mo>=</mo><mn>1.61818</mn></mrow></math>
+- <math display="inline"><mrow><mn>13</mn><mo lspace="0.2222em" rspace="0.2222em">&divide;</mo><mn>8</mn><mo>=</mo><mn>1.625</mn></mrow></math>
+- <math display="inline"><mrow><mn>21</mn><mo lspace="0.2222em" rspace="0.2222em">&divide;</mo><mn>13</mn><mo>=</mo><mn>1.615</mn></mrow></math>
+- <math display="inline"><mrow><mn>34</mn><mo lspace="0.2222em" rspace="0.2222em">&divide;</mo><mn>21</mn><mo>=</mo><mn>1.619</mn></mrow></math>
+- <math display="inline"><mrow><mn>55</mn><mo lspace="0.2222em" rspace="0.2222em">&divide;</mo><mn>34</mn><mo>=</mo><mn>1.6176</mn></mrow></math>
+- <math display="inline"><mrow><mn>89</mn><mo lspace="0.2222em" rspace="0.2222em">&divide;</mo><mn>55</mn><mo>=</mo><mn>1.61818</mn></mrow></math>
 
 as we continue we get closer to about 1.618 known to many people as the golden ratio.
 ### Try it yourself
 
-Get your hand dirty and use the slider below to explore how the pattern grows for different values of $$n$$.
+Get your hand dirty and use the slider below to explore how the pattern grows with more squares.
 
 
 <div id="observablehq-412999a1">
@@ -133,4 +133,4 @@ and
   </mrow>
 </math>
 
-for $$n>1$$
+for <math display="inline"><mi>n</mi><mo>></mo><mn>1</mn></math>

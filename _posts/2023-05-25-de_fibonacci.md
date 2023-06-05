@@ -16,7 +16,7 @@ Beispiele:
 ### Was ist die Fibonacci-Folge?
 Die **Fibonacci-Folge** ist eine Folge von Zahlen, wobei jedes Element als die Summe seiner beiden Vorgänger definiert ist. Normalerweise definieren wir die ersten beiden Elemente der Folge als 0 und 1, aber auch andere Starts sind möglich. Eine Folge mit diesem Anfang sähe wie folgt aus: 0, 1, 1, 2, 3, 5, 8, 13, ...
 
-Die Fibonacci-Zahlen wurden von indischen Mathematikern bereits 200 v.Chr. entdeckt, aber zum ersten Mal vom italienischen Mathematiker [Leonardo of Pisa (1170-1240)](https://de.wikipedia.org/wiki/Leonardo_Fibonacci) im 13. Jahrhundert eingeführt.
+Die Fibonacci-Zahlen wurden von indischen Mathematikern bereits 200 v.Chr. entdeckt, aber zum ersten Mal vom italienischen Mathematiker [Leonardo of Pisa (1170-1240 n. Chr.)](https://de.wikipedia.org/wiki/Leonardo_Fibonacci) im 13. Jahrhundert eingeführt.
 
 Die Fibonacci-Folge erscheint in der Natur sehr häufig. Die Blüten von Blumen, Fruchständen von Pflanzen, Muscheln oder Orkane folgen zumeist dem Muster der Fibonacci-Zahlen.
 Anwendung findet diese berühmte Folge in verschiedensten Bereichen von Computerwissenschaften bis zu Fotografie, wo sie eng mit dem Phänomen des [Goldenen Schnitts](https://de.wikipedia.org/wiki/Goldener_Schnitt) verwandt ist.
@@ -28,34 +28,34 @@ Tausende von bezaubernden Mustern ergeben sich durch die Fibonacci-Folge.
 
 
 ### Wie können wir die Fibonacci-Folge visuell verstehen?
-Beginnen wir mit zwei 1x1-Quadraten nebeneinander.
+Beginnen wir mit zwei <math display="inline"><mn>1</mn><mo>&times;</mo><mn>1</mn></math>-Quadraten nebeneinander.
 ![walking]({{ site.baseurl }}/assets/images/fib1.png)
 
-Zusammen ergeben diese ein 1x2-Rechteck. Bauen wir nun unterhalb ein 2x2-Quadrat an.
+Zusammen ergeben diese ein <math display="inline"><mn>1</mn><mo>&times;</mo><mn>2</mn></math>-Rechteck. Bauen wir nun unterhalb ein <math display="inline"><mn>2</mn><mo>&times;</mo><mn>2</mn></math>-Quadrat an.
 ![walking]({{ site.baseurl }}/assets/images/fib2.png)
 
-Neben dieses Gebilde kommt nun, entsprechend der Höhe, ein 3x3-Quadrat.
+Neben dieses Gebilde kommt nun, entsprechend der Höhe, ein <math display="inline"><mn>3</mn><mo>&times;</mo><mn>3</mn></math>-Quadrat.
 ![walking]({{ site.baseurl }}/assets/images/fib3.png)
-Darunter fügen wir als nächstes ein 5x5-Quadrat hinzu.
+Darunter fügen wir als nächstes ein <math display="inline"><mn>5</mn><mo>&times;</mo><mn>5</mn></math>-Quadrat hinzu.
 ![walking]({{ site.baseurl }}/assets/images/fib5.png)
 Zusammen ergibt dies ein gigantisches Rechteck. Nun die Frage:
 
 ##### Was ist die Fläche dieses Rechtecks?
-Die offensichtlichste Antwort ist einfach die Flächen all dieser Quadrate zusammenzuaddieren. Aber da die finale Form ein Rechteck ist, können wir auch einfach seine Breite mit siner Höhe multiplizieren um die Fläche zu bestimmen: <math display="inline"><mrow><mn>5</mn><mo>*</mo><mo form="prefix" stretchy="false">(</mo><mn>5</mn><mo>+</mo><mn>3</mn><mo form="postfix" stretchy="false">)</mo><mo>=</mo><mn>5</mn><mo>*</mo><mn>8</mn></mrow></math>, wobei 8 auch die nächste Zahl in der Fibonacci-Folge ist.
+Die offensichtlichste Antwort ist einfach die Flächen all dieser Quadrate zusammenzuaddieren. Aber da die finale Form ein Rechteck ist, können wir auch einfach seine Breite mit siner Höhe multiplizieren um die Fläche zu bestimmen: <math display="inline"><mrow><mn>5</mn><mo>&times;</mo><mo form="prefix" stretchy="false">(</mo><mn>5</mn><mo>+</mo><mn>3</mn><mo form="postfix" stretchy="false">)</mo><mo>=</mo><mn>5</mn><mo>&times;</mo><mn>8</mn></mrow></math>, wobei 8 auch die nächste Zahl in der Fibonacci-Folge ist.
 
 Wenn wir so weitermachen erhalten wir Rechtecke der folgenden Größen:
-- <math display="inline"><mrow><mn>8</mn><mo>*</mo><mn>13</mn></mrow></math> 
-- <math display="inline"><mrow><mn>13</mn><mo>*</mo><mn>21</mn></mrow></math>
-- <math display="inline"><mrow><mn>21</mn><mo>*</mo><mn>34</mn></mrow></math>
-- <math display="inline"><mrow><mn>34</mn><mo>*</mo><mn>55</mn></mrow></math>
-- <math display="inline"><mrow><mn>55</mn><mo>*</mo><mn>89</mn></mrow></math>
+- <math display="inline"><mrow><mn>8</mn><mo>&times;</mo><mn>13</mn></mrow></math> 
+- <math display="inline"><mrow><mn>13</mn><mo>&times;</mo><mn>21</mn></mrow></math>
+- <math display="inline"><mrow><mn>21</mn><mo>&times;</mo><mn>34</mn></mrow></math>
+- <math display="inline"><mrow><mn>34</mn><mo>&times;</mo><mn>55</mn></mrow></math>
+- <math display="inline"><mrow><mn>55</mn><mo>&times;</mo><mn>89</mn></mrow></math>
 
 Wenn wir nun die längere Seitelänge des Rechtecks durch die kürzere dividieren, erhalten wir
-- <math display="inline"><mrow><mn>13</mn><mo lspace="0.2222em" rspace="0.2222em">:</mo><mn>8</mn><mo>=</mo><mn>1,625</mn></mrow></math>
-- <math display="inline"><mrow><mn>21</mn><mo lspace="0.2222em" rspace="0.2222em">:</mo><mn>13</mn><mo>=</mo><mn>1,615</mn></mrow></math>
-- <math display="inline"><mrow><mn>34</mn><mo lspace="0.2222em" rspace="0.2222em">:</mo><mn>21</mn><mo>=</mo><mn>1,619</mn></mrow></math>
-- <math display="inline"><mrow><mn>55</mn><mo lspace="0.2222em" rspace="0.2222em">:</mo><mn>34</mn><mo>=</mo><mn>1,6176</mn></mrow></math>
-- <math display="inline"><mrow><mn>89</mn><mo lspace="0.2222em" rspace="0.2222em">:</mo><mn>55</mn><mo>=</mo><mn>1,61818</mn></mrow></math>
+- <math display="inline"><mrow><mn>13</mn><mo lspace="0.2222em" rspace="0.2222em">&divide;</mo><mn>8</mn><mo>=</mo><mn>1,625</mn></mrow></math>
+- <math display="inline"><mrow><mn>21</mn><mo lspace="0.2222em" rspace="0.2222em">&divide;</mo><mn>13</mn><mo>=</mo><mn>1,615</mn></mrow></math>
+- <math display="inline"><mrow><mn>34</mn><mo lspace="0.2222em" rspace="0.2222em">&divide;</mo><mn>21</mn><mo>=</mo><mn>1,619</mn></mrow></math>
+- <math display="inline"><mrow><mn>55</mn><mo lspace="0.2222em" rspace="0.2222em">&divide;</mo><mn>34</mn><mo>=</mo><mn>1,6176</mn></mrow></math>
+- <math display="inline"><mrow><mn>89</mn><mo lspace="0.2222em" rspace="0.2222em">&divide;</mo><mn>55</mn><mo>=</mo><mn>1,61818</mn></mrow></math>
 
 Je größer unsere Rechtecke werden, desto näher kommen wir einem Wert von rund 1,618, der auch als goldener Schnitt bekannt ist.
 ### Versuch es selbst
@@ -77,7 +77,7 @@ Nutze den Schieber und untersuche wie das Rechteck anwächst.
 </script>
 
 ### Die Mathematik dahinter
-Die Formeln, um die FIbonacci-Folge zu generieren, lauten:
+Die Formeln, um die Fibonacci-Folge zu generieren, lauten:
 
 <math display="block">
   <mrow>
@@ -97,7 +97,7 @@ Die Formeln, um die FIbonacci-Folge zu generieren, lauten:
   </mrow>
 </math>
 
-and
+und
 
 <math display="block">
   <mrow>
@@ -126,4 +126,4 @@ and
   </mrow>
 </math>
 
-für $$>1$$.
+für <math display="inline"><mi>n</mi><mo>></mo><mn>1</mn></math>
