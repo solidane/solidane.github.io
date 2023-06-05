@@ -8,10 +8,10 @@ image: assets/images/oddn.jpg
 ---
 
 The scope of odd numbers includes all of the integers, who have a remainder of one when divided by two.
-With $$n$$ being an integer, the general form of an odd number would be $$2n-1$$, and such numbers would be: 1, 3, 5, 7, 9, 11, 13...
+With <math display="inline"><mi>n</mi></math> being an integer, the general form of an odd number would be <math display="inline"><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></math>, and such numbers would be: 1, 3, 5, 7, 9, 11, 13...
 
-   The sum of n odd integers is nothing else but the summation (adding up) of a series of odd numbers starting 
-from 1 up to a certain $$n$$ or even infinity. 
+The sum of <math display="inline"><mi>n</mi></math> odd integers is nothing else but the summation (adding up) of a series of odd numbers starting 
+from 1 up to a certain <math display="inline"><mi>n</mi></math> or even infinity. 
 
 ## Discovering patterns
 
@@ -33,7 +33,7 @@ Now let's take for instance the first 2 odd numbers 1 and 3, and let's represent
 
 ![walking]({{ site.baseurl }}/assets/images/4cube.png)
 
-Since we are looking for a visual representation of <math display="inline"> <msup> <mi>2</mi> <mn>2</mn> </msup> </math> , in this case the most useful representation of 4 blocks would be this:
+Since we are looking for a visual representation of <math display="inline"> <msup> <mi>2</mi> <mn>2</mn> </msup> </math>, in this case the most useful representation of 4 blocks would be this:
 
 ![walking]({{ site.baseurl }}/assets/images/4cube2.png)
 
@@ -45,11 +45,11 @@ Let's add for instance the next odd number 5 to the existing blocks.
 If it would be to fit in one square, it would look something like this:
 ![walking]({{ site.baseurl }}/assets/images/9cube.png)
 
-To get to the next odd number we just have to add 2 to the previous odd number. Similar in this case every layers differs two blocks more or less from the neighbouring ones. Although we only illustrated for $$n = 3$$, one can see that this pattern holds!
+To get to the next odd number we just have to add 2 to the previous odd number. Similar in this case every layers differs two blocks more or less from the neighbouring ones. Although we only illustrated for <math display="inline"><mi>n</mi><mo>=</mo><mn>3</mn></math>, one can see that this pattern holds!
 
 ### Try it yourself
 
-Use the slider below to test it for different n-values.
+Use the slider below to test it for different values of <math display="inline"><mi>n</mi></math>.
 <div id="observablehq-98f591e4">
   <div class="observablehq-viewof-n"></div>
   <div class="observablehq-aba"></div>
@@ -64,8 +64,8 @@ Use the slider below to test it for different n-values.
     if (name === "sumOfOdd") return Inspector.into("#observablehq-98f591e4 .observablehq-sumOfOdd")();
   });
 </script>
-## Mathematical form
 
+## Mathematical form
 The formula to calculate this pattern is:
 
 <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
@@ -80,7 +80,7 @@ The formula to calculate this pattern is:
       <mrow>
         <mi>i</mi>
         <mo>=</mo>
-        <mn>0</mn>
+        <mn>1</mn>
       </mrow>
       <mi>n</mi>
     </munderover>
@@ -88,7 +88,7 @@ The formula to calculate this pattern is:
       <mo stretchy="true" form="prefix">(</mo>
       <mn>2</mn>
       <mi>i</mi>
-      <mo>+</mo>
+      <mo>-</mo>
       <mn>1</mn>
       <mo stretchy="true" form="postfix">)</mo>
     </mrow>
