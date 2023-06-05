@@ -17,9 +17,9 @@ Dieser Satz hat zahlreiche Anwendungen unter anderem in Ingenieurswissenschaften
 
 ### Visualisieren wir ein Beispiel
 Wir malen ein rechtwinkliges Dreieck und errichten an seinen Seiten Quadrate:
-- <math display="inline"><mn>3</mn><mo>&times;</mo><mn>3</mn></math>-Quadrat an der vertikalen Seite
-- <math display="inline"><mn>4</mn><mo>&times;</mo><mn>4</mn></math>-Quadrat an der horizontalen Seite
-- <math display="inline"><mn>5</mn><mo>&times;</mo><mn>5</mn></math>-Quadrat an der Hypotenuse
+- Ein <math display="inline"><mn>3</mn><mo>&times;</mo><mn>3</mn></math>-Quadrat an der vertikalen Seite
+- Ein <math display="inline"><mn>4</mn><mo>&times;</mo><mn>4</mn></math>-Quadrat an der horizontalen Seite
+- Ein <math display="inline"><mn>5</mn><mo>&times;</mo><mn>5</mn></math>-Quadrat an der Hypotenuse
 
 ![walking]({{ site.baseurl }}/assets/images/pyta.png)
 
@@ -69,4 +69,4 @@ Die Gleichung im Satz des Pythagoras lautet:
   </mrow>
 </math>
 
-wobei <math display="inline"><mi>a</mi></math> und <math display="inline"><mi>b</mi></math> für die Länge der Katheten steht, die am rechten Winkel anliegen, und <math display="inline"><mi>ac/mi></math> für die Länge der Hypotenuse, die dem rechten Winkel gegenüber liegt.
+wobei <math display="inline"><mi>a</mi></math> und <math display="inline"><mi>b</mi></math> für die Länge der Katheten steht, die am rechten Winkel anliegen, und <math display="inline"><mi>c</mi></math> für die Länge der Hypotenuse, die dem rechten Winkel gegenüber liegt.
