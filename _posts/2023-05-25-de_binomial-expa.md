@@ -28,7 +28,7 @@ Das Pascalsche Dreieck hat seinen Namen dank des berühmten und revolutionären 
 
 #### Wie kann man diesen Dreieck für polynomielle Erweiterung benutzen?
 #### How to expand with the help of the triangle?
-Für einen beliebigen Exponennten $$n$$ können wir den Ausdruck  <math display="inline"><mrow><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msup><mo form="postfix" stretchy="false">)</mo><mi>n</mi></msup></mrow></math>
+Für einen beliebigen Exponennten <math display="inline"><mi>n</mi></math> können wir den Ausdruck  <math display="inline"><mrow><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msup><mo form="postfix" stretchy="false">)</mo><mi>n</mi></msup></mrow></math>
 <math display="inline"><mrow><mo form="prefix" stretchy="false">n</mrow></math> mithilfe der Koeffizienten im Dreieck umschreiben. 
 Um die richtigen Koeffizienten für den Ausdruck <math display="inline"><mrow><mo form="prefix" stretchy="false">n</mrow></math> zu erhalten, müssen wir uns die <math display="inline"><mrow><mo form="prefix" stretchy="false">n+1</mrow></math>-te Reihe ansehen.
 
@@ -60,7 +60,7 @@ Mithilfe dieser Koeffizienten können wir dieses Polynom von viertem Grad umschr
     </msup>
     <mo>+</mo>
     <mn>4</mn>
-    <mo>*</mo>
+    <mo>&times;</mo>
     <mo form="prefix" stretchy="false">(</mo>
     <mn>3</mn>
     <mi>a</mi>
@@ -68,11 +68,11 @@ Mithilfe dieser Koeffizienten können wir dieses Polynom von viertem Grad umschr
       <mo form="postfix" stretchy="false">)</mo>
       <mn>3</mn>
     </msup>
-    <mo>*</mo>
+    <mo>&times;</mo>
     <mn>2</mn>
     <mo>+</mo>
     <mn>6</mn>
-    <mo>*</mo>
+    <mo>&times;</mo>
     <mo form="prefix" stretchy="false">(</mo>
     <mn>3</mn>
     <mi>a</mi>
@@ -80,17 +80,17 @@ Mithilfe dieser Koeffizienten können wir dieses Polynom von viertem Grad umschr
       <mo form="postfix" stretchy="false">)</mo>
       <mn>2</mn>
     </msup>
-    <mo>*</mo>
+    <mo>&times;</mo>
     <msup>
       <mn>2</mn>
       <mn>2</mn>
     </msup>
     <mo>+</mo>
     <mn>4</mn>
-    <mo>*</mo>
+    <mo>&times;</mo>
     <mn>3</mn>
     <mi>a</mi>
-    <mo>*</mo>
+    <mo>&times;</mo>
     <msup>
       <mn>2</mn>
       <mn>3</mn>
@@ -137,9 +137,9 @@ In den vorherigen Beispielen haben wir gesehen, wie wir Binome erweitern können
 
 Jetzt zeigen und beweisen wir euch, wie man Polynome vom zweiten Grad erweitern kann.
 #### Kannst du das Muster erkennen?
-<span style="color: red;">*Spoiler:*</span> Schau dir den Beitrag zu [der Summe von $$n$$ ungeraden Zahlen](https://visualproofs.github.io/series/algebra/2022/04/15/n-odd-numbers.html) an und sieht, wie wir dort Quadratzahlen darstellen.
+<span style="color: red;">*Spoiler:*</span> Schau dir den Beitrag zu [der Summe von <math display="inline"><mi>n</mi></math> ungeraden Zahlen](https://visualproofs.github.io/series/algebra/2023/05/25/de_n-odd-numbers.html) an und sieht, wie wir dort Quadratzahlen darstellen.
 
-Wie du dir bestimmt gedacht hast, nutzen wir dafür ein Quadrat. Demnach ist das Quadrat der Summe zweier Variablen <math display="inline"><mrow><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msup><mo form="postfix" stretchy="false">)</mo><mn>2</mn></msup> </mrow> </math> nichts anderes als die Fläche eines Quadrats mit Höhe und Breite <math display="inline"><mrow><mo form="prefix" stretchy="false">a+b</mrow></math>
+Wie du dir bestimmt gedacht hast, nutzen wir dafür ein Quadrat. Demnach ist das Quadrat der Summe zweier Variablen <math display="inline"><mrow><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msup><mo form="postfix" stretchy="false">)</mo><mn>2</mn></msup> </mrow> </math> nichts anderes als die Fläche eines Quadrats mit Höhe und Breite <math display="inline"><mrow><mo form="prefix" stretchy="false"><mi>a</mi><mo>+</mo><mi>b</mi></mrow></math>
 
 ![walking]({{ site.baseurl }}/assets/images/Identity.png)
 
@@ -148,7 +148,7 @@ Das beweist die folgende algebraische Identität:
 <math display="block"><mrow><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msup><mo form="postfix" stretchy="false">)</mo><mn>2</mn></msup><mo>=</mo><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo form="postfix" stretchy="false">)</mo><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo form="postfix" stretchy="false">)</mo><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></mrow></math>
 ### Versuch es selbst
 
-Benutze den Schieber um verschiedene Werte für <math display="inline"><mrow><mo form="prefix" stretchy="false">n</mrow></math> auszuprobieren.
+Benutze den Schieber um verschiedene Werte für <math display="inline"><mrow><mo form="prefix" stretchy="false"><mi>n</mi></mrow></math> auszuprobieren.
 <div id="observablehq-fc37ba2b">
   <div class="observablehq-viewof-numVars"></div>
   <div class="observablehq-numVars"></div>

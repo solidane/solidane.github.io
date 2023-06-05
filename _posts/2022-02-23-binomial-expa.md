@@ -62,7 +62,7 @@ Knowing the coefficients we can transform the polynom of the 4th grade to:
     </msup>
     <mo>+</mo>
     <mn>4</mn>
-    <mo>*</mo>
+    <mo>&times;</mo>
     <mo form="prefix" stretchy="false">(</mo>
     <mn>3</mn>
     <mi>a</mi>
@@ -70,11 +70,11 @@ Knowing the coefficients we can transform the polynom of the 4th grade to:
       <mo form="postfix" stretchy="false">)</mo>
       <mn>3</mn>
     </msup>
-    <mo>*</mo>
+    <mo>&times;</mo>
     <mn>2</mn>
     <mo>+</mo>
     <mn>6</mn>
-    <mo>*</mo>
+    <mo>&times;</mo>
     <mo form="prefix" stretchy="false">(</mo>
     <mn>3</mn>
     <mi>a</mi>
@@ -82,17 +82,17 @@ Knowing the coefficients we can transform the polynom of the 4th grade to:
       <mo form="postfix" stretchy="false">)</mo>
       <mn>2</mn>
     </msup>
-    <mo>*</mo>
+    <mo>&times;</mo>
     <msup>
       <mn>2</mn>
       <mn>2</mn>
     </msup>
     <mo>+</mo>
     <mn>4</mn>
-    <mo>*</mo>
+    <mo>&times;</mo>
     <mn>3</mn>
     <mi>a</mi>
-    <mo>*</mo>
+    <mo>&times;</mo>
     <msup>
       <mn>2</mn>
       <mn>3</mn>
@@ -139,20 +139,20 @@ In the above examples we saw how one could expand binomials, but what if we have
 
 In the following we are going to try and visually prove how polynomials of the 2nd degree can be extended.
 #### Let's play detective! Can you spot a pattern?
-<span style="color: red;">*Spoiler Alert:*</span> Check the post about [The sum of $$n$$ odd integers](https://visualproofs.github.io/series/algebra/2022/04/15/n-odd-numbers.html)
+<span style="color: red;">*Spoiler Alert:*</span> Check the post about [The sum of <math display="inline"><mi>n</mi></math> odd integers](https://visualproofs.github.io/series/algebra/2022/04/15/n-odd-numbers.html)
 and see what we used to represent square numbers.
 
 As you may have guessed it, we used a square. So for example if we want to calculate the sum of two variables <math display="inline"><mrow><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msup><mo form="postfix" stretchy="false">)</mo><mn>2</mn></msup> </mrow> </math>
-the result leads to the same as what we would get when calculating the surface area of a square of height and width $$a + b$$
+the result leads to the same as what we would get when calculating the surface area of a square of height and width <math display="inline"><mi>a</mi><mo>+</mo><mi>b</mi></math>.
 
 ![walking]({{ site.baseurl }}/assets/images/Identity.png)
 
-and by constructing a such square such as shown in the picture above one can visibly see that the surface area is the sum of:  <math display="inline"><msup><mi>a</mi><mn>2</mn></msup></math>, <math display="inline"><msup><mi>b</mi><mn>2</mn></msup></math> and <math display="inline"><mrow><mn>2</mn><mi>a</mi><mi>b</mi></mrow></math>, which proves
+and by constructing such a square such as shown in the picture above one can visibly see that the surface area is the sum of:  <math display="inline"><msup><mi>a</mi><mn>2</mn></msup></math>, <math display="inline"><msup><mi>b</mi><mn>2</mn></msup></math> and <math display="inline"><mrow><mn>2</mn><mi>a</mi><mi>b</mi></mrow></math>, which proves
 the algebraic identity:
 <math display="block"><mrow><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msup><mo form="postfix" stretchy="false">)</mo><mn>2</mn></msup><mo>=</mo><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo form="postfix" stretchy="false">)</mo><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo form="postfix" stretchy="false">)</mo><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></mrow></math>
 ### Try it yourself
 
-Use the slider below to test it for different n-values.
+Use the slider below to test it for different values of <math display="inline"><mi>n</mi></math>.
 <div id="observablehq-fc37ba2b">
   <div class="observablehq-viewof-numVars"></div>
   <div class="observablehq-numVars"></div>

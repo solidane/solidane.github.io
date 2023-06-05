@@ -41,7 +41,7 @@ After that we paint blue another <math display="inline"><mfrac><mn>1</mn><mn>102
 
 ![walking]({{ site.baseurl }}/assets/images/canvas5.png)
 
-and we can go so on, painting blue the <math display="inline"><msup><mrow><mo stretchy="false" form="prefix">(</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo stretchy="false" form="prefix">)</mo></mrow><mi>n</mi></msup></math> of the surface.
+and we can go so on, painting blue the <math display="inline"><msup><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow><mi>n</mi></msup></math> of the surface.
 
 Now notice how we have 3 equally divided squares after each step. Notice also how from each of these squares only one
 of them is painted blue, meaning we have 3 times identical pattern occurring and only one of them <math display="inline"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> is blue coloured.
@@ -105,7 +105,7 @@ Use the slider below to see how the pattern converges to the above-mentioned val
       <mn>1</mn>
       <mn>4</mn>
     </mfrac>
-    <mo stretchy="false" form="prefix">(</mo>
+    <mo stretchy="false" form="prefix">)</mo>
     </mrow>
       <mi>i</mi>
     </msup>

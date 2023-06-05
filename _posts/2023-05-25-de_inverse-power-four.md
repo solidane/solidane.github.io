@@ -36,7 +36,7 @@ Danach bemalen wir wieder <math display="inline"><mfrac><mn>1</mn><mn>4</mn></mf
 
 ![walking]({{ site.baseurl }}/assets/images/canvas5.png)
 
-Wir machen immer so weiter und bemalen im <math display="inline"><mi>n</mi></math>-ten Schritt genau <math display="inline"><msup><mrow><mo stretchy="false" form="prefix">(</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo stretchy="false" form="prefix">)</mo></mrow><mi>n</mi></msup></math> der Fläche blau.
+Wir machen immer so weiter und bemalen im <math display="inline"><mi>n</mi></math>-ten Schritt genau <math display="inline"><msup><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow><mi>n</mi></msup></math> der Fläche blau.
 
 Nach jedem Schritt haben wir genau 3 gleich große Quadrate von dem jeweils eins blau und die anderen beiden weiß sind. Im vierten Quadrat findet sich genau das selbe Muster im kleineren Maßstab, auch hier ist wieder eins der Quadrate blau und die anderen beiden weiß. Dieses Muster wiederholt sich unendlich und demnach haben wir am Ende genau <math display="inline"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> unserer Leinwand blau angemalt.
 Dieses blaue Muster repräsentiert die inversen Potenzen der Zahl 4 und wir können daraus schließen, dass die Summe der inversen Potenzen von 4 im Grenzwert genau <math display="inline"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> ist.
