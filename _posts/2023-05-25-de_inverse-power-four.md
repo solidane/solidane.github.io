@@ -77,6 +77,7 @@ Nutze den Schieber um zu sehen, wie sich der Malprozess mit jedem Schritt dem ge
       <mn>1</mn>
       <mn>64</mn>
     </mfrac>
+    <mo>+</mo>
     <mi>.</mi>
     <mi>.</mi>
     <mi>.</mi>
