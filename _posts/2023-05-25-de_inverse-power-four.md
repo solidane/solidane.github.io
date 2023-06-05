@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Die Summe negativer Potenzen von 4"
-author: solida
+author: moritz
 categories: [Series, Fractals]
 image: assets/images/powerofi4.png
 ---
 In der Mathematik ist eine **Reihe** definiert als die Summe der Elemente einer zugehörigen Folge, also schlicht eine Summe von Zahlen.
 Je nachdem wie viele Elemente die Folge besitzt, nennen wir die Reihe
-- <span style="color: red;">*endlich*</span>, wenn die zugehörige Folge endlich ist, das heißt wenn wir nur eine endliche Anzahl an Zahlen zusammenaddieren. Ein Beispiel dafür ist die [die Summe der ersten n ungeraden Zahlen](https://visualproofs.github.io/series/algebra/2022/04/15/n-odd-numbers.html) und [die Summe von Gauss](https://visualproofs.github.io/series/2022/05/12/gauss.html).
+- <span style="color: red;">*endlich*</span>, wenn die zugehörige Folge endlich ist, das heißt wenn wir nur eine endliche Anzahl an Zahlen zusammenaddieren. Ein Beispiel dafür ist die [die Summe der ersten <math display="inline"><mi>n</mi></math> ungeraden Zahlen](https://visualproofs.github.io/series/algebra/2023/05/25/de_n-odd-numbers.html) und [die Gaußsche Summenformel](https://visualproofs.github.io/series/2023/05/25/de_gauss.html).
 - <span style="color: red;">*unendlich*</span>, wenn die zugehörige Folge kein Ende hat. Durch die Nutzung von Grenzwerten können wir herausfinden, ob die Reihe konvergiert (also sich einem bestimmten endlichen Wert annähert) oder das nicht tut; wir sagen dann, dass die Reihe divergiert.
 Wir starten mit einem Beispiel!
 
@@ -16,30 +16,30 @@ Wir haben den Auftrag bekommen eine wunderschön leere, quadratische Leinwand zu
 
 ![walking]({{ site.baseurl }}/assets/images/canvas.png)
 
-Wir fangen an genau $$\frac{1}{4}$$ des Quadrats blau anzumalen. Das Ganze sieht dann in etwa so aus.
+Wir fangen an genau <math display="inline"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> des Quadrats blau anzumalen. Das Ganze sieht dann in etwa so aus.
 
 ![walking]({{ site.baseurl }}/assets/images/canvas1.png)
 
-Als nächstes bemalen wir $$\frac{1}{16}$$, also $$\frac{1}{4}$$ von $$\frac{1}{4}$$, der Fläche blau, was dann so ausschaut.
+Als nächstes bemalen wir <math display="inline"><mfrac><mn>1</mn><mn>16</mn></mfrac></math>, also <math display="inline"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> von <math display="inline"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>, der Fläche blau, was dann so ausschaut.
 
 ![walking]({{ site.baseurl }}/assets/images/canvas2.png)
 
-Weiter geht's mit $$\frac{1}{64}$$ , also $$\frac{1}{4}$$ von $$\frac{1}{16}$$.
+Weiter geht's mit <math display="inline"><mfrac><mn>1</mn><mn>64</mn></mfrac></math>, also <math display="inline"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> von <math display="inline"><mfrac><mn>1</mn><mn>16</mn></mfrac></math>.
 
 ![walking]({{ site.baseurl }}/assets/images/canvas3.png)
 
-Wir fahren nach diesem Muster fort und bemalen nun $$\frac{1}{4} \times \frac{1}{64} = \frac{1}{256}$$.
+Wir fahren nach diesem Muster fort und bemalen nun <math display="inline"><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>&times;</mo><mfrac><mn>1</mn><mn>64</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>256</mn></mfrac></math>.
 
 ![walking]({{ site.baseurl }}/assets/images/canvas4.png)
 
-Danach bemalen wir wieder $$\frac{1}{4}$$ der vorherigen Fläche, dieses Mal also $$\frac{1}{1024}$$.
+Danach bemalen wir wieder <math display="inline"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> der vorherigen Fläche, dieses Mal also <math display="inline"><mfrac><mn>1</mn><mn>1024</mn></mfrac></math>.
 
 ![walking]({{ site.baseurl }}/assets/images/canvas5.png)
 
-Wir machen immer so weiter und bemalen im $$n$$-ten Schritt genau $$\left(\frac{1}{4}\right)^n$$ der Fläche blau.
+Wir machen immer so weiter und bemalen im $$n$$-ten Schritt genau <math display="inline"><msup><mrow><mfenced><mfrac><mn>1</mn><mn>4</mn></mfrac></mfenced></mrow><mi>n</mi></msup></math> der Fläche blau.
 
-Nach jedem Schritt haben wir genau 3 gleich große Quadrate von dem jeweils eins blau und die anderen beiden weiß sind. Im vierten Quadrat findet sich genau das selbe Muster im kleineren Maßstab, auch hier ist wieder eins der Quadrate blau und die anderen beiden weiß. Dieses Muster wiederholt sich unendlich und demnach haben wir am Ende genau $$\frac{1}{3}$$ unserer Leinwand blau angemalt.
-Dieses blaue Muster repräsentiert die inversen Potenzen der Zahl 4 und wir können daraus schließen, dass die Summe der inversen Potenzen von 4 im Grenzwert genau $$\frac{1}{3}$$ ist.
+Nach jedem Schritt haben wir genau 3 gleich große Quadrate von dem jeweils eins blau und die anderen beiden weiß sind. Im vierten Quadrat findet sich genau das selbe Muster im kleineren Maßstab, auch hier ist wieder eins der Quadrate blau und die anderen beiden weiß. Dieses Muster wiederholt sich unendlich und demnach haben wir am Ende genau <math display="inline"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> unserer Leinwand blau angemalt.
+Dieses blaue Muster repräsentiert die inversen Potenzen der Zahl 4 und wir können daraus schließen, dass die Summe der inversen Potenzen von 4 im Grenzwert genau <math display="inline"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> ist.
 
 
 

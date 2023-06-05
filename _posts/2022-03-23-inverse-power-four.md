@@ -25,32 +25,32 @@ and we want to paint <math display="inline"><mfrac><mn>1</mn><mn>4</mn></mfrac><
 
 ![walking]({{ site.baseurl }}/assets/images/canvas1.png)
 
-we would end up with something like this. Now we want to paint another $$\frac{1}{16}$$ blue
+we would end up with something like this. Now we want to paint another <math display="inline"><mfrac><mn>1</mn><mn>16</mn></mfrac></math> blue
 
 ![walking]({{ site.baseurl }}/assets/images/canvas2.png)
 
-and this would be the resulting look. So we additionally painted $$\frac{1}{4}$$-th of $$\frac{1}{4}$$-th of the original canvas. We continue with $$\frac{1}{64}$$:
+and this would be the resulting look. So we additionally painted <math display="inline"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>-th of <math display="inline"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>-th of the original canvas. We continue with <math display="inline"><mfrac><mn>1</mn><mn>64</mn></mfrac></math>:
 
 ![walking]({{ site.baseurl }}/assets/images/canvas3.png)
 
-We paint then $$\frac{1}{64} \times \frac{1}{4} = \frac{1}{256}$$.
+We paint then <math display="inline"><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>&times;</mo><mfrac><mn>1</mn><mn>64</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>256</mn></mfrac></math>.
 
 ![walking]({{ site.baseurl }}/assets/images/canvas4.png)
 
-After that we paint blue another $$\frac{1}{1024}$$
+After that we paint blue another <math display="inline"><mfrac><mn>1</mn><mn>1024</mn></mfrac></math>
 
 ![walking]({{ site.baseurl }}/assets/images/canvas5.png)
 
-and we can go so on, painting blue the $$\left(\frac{1}{4}\right)^n$$ of the surface.
+and we can go so on, painting blue the <math display="inline"><msup><mrow><mfenced><mfrac><mn>1</mn><mn>4</mn></mfrac></mfenced></mrow><mi>n</mi></msup></math> of the surface.
 
 Now notice how we have 3 equally divided squares after each step. Notice also how from each of these squares only one
-of them is painted blue, meaning we have 3 times identical pattern occurring and only one of them $$\frac{1}{3}$$ is blue coloured.
+of them is painted blue, meaning we have 3 times identical pattern occurring and only one of them <math display="inline"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> is blue coloured.
 The blue pattern represents the sum of inverse power of four, and so we can conclude that the sum of inverse power of 4 converges to
-$$\frac{1}{3}$$.
+<math display="inline"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>.
 
 
 ### Try it yourself
-Use the slider below to see how the pattern converges to the above-mentioned value for different values of $$n$$.
+Use the slider below to see how the pattern converges to the above-mentioned value for different values of <math display="inline"><mi>n</mi></math>.
 
 <div id="observablehq-6c0f974d">
   <div class="observablehq-viewof-levels"></div>
