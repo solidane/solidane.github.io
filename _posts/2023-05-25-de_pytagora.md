@@ -17,7 +17,7 @@ Dieser Satz hat zahlreiche Anwendungen unter anderem in Ingenieurswissenschaften
 
 ### Visualisieren wir ein Beispiel
 Wir malen ein rechtwinkliges Dreieck und errichten an seinen Seiten Quadrate:
-- $$3$$ $$\times$$ $$3$$-Quadrat an der vertikalen Seite
+- $$3 \times 3$$-Quadrat an der vertikalen Seite
 - $$4 \times 4$$-Quadrat an der horizontalen Seite
 - $$5 \times 5$$-Quadrat an der Hypotenuse
 

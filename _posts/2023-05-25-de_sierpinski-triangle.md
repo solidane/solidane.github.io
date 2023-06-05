@@ -43,7 +43,7 @@ Wir visualisieren den Prozess und benutzen den Schieber, um den Konstruktionspro
 Das Chaosspiel ist eine Methode um Fraktale mithilfe von Polygonen zu generieren.
 
 Wir erklären die Regeln am Beispiel eines gleichseitigen Dreiecks. Dieses hat drei Eckpunkte $$A$$, $$B$$ und $$C$$. Wir starten das Chaosspiel an einem zufälligen Punkt $$P_1$$ im Inneren des Dreiecks. Um die Position des nächsten Punkts $$P_2$$ zu bestimmen, wählen wir zufällig einen der drei Eckpunkte des Dreiecks und legen den Punkt $$P_2$$ in die Mitte zwischen $$P_1$$ und dem zufällig ausgewählten Eckpunkt.
-Wir wiederholen diesen Prozess und malen jeden Punkt auf.
+Wir wiederholen diesen Prozess und malen jeden Punkt auf. $$a^2 \times b^2= \frac{c}{1+d^2}$$ \\[a^2\\]
 
 Einige Bereiche des Dreiecks werden in späteren Schritten unerreichbar. Diese leeren Flächen entsprechen genau den Flächen, die wir aus dem Sierpinski-Dreieck herausgeschnitten haben.
 So formen die Punkte nach und nach das Fraktal.
