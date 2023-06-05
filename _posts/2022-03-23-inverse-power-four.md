@@ -11,7 +11,7 @@ sequence.
 Based on the amount of objects in the sequence
 - If we are dealing with a <span style="color: red;">*finite*</span> sequence, meaning we have a limited
 number of elements in a sequence, the sum of that sequence would also be a <span style="color: red;">*finite*</span>
-series.  **Example**: [The sum of $$n$$ odd integers](https://visualproofs.github.io/series/algebra/2022/04/15/n-odd-numbers.html) and [Gauss Summation](https://visualproofs.github.io/series/2022/05/12/gauss.html)
+series.  **Example**: [The sum of <math display="inline"><mfrac><mi>n</mi></math> odd integers](https://visualproofs.github.io/series/algebra/2022/04/15/n-odd-numbers.html) and [Gauss Summation](https://visualproofs.github.io/series/2022/05/12/gauss.html)
 - In the other hand a <span style="color: red;">*infinite*</span> series is the result of adding up a <span style="color: red;">*infinite*</span>
 sequence of numbers. Through use of limit we can determine if a infinite series
 converges or diverges. **Example**: look below
@@ -21,7 +21,7 @@ Okay, so we are on a task. We have this empty, square Canvas,
 
 ![walking]({{ site.baseurl }}/assets/images/canvas.png)
 
-and we want to paint $$\frac{1}{4}$$ of it blue
+and we want to paint <math display="inline"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> of it blue
 
 ![walking]({{ site.baseurl }}/assets/images/canvas1.png)
 

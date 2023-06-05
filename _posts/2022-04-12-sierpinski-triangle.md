@@ -5,15 +5,15 @@ author: solida
 categories: Fractals
 image: assets/images/sptriangle.png
 ---
-Fractals are irregular geometric shapes hat have the same degree of irregularity on all scales. 
-In other words a fractal is a pattern, whereas you zoom in, similar patterns appear at all smaller scales. Fractals can be thought of as never-ending patterns.
-They are capable of describing many irregularly shaped objects or spatially nonuniform phenomena in nature such as coastlines and mountain ranges.
+Fractals are irregular geometric shapes that have the same degree of irregularity on all scales. 
+In other words a fractal is a pattern, where when you zoom in, similar patterns appear at all smaller scales. Fractals can be thought of as never-ending patterns.
+They are capable of describing many irregularly shaped objects or spatially non-uniform phenomena in nature such as coastlines and mountain ranges.
 
 
 ## Now that we know what fractals are, what is the Sierpinski's fractal?
-One of the most well known examples of fractals is the Sierpinski triangle. The easiest way to construct such a triangle is by starting with n initial, equilateral triangle. We then divide into 4 congruent copies and remove the center copy to construct a first approximation denoted that consists of three triangles. We then proceed recursively, defining by applying this same procedure to all triangles. 
+One of the most well known examples of fractals is the Sierpinski triangle. The easiest way to construct such a triangle is by starting with <math display="inline"><mi>n</mi></math> initial, equilateral triangle. We then divide into 4 congruent copies and remove the center copy to construct a first approximation denoted that consists of three triangles. We then proceed recursively, defining by applying this same procedure to all triangles. 
 
-Wacław Sierpiński was the first mathematician to think about the properties of this triangle, but this pattern is to be found in artwork, patterns, and mosaics many centuries earlier like to be seen in the pictures below:
+[Wacław Sierpiński (1828-1969 AD)](https://en.wikipedia.org/wiki/Wac%C5%82aw_Sierpi%C5%84ski) was the first mathematician to think about the properties of this triangle, but this pattern is to be found in artwork, patterns, and mosaics many centuries earlier like to be seen in the pictures below:
 
 ![walking]({{ site.baseurl }}/assets/images/collage.jpg)
 
@@ -55,7 +55,7 @@ These areas form a fractal pattern. Only the first steps can reach these areas, 
 
 Click on the button start to generate a such triangle.
 You can restart to regenerate the triangle differently.
-Clicking on clear initializes start to 0
+Clicking on Clear will reset the simulation.
 <div id="observablehq-a077419d">
   <div class="observablehq-viewof-start"></div>
   <div class="observablehq-viewof-clear"></div>
