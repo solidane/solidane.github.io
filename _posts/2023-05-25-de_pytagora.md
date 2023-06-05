@@ -27,7 +27,7 @@ Nach dem Satz sollten die kleineren Quadrate zusammen exakt genauso groß sein w
 
 ##### Ist das in unserem Beispiel der Fall?
 Schauen wir es uns an! Zähle die Anzahl der kleinen Quadrate und überprüfe, ob in den beiden kleineren Quadrate zusammen genauso viele sind wie im größeren.
-Wenn du richtig gezählt hast, solltest du $$9+16=25$$ herausbekommen.
+Wenn du richtig gezählt hast, solltest du 9+16=25 herausbekommen.
 
 ### Versuch es selbst
 Spiele mit den Werten für <math display="inline"><mi>a</mi></math> und <math display="inline"><mi>b</mi></math> herum und schau dir an, warum der Satz gilt:
