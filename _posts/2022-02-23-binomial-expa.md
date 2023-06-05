@@ -22,7 +22,7 @@ we could use.</p>
 
 ### Expansion with Pascal's Triangle
 
-Pascal's triangle was named after the famous and revolutionary french mathematician of the *17th* century [Blaise Pascal](https://en.wikipedia.org/wiki/Blaise_Pascal)
+Pascal's triangle was named after the famous and revolutionary french mathematician of the 17th century [Blaise Pascal (1623-1662 AD)](https://en.wikipedia.org/wiki/Blaise_Pascal)
 and it is a visual representation in the form a triangular array of the binomial coefficients (a polynomial with two terms). This pattern was known and practiced in the far and near east centuries before the western world.
 
 #### How to construct a such triangle
@@ -31,8 +31,8 @@ and it is a visual representation in the form a triangular array of the binomial
 
 #### How to expand with the help of the triangle?
 Given  <math display="inline"><mrow><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msup><mo form="postfix" stretchy="false">)</mo><mi>n</mi></msup></mrow></math>
-for any power  n  you can write out the expansion using the coefficients from the triangle. 
-Note that to write the coefficients for any power $$n$$, you need to look at row $$n+1$$ to find the coefficients.
+for any power <math display="inline"><mi>n</mi></math> you can write out the expansion using the coefficients from the triangle. 
+Note that to write the coefficients for any power <math display="inline"><mi>n</mi></math>, you need to look at row <math display="inline"><mi>n</mi><mo>+</mo><mn>1</mn></math> to find the coefficients.
 
 <div id="observablehq-c7e957ce">
   <div class="observablehq-viewof-values"></div>

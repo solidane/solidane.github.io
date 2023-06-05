@@ -98,7 +98,6 @@ Use the slider below to see how the pattern converges to the above-mentioned val
         <mi>∞</mi>
       </munderover>
     </mrow>
-    <msup>
     <mrow>
     <mo stretchy="false" form="prefix">(</mo>
     <mfrac>
@@ -107,7 +106,8 @@ Use the slider below to see how the pattern converges to the above-mentioned val
     </mfrac>
     <mo stretchy="false" form="prefix">)</mo>
     </mrow>
-      <mi>i</mi>
+    <msup>
+    <mi>i</mi>
     </msup>
     <mo>=</mo>
     <mfrac>
