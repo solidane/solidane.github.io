@@ -1,54 +1,53 @@
 ---
 layout: post
 title:  "Die Summe von n ungeraden Zahlen"
-author: solida
+author: moritz
 categories: [Series, Algebra]
 image: assets/images/oddn.jpg
 
 ---
-The scope of odd numbers includes all of the integers, who have a remainder of one when divided by two.
-With $$n$$ being an integer, the general form of an odd number would be $$2n-1$$, and such numbers would be: 1, 3, 5, 7, 9, 11, 13...
+Ungerade Zahlen sind alle ganzen Zahlen, die beim Teilen durch 2 einen Rest lassen.
+Für eine natürliche Zahl <math display="inline"><mi>n</mi></math> hat die <math display="inline"><mi>n</mi></math>-te natürliche Zahl die Form <math display="inline"><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></math>. Das gibt uns dann die bekannte Folge 1, 3, 5, 7, 9, 11, ...
 
-The sum of $$n$$ odd integers is nothing else but the summation (adding up) of a series of odd numbers starting 
-from 1 up to a certain $$n$$. 
+Nun die Frage: Was ist die Summe der ersten <math display="inline"><mi>n</mi></math> ungeraden Zahlen?
 
-## Discovering patterns
+## Muster entdecken
 
-Let's start small and sum up:
-- the first 2 odd numbers. 1 + 3 = 4   
-- the first 3 odd numbers: 1 + 3 + 5 = 9 
-- the first 4 odd numbers: 1 + 3 + 5 + 7 = 16
+Starten wir mit ein paar kleinen Beispielen
+- die Summer der ersten beiden ungeraden Zahlen: 1 + 3 = 4   
+- die Summe der ersten drei ungeraden Zahlen: 1 + 3 + 5 = 9 
+- die Summe der ersten vier ungeraden Zahlen: 1 + 3 + 5 + 7 = 16
 
-#### Do you see a pattern emerging? 
-If you haven't noticed so far, that pattern says that if we add the first $$n$$ odd numbers then the result is <math display="inline"> <msup> <mi>n</mi> <mn>2</mn> </msup> </math>. 
-We might be up to something, if this pattern holds?
+#### Siehst du das Muster? 
+Falls es dir noch nicht aufgefallen ist: Es sieht so aus als wäre die Summe der ersten <math display="inline"><mi>n</mi></math> ungeraden Zahlen genau <math display="inline"> <msup> <mi>n</mi> <mn>2</mn> </msup> </math>. 
+Können wir zeigen, dass dieses Muster auch für größere Summen gilt?
 
-#### Are the sums of odd numbers related to square numbers?
-Up to this point the pattern holds and seems to be promising, but we still have to reassure us that this is not some kind of coincidence.
+#### Hängt die Summe von ungeraden Zahlen mit den Quadratzahlen zusammen?
+Das Muster hält bereits für die ersten drei Beispiele, aber wir müssen noch zeigen, dass es auch allgemein gilt und nicht einfach ein Zufall war.
 
-Let's think about ways you can represent square numbers. A trivial and very logical candidate would be a square cause of equivalent lengths of width and height.
+Überlegen wir mal, wie wir die <math display="inline"><mi>n</mi></math>-te Quadratzahl darstellen können. Natürlich mit einem Quadrat, dessen Breite und Höhe genau <math display="inline"><mi>n</mi></math> enstpricht.
 
-Now let's take for instance the first 2 odd numbers 1 and 3, and let's represent them as sets of squares:
+Nehmen wir also die ersten beiden ugneraden Zahlen, 1 und 3, und fügen sie zu einem Quadrat zusammen:
 
 ![walking]({{ site.baseurl }}/assets/images/4cube.png)
 
-Since we are looking for a visual representation of <math display="inline"> <msup> <mi>2</mi> <mn>2</mn> </msup> </math>, in this case the most useful representation of 4 blocks would be this:
+Da wir nach einem Quadrat für die zweite Quadratzahl <math display="inline"> <msup> <mi>2</mi> <mn>2</mn> </msup> </math> suchen, können wir die 4 Blöcke wie folgt zusammenfügen:
 
 ![walking]({{ site.baseurl }}/assets/images/4cube2.png)
 
-This can clearly be derived from the surface area of the square.
+Das passt tatsächlich, schließlich besteht unser Quadrat mit Breit 2 aus genau 4 Blöcken.
 
-Let's add the next odd number, 5, to the existing blocks.
+Fügen wir nun die nächste ugnerade Zahl, 5, zu unseren Blöcken hinzu.
 ![walking]({{ site.baseurl }}/assets/images/45Cubes.png)
 
-If we try to fit it in one square, it would look something like this:
+Wenn wir versuchen alles zu einem Quadrat zu ergänzen, sieht es wie folgt aus.
 ![walking]({{ site.baseurl }}/assets/images/9cube.png)
 
-To get to the next odd number we just have to add 2 to the previous odd number and to get to the next square, we always need 2 more blocks than before. Although we only illustrated for $$n = 3$$,we can see that this pattern holds!
+Wenn wir die nächste ungerade Zahl haben wollen, müssen wir 2 zur letzten ungeraden Zahl addieren. Gleichzeitig brauchen wir in jedem Schritt zwei Blöcke mehr, um zum nächst-größeren Quadrat zu gelangen. Obwohl wir diese Idee nur für <math display="inline"><mi>n</mi><mo>=</mo><mn>3</mn></math> aufgemalt haben, bleibt dieses Muster auch für größere Zahlen bestehen!
 
-### Try it yourself
+### Versuch es selbst
 
-Use the slider below to test it for different values of $$n$$.
+Benutze den Schieber um verschiedene Werte für <math display="inline"><mi>n</mi></math> auszuprobieren.
 <div id="observablehq-98f591e4">
   <div class="observablehq-viewof-n"></div>
   <div class="observablehq-aba"></div>
@@ -63,23 +62,19 @@ Use the slider below to test it for different values of $$n$$.
     if (name === "sumOfOdd") return Inspector.into("#observablehq-98f591e4 .observablehq-sumOfOdd")();
   });
 </script>
-## Mathematical form
 
-The formula to calculate this pattern is:
+## Die Mathematik dahinter
+
+Die Formel zu diesem Muster lautet:
 
 <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
   <mrow>
-    <msub>
-      <mi>S</mi>
-      <mi>n</mi>
-    </msub>
-    <mo>=</mo>
     <munderover>
       <mo>∑</mo>
       <mrow>
         <mi>i</mi>
         <mo>=</mo>
-        <mn>0</mn>
+        <mn>1</mn>
       </mrow>
       <mi>n</mi>
     </munderover>
@@ -87,7 +82,7 @@ The formula to calculate this pattern is:
       <mo stretchy="true" form="prefix">(</mo>
       <mn>2</mn>
       <mi>i</mi>
-      <mo>+</mo>
+      <mo>-</mo>
       <mn>1</mn>
       <mo stretchy="true" form="postfix">)</mo>
     </mrow>
