@@ -16,7 +16,7 @@ Beispiele:
 ### Was ist die Fibonacci-Folge?
 Die **Fibonacci-Folge** ist eine Folge von Zahlen, wobei jedes Element als die Summe seiner beiden Vorgänger definiert ist. Normalerweise definieren wir die ersten beiden Elemente der Folge als 0 und 1, aber auch andere Starts sind möglich. Eine Folge mit diesem Anfang sähe wie folgt aus: 0, 1, 1, 2, 3, 5, 8, 13, ...
 
-Die Fibonacci-Zahlen wurden von indischen Mathematikern bereits 200 v.Chr. entdeckt, aber zum ersten Mal vom italienischen Mathematiker [Leonardo of Pisa (1170-1240 n. Chr.)](https://de.wikipedia.org/wiki/Leonardo_Fibonacci) im 13. Jahrhundert eingeführt.
+Die Fibonacci-Zahlen wurden von indischen Mathematikern bereits 200 v.Chr. entdeckt, aber zum ersten Mal vom italienischen Mathematiker [Leonardo von Pisa (1170-1240 n. Chr.)](https://de.wikipedia.org/wiki/Leonardo_Fibonacci) im 13. Jahrhundert eingeführt.
 
 Die Fibonacci-Folge erscheint in der Natur sehr häufig. Die Blüten von Blumen, Fruchständen von Pflanzen, Muscheln oder Orkane folgen zumeist dem Muster der Fibonacci-Zahlen.
 Anwendung findet diese berühmte Folge in verschiedensten Bereichen von Computerwissenschaften bis zu Fotografie, wo sie eng mit dem Phänomen des [Goldenen Schnitts](https://de.wikipedia.org/wiki/Goldener_Schnitt) verwandt ist.
@@ -57,7 +57,7 @@ Wenn wir nun die längere Seitelänge des Rechtecks durch die kürzere dividiere
 - <math display="inline"><mrow><mn>55</mn><mo lspace="0.2222em" rspace="0.2222em">&divide;</mo><mn>34</mn><mo>=</mo><mn>1,6176</mn></mrow></math>
 - <math display="inline"><mrow><mn>89</mn><mo lspace="0.2222em" rspace="0.2222em">&divide;</mo><mn>55</mn><mo>=</mo><mn>1,61818</mn></mrow></math>
 
-Je größer unsere Rechtecke werden, desto näher kommen wir einem Wert von rund 1,618, der auch als goldener Schnitt bekannt ist.
+Je größer unsere Rechtecke werden, desto näher kommen wir einem Wert von rund 1,618034..., der auch als goldener Schnitt bekannt ist.
 ### Versuch es selbst
 
 Nutze den Schieber und untersuche wie das Rechteck anwächst.
@@ -77,7 +77,7 @@ Nutze den Schieber und untersuche wie das Rechteck anwächst.
 </script>
 
 ### Die Mathematik dahinter
-Die Formeln, um die Fibonacci-Folge zu generieren, lauten:
+Die Formeln, um die Fibonacci-Folge zu generieren, lauten
 
 <math display="block">
   <mrow>
@@ -126,4 +126,4 @@ und
   </mrow>
 </math>
 
-für <math display="inline"><mi>n</mi><mo>></mo><mn>1</mn></math>
+für <math display="inline"><mi>n</mi><mo>></mo><mn>1</mn></math>.

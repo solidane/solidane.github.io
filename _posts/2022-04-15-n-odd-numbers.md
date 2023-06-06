@@ -65,17 +65,12 @@ Use the slider below to test it for different values of <math display="inline"><
   });
 </script>
 
-## Mathematical form
+### The math behind it
 The formula to calculate this pattern is:
 
 <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
   <mrow>
-    <msub>
-      <mi>S</mi>
-      <mi>n</mi>
-    </msub>
-    <mo>=</mo>
-    <munderover>
+   <munderover>
       <mo>∑</mo>
       <mrow>
         <mi>i</mi>

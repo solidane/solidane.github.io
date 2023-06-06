@@ -49,7 +49,7 @@ Spiele mit den Werten für <math display="inline"><mi>a</mi></math> und <math di
 </script>
 
 ### Die Mathematik dahinter
-Die Gleichung im Satz des Pythagoras lautet:
+Die Gleichung im Satz des Pythagoras lautet
 <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
   <mrow>
     <msup>

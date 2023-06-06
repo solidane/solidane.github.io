@@ -27,10 +27,8 @@ Das Pascalsche Dreieck hat seinen Namen dank des berühmten und revolutionären 
 - Jede weitere Zahl ergibt sich als die Summe der beiden Zahlen schräg links und schräg rechts über ihr.
 
 #### Wie kann man diesen Dreieck für polynomielle Erweiterung benutzen?
-#### How to expand with the help of the triangle?
-Für einen beliebigen Exponennten <math display="inline"><mi>n</mi></math> können wir den Ausdruck  <math display="inline"><mrow><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msup><mo form="postfix" stretchy="false">)</mo><mi>n</mi></msup></mrow></math>
-<math display="inline"><mrow><mo form="prefix" stretchy="false">n</mrow></math> mithilfe der Koeffizienten im Dreieck umschreiben. 
-Um die richtigen Koeffizienten für den Ausdruck <math display="inline"><mrow><mo form="prefix" stretchy="false">n</mrow></math> zu erhalten, müssen wir uns die <math display="inline"><mrow><mo form="prefix" stretchy="false">n+1</mrow></math>-te Reihe ansehen.
+Für einen beliebigen Exponennten <math display="inline"><mi>n</mi></math> können wir den Ausdruck  <math display="inline"><mrow><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msup><mo form="postfix" stretchy="false">)</mo><mi>n</mi></msup></mrow></math> mithilfe der Koeffizienten im Dreieck umschreiben. 
+Um die richtigen Koeffizienten für den Ausdruck <math display="inline"><mrow><mo form="prefix" stretchy="false">n</mrow></math> zu erhalten, müssen wir uns die <math display="inline"><mrow><mo form="prefix" stretchy="false"><mi>n</mi><mo>+</mo><mn>1</mn></mrow></math>-te Reihe ansehen.
 
 <div id="observablehq-c7e957ce">
   <div class="observablehq-viewof-values"></div>
@@ -146,6 +144,7 @@ Wie du dir bestimmt gedacht hast, nutzen wir dafür ein Quadrat. Demnach ist das
 Durch die Konstruktion eines solchen Quadrats können wir sehen, in welche kleineren Flächen sich das größere Quadrat aufteilen lässt: <math display="inline"><msup><mi>a</mi><mn>2</mn></msup></math>, <math display="inline"><msup><mi>b</mi><mn>2</mn></msup></math> and <math display="inline"><mrow><mn>2</mn><mi>a</mi><mi>b</mi></mrow></math>
 Das beweist die folgende algebraische Identität:
 <math display="block"><mrow><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msup><mo form="postfix" stretchy="false">)</mo><mn>2</mn></msup><mo>=</mo><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo form="postfix" stretchy="false">)</mo><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo form="postfix" stretchy="false">)</mo><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></mrow></math>
+
 ### Versuch es selbst
 
 Benutze den Schieber um verschiedene Werte für <math display="inline"><mrow><mo form="prefix" stretchy="false"><mi>n</mi></mrow></math> auszuprobieren.
