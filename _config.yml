@@ -29,7 +29,7 @@ authors:
     display_name: Solida Neziri
     avatar: 'assets/images/sl.JPEG'
     email: solida@students.uni-marburg.de
-    description: "You are currently witnessing a CS Student trying to navigate through her B.Thesis."
+    description: "Solida studied Computer Science at Philipps-Universität Marburg"
   georges:
     name: Georges Hattab
     display_name: Georges Hattab
@@ -39,7 +39,7 @@ authors:
     name: Moritz Weckbecker
     display_name: Moritz Weckbecker
     email: weckbeckerm@rki.de
-    description: "A funny placeholder quote about me"
+    description: "Moritz is a researcher at the Robert Koch-Institute for Artifical Intelligence and Visualization"
 # Social
 social:
   instagram: https://www.instagram.com/solidaneziri/
