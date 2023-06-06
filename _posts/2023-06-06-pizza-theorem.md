@@ -52,7 +52,7 @@ There are these long and thin slices, one on each side of the four shapes we jus
 
 Next to the thin slices, we have the bits that look like triangles. Again, there are eight of them, foru belong to me and four are yours. Dinner time!
 
-<pic>
+-Picture-
 
 We continue this way, always finding kongruent shapes. There are eight of these shapes…
 
