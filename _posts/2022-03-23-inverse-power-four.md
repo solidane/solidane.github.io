@@ -104,9 +104,9 @@ Use the slider below to see how the pattern converges to the above-mentioned val
       <mn>1</mn>
       <mn>4</mn>
     </mfrac>
+    <mo stretchy="false" form="prefix">)</mo>
     </mrow>
     <msup>
-      <mo stretchy="false" form="prefix">)</mo>
       <mi>i</mi>
     </msup>
     <mo>=</mo>
