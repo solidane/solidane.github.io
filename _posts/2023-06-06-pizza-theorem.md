@@ -54,7 +54,7 @@ Next to the thin slices, we have the bits that look like triangles. Again, there
 
 -Picture-
 
-We continue this way, always finding kongruent shapes. There are eight of these shapes…
+We continue this way, always finding congruent shapes. There are eight of these shapes…
 
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-g-alt.png)
 
@@ -88,11 +88,11 @@ Then, both of us get one large trapezoid…
 
 …and finally one thinner trapezoid.
 
-![walking]({{ site.baseurl }}/assets/images/pizza-sketch-t-alt.png)
+![walking]({{ site.baseurl }}/assets/images/pizza-sketch-t.png)
 
 And that’s it. We ate the entire pizza and in every step, we both got the same slices!
 
-![walking]({{ site.baseurl }}/assets/images/pizza-sketch-u-alt.png)
+![walking]({{ site.baseurl }}/assets/images/pizza-sketch-u.png)
 
 ## Try it yourself
 Include: Here you can control the cuts yourself! w. GeoGebra
