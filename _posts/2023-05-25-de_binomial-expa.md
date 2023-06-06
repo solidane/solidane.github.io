@@ -5,7 +5,7 @@ author: moritz
 categories: Algebra
 image: assets/images/poexe.png
 ---
-Ein **Polynom** ist ein mathematischer Ausdruck, der aus Variablen, Konstanten und Exponenten besteht, welche durch mathematische Operationen wie Addieren, Subtrahieren, Multiplizieren oder Division durch Konstanten zusammengefügt wurden. 
+Ein **Polynom** ist ein mathematischer Ausdruck, der aus Variablen, Konstanten und Exponenten besteht, welche durch mathematische Operationen wie Addieren, Subtrahieren, Multiplizieren oder Dividieren durch Konstanten zusammengefügt wurden. 
 Eine **Erweiterung** eines Produkts von Summen nutzt das sogenannte Distributivgesetz der Multiplikation und Addition um das Produkt von Summen anders darzustellen. Wir sagen dazu auch **ausmultiplizieren**.
 
 Nachdem wir diese beiden Begriffe eingeführt haben, können wir die folgende Frage beantworten:
@@ -20,7 +20,7 @@ Diesen gesamten Ausdruck viermal per Hand auszumultiplizieren dauert sehr lange.
 <p>Glücklicherweise gibt es dabei einige Muster, die wir uns zu Nutze machen können.</p>
 
 ### Erweiterung mithilfe des Pascalschen Dreiecks Expansion with Pascal's Triangle
-Das Pascalsche Dreieck hat seinen Namen dank des berühmten und revolutionären französischen Mathematiker [Blaise Pascal (1623-1662 n. Chr.)](https://de.wikipedia.org/wiki/Blaise_Pascal). Hier werden in Form eines Dreiecks sogenannte Binomialkoeffizienten dargestellt, die essentiell für das Ausmultiplizieren von Polynomen sind. Dieses Muster war der östlichen Welt schon lang bekannt, bevor es im Westen entdeck wurde.
+Das Pascalsche Dreieck hat seinen Namen dank des berühmten und revolutionären französischen Mathematiker [Blaise Pascal (1623-1662 n. Chr.)](https://de.wikipedia.org/wiki/Blaise_Pascal). Hier werden in Form eines Dreiecks sogenannte Binomialkoeffizienten dargestellt, die essentiell für das Ausmultiplizieren von Polynomen sind. Dieses Muster war der östlichen Welt schon lang bekannt, bevor es im Westen entdeckt wurde.
 
 #### Wie konstruiert man dieses Dreieck?
 - Das Dreieck startet mit einer 1 auf der linken und rechten Seite
@@ -28,7 +28,7 @@ Das Pascalsche Dreieck hat seinen Namen dank des berühmten und revolutionären 
 
 #### Wie kann man diesen Dreieck für polynomielle Erweiterung benutzen?
 Für einen beliebigen Exponennten <math display="inline"><mi>n</mi></math> können wir den Ausdruck  <math display="inline"><mrow><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msup><mo form="postfix" stretchy="false">)</mo><mi>n</mi></msup></mrow></math> mithilfe der Koeffizienten im Dreieck umschreiben. 
-Um die richtigen Koeffizienten für den Ausdruck <math display="inline"><mrow><mo form="prefix" stretchy="false">n</mrow></math> zu erhalten, müssen wir uns die <math display="inline"><mrow><mo form="prefix" stretchy="false"><mi>n</mi><mo>+</mo><mn>1</mn></mrow></math>-te Reihe ansehen.
+Um die richtigen Koeffizienten für den Ausdruck <math display="inline"><mrow><mi>n</mi></mrow></math> zu erhalten, müssen wir uns die <math display="inline"><mrow><mo form="prefix" stretchy="false"><mi>n</mi><mo>+</mo><mn>1</mn></mrow></math>-te Reihe ansehen.
 
 <div id="observablehq-c7e957ce">
   <div class="observablehq-viewof-values"></div>

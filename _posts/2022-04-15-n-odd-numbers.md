@@ -21,7 +21,7 @@ Let's start small and sum up:
 - the first 4 odd numbers: 1 + 3 + 5 + 7 = 16
 
 #### Do you see a pattern emerging? 
-If you haven't noticed so far, that pattern says that if we add the first n odd numbers then the result is <math display="inline"> <msup> <mi>n</mi> <mn>2</mn> </msup> </math>. 
+If you haven't noticed so far, that pattern says that if we add the first <math display="inline"> <mi>n</mi></math> odd numbers then the result is <math display="inline"> <msup> <mi>n</mi> <mn>2</mn> </msup> </math>. 
 We might be up to something, if this pattern holds?
 
 #### Are the sums of odd numbers related to square numbers?
