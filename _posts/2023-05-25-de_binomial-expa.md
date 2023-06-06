@@ -28,7 +28,7 @@ Das Pascalsche Dreieck hat seinen Namen dank des berühmten und revolutionären 
 
 #### Wie kann man diesen Dreieck für polynomielle Erweiterung benutzen?
 Für einen beliebigen Exponennten <math display="inline"><mi>n</mi></math> können wir den Ausdruck  <math display="inline"><mrow><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msup><mo form="postfix" stretchy="false">)</mo><mi>n</mi></msup></mrow></math> mithilfe der Koeffizienten im Dreieck umschreiben. 
-Um die richtigen Koeffizienten für den Ausdruck <math display="inline"><mrow><mi>n</mi></mrow></math> zu erhalten, müssen wir uns die <math display="inline"><mrow><mo form="prefix" stretchy="false"><mi>n</mi><mo>+</mo><mn>1</mn></mrow></math>-te Reihe ansehen.
+Um die richtigen Koeffizienten für den Ausdruck <math display="inline"><mrow><mi>n</mi></mrow></math> zu erhalten, müssen wir uns die <math display="inline"><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></math>-te Reihe ansehen.
 
 <div id="observablehq-c7e957ce">
   <div class="observablehq-viewof-values"></div>
@@ -137,7 +137,7 @@ Jetzt zeigen und beweisen wir euch, wie man Polynome vom zweiten Grad erweitern 
 #### Kannst du das Muster erkennen?
 <span style="color: red;">*Spoiler:*</span> Schau dir den Beitrag zu [der Summe von <math display="inline"><mi>n</mi></math> ungeraden Zahlen](https://visualproofs.github.io/series/algebra/2023/05/25/de_n-odd-numbers.html) an und sieht, wie wir dort Quadratzahlen darstellen.
 
-Wie du dir bestimmt gedacht hast, nutzen wir dafür ein Quadrat. Demnach ist das Quadrat der Summe zweier Variablen <math display="inline"><mrow><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msup><mo form="postfix" stretchy="false">)</mo><mn>2</mn></msup> </mrow> </math> nichts anderes als die Fläche eines Quadrats mit Höhe und Breite <math display="inline"><mrow><mo form="prefix" stretchy="false"><mi>a</mi><mo>+</mo><mi>b</mi></mrow></math>
+Wie du dir bestimmt gedacht hast, nutzen wir dafür ein Quadrat. Demnach ist das Quadrat der Summe zweier Variablen <math display="inline"><mrow><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msup><mo form="postfix" stretchy="false">)</mo><mn>2</mn></msup> </mrow> </math> nichts anderes als die Fläche eines Quadrats mit Höhe und Breite <math display="inline"><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></math>
 
 ![walking]({{ site.baseurl }}/assets/images/Identity.png)
 
@@ -147,7 +147,7 @@ Das beweist die folgende algebraische Identität:
 
 ### Versuch es selbst
 
-Benutze den Schieber um verschiedene Werte für <math display="inline"><mrow><mo form="prefix" stretchy="false"><mi>n</mi></mrow></math> auszuprobieren.
+Benutze den Schieber um verschiedene Werte für <math display="inline"><mi>n</mi></math> auszuprobieren.
 <div id="observablehq-fc37ba2b">
   <div class="observablehq-viewof-numVars"></div>
   <div class="observablehq-numVars"></div>
