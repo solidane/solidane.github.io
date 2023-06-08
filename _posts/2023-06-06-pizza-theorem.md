@@ -22,7 +22,7 @@ This is also known as the **Pizza theorem**. Who says math isn't useful in the r
 
 ## Proving the pizza theorem
 
-Now, how do we want to prove that your four slices together have the same area as my four slices? After all, they all look completely different. In these scenarios, it can be helpful to add a few more lines to your geometric construction - or cuts to your pizza - to create more shapes which clearly have the same area. We call two shapes **congruent**, which have the exact same form, size and area. A good way to create kongruent shapes is by using symmetries, for example by mirroring some lines. That’s exactly what we are doing. We take the cuts that we made and shift them to the center of the pizza. Mirroring the cutting point along those lines give us an octagon (in black).
+Now, how do we want to prove that your four slices together have the same area as my four slices? After all, they all look completely different. In these scenarios, it can be helpful to add a few more lines to your geometric construction - or cuts to your pizza - to create more shapes which clearly have the same area. We call two shapes **congruent**, which have the exact same form, size and area. A good way to create kongruent shapes is by using symmetries, for example by mirroring some lines. That’s exactly what we are doing. We take the cuts that we made and shift them to the center of the pizza (shown in red). Mirroring the cutting point along those lines give us an octagon (in black).
 
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-mirror.png){:style="width: 60%"}
 
@@ -46,11 +46,11 @@ Let’s see what’s next.
 
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-c-alt.png){:style="width: 60%"}
 
-There are these long and thin slices, one on each side of the four shapes we just ate. So we have eight in total and again, four of them are yours and four are mine. Bon appetit!
+There are these thicker slices, one on each side of the four shapes we just ate. So we have eight in total and again, four of them are yours and four are mine. Bon appetit!
 
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-e-alt.png){:style="width: 60%"}
 
-Next to the thin slices, we have the bits that look like triangles. Again, there are eight of them, foru belong to me and four are yours. Dinner time!
+Next to the thicker slices, we have the bits that look like triangles. Again, there are eight of them, four belong to me and four are yours. Dinner time!
 
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-f-alt.png){:style="width: 60%"}
 
