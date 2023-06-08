@@ -38,6 +38,7 @@ authors:
   moritz:
     name: Moritz Weckbecker
     display_name: Moritz Weckbecker
+    avatar: 'assets/images/moritz.png'
     email: weckbeckerm@rki.de
     description: "Moritz is a researcher at the Robert Koch-Institute for Artifical Intelligence and Visualization"
 # Social
