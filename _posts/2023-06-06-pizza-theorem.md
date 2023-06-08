@@ -24,7 +24,7 @@ This is also known as the **Pizza theorem**. Who says math isn't useful in the r
 
 Now, how do we want to prove that your four slices together have the same area as my four slices? After all, they all look completely different. In these scenarios, it can be helpful to add a few more lines to your geometric construction - or cuts to your pizza - to create more shapes which clearly have the same area. We call two shapes **congruent**, which have the exact same form, size and area. A good way to create kongruent shapes is by using symmetries, for example by mirroring some lines. That’s exactly what we are doing. We take the cuts that we made and shift them to the center of the pizza. Mirroring the cutting point along those lines give us an octagon (in black).
 
-![walking]({{ site.baseurl }}/assets/images/pizza-sketch-mirror.png){:style="width: 87%"}
+![walking]({{ site.baseurl }}/assets/images/pizza-sketch-mirror.png){:style="width: 60%"}
 
 If we also mirror the cuts we have made earlier, we get the following cut up pizza.
 
