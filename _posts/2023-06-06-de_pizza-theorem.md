@@ -5,11 +5,11 @@ author: moritz
 categories: Geometry
 image: assets/images/pizza.jpg
 ---
-Hey, ich hab was für dich…
+Hey, ich hab uns was mitgebracht…
 
 ![walking]({{ site.baseurl }}/assets/images/pizza-above.jpg){:style="width: 60%"}
 
-Ich habe eine Pizza mitgebracht, die wir uns teilen können! Wer mag schon Mathe auf leeren Magen? Ich muss sie nur kurz in Stücke schneiden...
+Ich habe eine Pizza gekauft, die wir uns teilen können! Wer mag schon Mathe auf leeren Magen? Ich muss sie nur kurz in Stücke schneiden...
 
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-1.png){:style="width: 60%"}
 -One more picture merging pizza to circle-
