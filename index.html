@@ -23,27 +23,23 @@ background: '/img/bg-index.jpg'
 
 <!-- Featured
 ================================================== -->
-<h2>English Posts</h2>
-<ul>
+<div class="col-md-4 mb-5">
+  <h2>English Posts</h2>
   {% for post in site.posts %}
     {% if post.path contains '/en/' %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
+      {% include postbox.html %}
     {% endif %}
   {% endfor %}
-</ul>
+</div>
 
-<h2>German Posts</h2>
-<ul>
+<div class="col-md-4 mb-5">
+  <h2>German Posts</h2>
   {% for post in site.posts %}
     {% if post.path contains '/de/' %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
+      {% include postbox.html %}
     {% endif %}
   {% endfor %}
-</ul>
+</div>
 
 <!-- Posts List with Sidebar (except featured)
 ================================================== -->
