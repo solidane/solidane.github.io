@@ -47,12 +47,12 @@ background: '/img/bg-index.jpg'
   <div class="col-sm-12">
     <div class="row">
       {% for post in paginator.posts %}
-      {% unless post.featured == true %}
+      {% if post.path contains '/de/' %}
       <div class="col-md-4 mb-3">
         {% include postbox.html %}
       </div>
       {% endunless %}
-      {% endfor %}
+      {% endif %}
     </div>
     <!-- Pagination -->
     <div class="bottompagination">
