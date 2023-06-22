@@ -4,6 +4,7 @@ title:  "Die Summe von n ungeraden Zahlen"
 author: moritz
 categories: [Series, Algebra]
 image: assets/images/oddn.jpg
+lang: de
 
 ---
 Ungerade Zahlen sind alle ganzen Zahlen, die beim Teilen durch 2 einen Rest lassen.

@@ -4,7 +4,7 @@ title:  "The sum of n odd integers"
 author: solida
 categories: [Series, Algebra]
 image: assets/images/oddn.jpg
-
+lang: en
 ---
 
 The scope of odd numbers includes all of the integers, who have a remainder of one when divided by two.

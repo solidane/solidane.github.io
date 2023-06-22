@@ -4,6 +4,7 @@ title:  "Die Summe negativer Potenzen von 4"
 author: moritz
 categories: [Series, Fractals]
 image: assets/images/powerofi4.png
+lang: de
 ---
 In der Mathematik ist eine **Reihe** definiert als die Summe der Elemente einer zugehörigen Folge, also schlicht eine Summe von Zahlen.
 Je nachdem wie viele Elemente die Folge besitzt, nennen wir die Reihe

@@ -4,6 +4,7 @@ title:  "Der Satz des Pythagoras"
 author: moritz
 categories: Geometry
 image: assets/images/pytagora.jpeg
+lang: de
 ---
 [Pythagoras von Samos (570-495 v. Chr.)](https://de.wikipedia.org/wiki/Pythagoras) war ein einflussreicher griechischer Philosoph der Antike, dessen Arbeit verschiedenste Felder von Musik und Philosophie bis hin zu Astronomie und Mathematik revolutionierte - auch wenn du ihn vermutlich nur vom berühmten Satz des Pythagoras kennst. 
 

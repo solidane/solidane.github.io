@@ -4,6 +4,7 @@ title:  "Sum of inverse powers of four"
 author: solida
 categories: [Series, Fractals]
 image: assets/images/powerofi4.png
+lang: en
 ---
 In mathematics, a **series** is the sum of the several numbers, or elements of a
 sequence. 

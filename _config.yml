@@ -8,8 +8,9 @@ favicon: 'assets/images/circle.ico'
 author: Solida Neziri
 paginate: 30
 disqus: 'demowebsite'
-locale: en_us
-lang: en_us
+locale: en
+lang: en
+permalink: /:categories/:year/:month/:day/:title/
 feed_items: 10
 feed_update_period: daily
 feed_update_frequency: 1

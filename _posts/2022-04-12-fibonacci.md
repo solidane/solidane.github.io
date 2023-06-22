@@ -4,6 +4,7 @@ title:  "Fibonacci Sequence"
 author: solida
 categories: Series
 image: assets/images/fibospi.jpg
+lang: en
 ---
 A **sequence** is in mathematics a list of numbers or objects that are in a certain <span style="color: purple;">*order*</span>, where repetition is allowed. Sequences
 are called <span style="color: red;">*finite*</span>, if they have a limited number of objects and oppositely <span style="color: red;">*infinite*</span>.

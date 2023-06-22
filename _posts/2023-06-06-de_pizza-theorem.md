@@ -4,6 +4,7 @@ title:  "Pizza Theorem"
 author: moritz
 categories: Geometry
 image: assets/images/pizza.jpg
+lang: de
 ---
 Hey, ich hab uns was mitgebracht…
 

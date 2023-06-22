@@ -4,6 +4,7 @@ title:  "Polynomial expansion"
 author: solida
 categories: Algebra
 image: assets/images/poexe.png
+lang: en
 ---
 A **polynomial** is defined as an expression which is made of variables, constants and exponents, that are merged 
 using the mathematical operations such as addition, subtraction, multiplication and division (No division operation by a variable).

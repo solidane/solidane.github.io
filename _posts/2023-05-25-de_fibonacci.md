@@ -4,6 +4,7 @@ title:  "Fibonacci-Folge"
 author: moritz
 categories: Series
 image: assets/images/fibospi.jpg
+lang: de
 ---
 Eine **Folge** ist eine Liste von Zahlen oder Objekten in einer bestimmten <span style="color: purple;">*Reihenfolge*</span>, wobei Wiederholungen von Objekten erlaubt sind. Wir nennen Folgen <span style="color: red;">*endlich*</span>, wenn sie eine endliche Anzahl an Objekten umfassen. Sonst nennen wir sie <span style="color: red;">*unendlich*</span>.
 
