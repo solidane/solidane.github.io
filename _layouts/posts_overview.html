@@ -1,0 +1,22 @@
+---
+title: "Posts Overview"
+layout: default
+permalink: "/posts_overview.html"
+---
+{% for lang in site.lang %}
+<h4 class="mt-5 mb-4 pb-2 border-bottom" id="{{ lang[0] | replace: " ","-" }}"><span class="text-capitalize small font-weight-bold">In "{{ lang[0] }}"</span></h4>
+<div class="row">
+{% assign pages_list = lang[1] %}
+{% for post in pages_list %}
+{% if post.title != null %}
+{% if group == null or group == post.group %}
+<div class="col-md-4 mb-5">
+{% include postbox.html %}
+</div>
+{% endif %}
+{% endif %}
+{% endfor %}
+{% assign pages_list = nil %}
+{% assign group = nil %}
+</div>
+{% endfor %}
