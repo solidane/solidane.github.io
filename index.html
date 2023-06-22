@@ -38,23 +38,15 @@ background: '/img/bg-index.jpg'
 ================================================== -->
 <section class="row">
   <div class="col-sm-12">
-    {% for category in site.categories %}
-    <h4 class="mt-5 mb-4 pb-2 border-bottom" id="{{ category[0] | replace: " ","-" }}"><span class="text-capitalize small font-weight-bold">In "{{ category[0] }}"</span></h4>
     <div class="row">
-      {% assign pages_list = category[1] %}
-      {% for post in pages_list %}
-      {% if post.title != null %}
-      {% if group == null or group == post.group %}
-        <div class="col-md-4 mb-5">
+      {% for post in paginator.posts %}
+      {% unless post.featured == true %}
+      <div class="col-md-4 mb-3">
         {% include postbox.html %}
-        </div>
-      {% endif %}
-      {% endif %}
+      </div>
+      {% endunless %}
       {% endfor %}
-      {% assign pages_list = nil %}
-      {% assign group = nil %}
     </div>
-    {% endfor %}
     <!-- Pagination -->
     <div class="bottompagination">
       <span class="navigation" role="navigation">
