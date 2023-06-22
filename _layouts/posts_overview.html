@@ -3,10 +3,10 @@ title: "Posts Overview"
 layout: default
 permalink: "/posts_overview.html"
 ---
-{% for lang in site.lang %}
-<h4 class="mt-5 mb-4 pb-2 border-bottom" id="{{ lang[0] | replace: " ","-" }}"><span class="text-capitalize small font-weight-bold">In "{{ lang[0] }}"</span></h4>
+{% for category in ["English posts", "Deutsche Posts"] %}
+<h4 class="mt-5 mb-4 pb-2 border-bottom" id="{{ category[0] | replace: " ","-" }}"><span class="text-capitalize small font-weight-bold">In "{{ category[0] }}"</span></h4>
 <div class="row">
-{% assign pages_list = lang[1] %}
+{% assign pages_list = category[1] %}
 {% for post in pages_list %}
 {% if post.title != null %}
 {% if group == null or group == post.group %}
