@@ -13,6 +13,7 @@ Hey, ich hab uns was mitgebracht…
 Ich habe eine Pizza gekauft, die wir uns teilen können! Wer mag schon Mathe auf leeren Magen? Ich muss sie nur kurz in Stücke schneiden...
 
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-1.png){:style="width: 60%"}
+
 Ups. Das schaut ja gar nicht gut aus! Die Schnitte sind alle schön regelmäßig, so dass alle acht Winkel zwischen den Schnitten genau 45° und damit gleich groß sind. Aber ihr Schnittpunkt liegt nicht im Zentrum der Pizza, so dass alle Stücke ziemlich komisch aussehen. Aber keine Angst: **Wenn wir reihum im Kreise um den Schnittpunkt gehen und wir uns mit den Stücken abwechseln, hat am Ende jeder von uns beiden gleich viel Pizza!**
 
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-filled-alt.png){:style="width: 60%"}
