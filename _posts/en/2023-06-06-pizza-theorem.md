@@ -13,8 +13,6 @@ Hey, I brought something for us…
 I’ve bought a pizza for us two to share! I mean, who can do math with an empty stomach. Now, I only need to cut it into slices..
 
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-1.png){:style="width: 60%"}
--One more picture merging pizza to circle-
-
 Oops. Now that doesn’t look nice at all! I made all the cuts nice and regular so that the eight angles between the cuts are equally spaced and form a 45° angle. But I didn’t hit the center of the pizza at all, so now all the slices look really weird. But don’t worry: **If we go round the circle, you take every second slice and I take the rest, we will have exactly the same amount of pizza!**
 
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-filled-alt.png){:style="width: 60%"}
