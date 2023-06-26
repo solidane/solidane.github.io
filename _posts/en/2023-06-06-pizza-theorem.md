@@ -95,4 +95,4 @@ And that’s it. We ate the entire pizza and in every step, we both got the same
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-u.png){:style="width: 60%"}
 
 ## Try it yourself
-Include: Here you can control the cuts yourself! w. GeoGebra
+{% include pizza.html %}
