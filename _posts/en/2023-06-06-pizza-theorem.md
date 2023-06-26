@@ -95,4 +95,6 @@ And that’s it. We ate the entire pizza and in every step, we both got the same
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-u.png){:style="width: 60%"}
 
 ## Try it yourself
+Move the cutting point around in the circle and see how the slices change but remain congruent.
+
 {% include pizza.html %}

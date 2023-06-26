@@ -95,4 +95,6 @@ Und das war's! Zusammen haben wir die gesamte Pizza aufgegessen und in jedem St�
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-u.png){:style="width: 60%"}
 
 ## Versuch es selbst
-Include: Here you can control the cuts yourself! w. GeoGebra
+Bewege den Schnittpunkt im Kreis und schau zu, wie sich die Stücke verändern, aber kongruent bleiben.
+
+{% include pizza.html %}
