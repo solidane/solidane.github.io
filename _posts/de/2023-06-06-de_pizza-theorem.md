@@ -95,6 +95,6 @@ Und das war's! Zusammen haben wir die gesamte Pizza aufgegessen und in jedem St�
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-u.png){:style="width: 60%"}
 
 ## Versuch es selbst
-Klick auf den Schnittpunkt und halte ihn gedr체ckt, um ihn im Kreis herumzuziehen. So kannst du sehen, wie sich die St체cke ver채ndern, aber kongruent bleiben.
+Klick auf den Schnittpunkt und halte ihn gedr체ckt, um ihn im Kreis herumzuziehen. So kannst du sehen, wie sich die St체cke ver채ndern. Findest du die St체cke, die kongruent zueinander sind?
 
 {% include pizza.html %}
