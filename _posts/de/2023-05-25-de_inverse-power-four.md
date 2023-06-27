@@ -99,10 +99,11 @@ Nutze den Schieber um zu sehen, wie sich der Malprozess mit jedem Schritt dem ge
       <mn>1</mn>
       <mn>4</mn>
     </mfrac>
-    <mo stretchy="false" form="prefix">)</mo>
     <msup>
-      <mi>i</mi>
+    <mo stretchy="false" form="prefix">)</mo>  
+    <mi>i</mi>
     </msup>
+    </mrow>
     <mo>=</mo>
     <mfrac>
       <mn>1</mn>
