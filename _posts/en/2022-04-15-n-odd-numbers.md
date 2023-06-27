@@ -6,8 +6,6 @@ categories: [Series, Algebra]
 image: assets/images/oddn.jpg
 lang: en
 ---
-{% include reading-time.html %}
-
 The scope of odd numbers includes all of the integers, who have a remainder of one when divided by two.
 With <math display="inline"><mi>n</mi></math> being an integer, the general form of an odd number would be <math display="inline"><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></math>, and such numbers would be: 1, 3, 5, 7, 9, 11, 13...
 

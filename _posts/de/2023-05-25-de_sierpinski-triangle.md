@@ -6,8 +6,6 @@ categories: Fractals
 image: assets/images/sptriangle.png
 lang: de
 ---
-{% include reading-time.html %}
-
 Fraktale sind unregelmäßige, selbstähnliche geometrische Formen. Das heißt Fraktale bestehen aus Mustern, in welche man unendlich reinzoomen und immer wieder das selbe Muster auf kleinerer Ebene immer entdecken kann. 
 Sie können viele unregelmäßig geformte Objekte oder Phenomene in der Natur wie Küsten oder Bergketten beschreiben.
 
