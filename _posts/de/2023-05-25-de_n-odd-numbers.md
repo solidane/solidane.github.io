@@ -7,6 +7,8 @@ image: assets/images/oddn.jpg
 lang: de
 
 ---
+{% include reading-time.html %}
+
 Ungerade Zahlen sind alle ganzen Zahlen, die beim Teilen durch 2 einen Rest lassen.
 Für eine natürliche Zahl <math display="inline"><mi>n</mi></math> hat die <math display="inline"><mi>n</mi></math>-te natürliche Zahl die Form <math display="inline"><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></math>. Das gibt uns dann die bekannte Folge 1, 3, 5, 7, 9, 11, ...
 

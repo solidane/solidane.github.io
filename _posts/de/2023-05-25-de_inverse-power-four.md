@@ -6,6 +6,8 @@ categories: [Series, Fractals]
 image: assets/images/powerofi4.png
 lang: de
 ---
+{% include reading-time.html %}
+
 In der Mathematik ist eine **Reihe** definiert als die Summe der Elemente einer zugehörigen Folge, also schlicht eine Summe von Zahlen.
 Je nachdem wie viele Elemente die Folge besitzt, nennen wir die Reihe
 - <span style="color: red;">*endlich*</span>, wenn die zugehörige Folge endlich ist, das heißt wenn wir nur eine endliche Anzahl an Zahlen zusammenaddieren. Ein Beispiel dafür ist die [die Summe der ersten <math display="inline"><mi>n</mi></math> ungeraden Zahlen](https://visualproofs.github.io/series/algebra/2023/05/25/de_n-odd-numbers.html) und [die Gaußsche Summenformel](https://visualproofs.github.io/series/2023/05/25/de_gauss.html).

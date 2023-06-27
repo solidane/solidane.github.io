@@ -6,6 +6,8 @@ categories: [Series, Fractals]
 image: assets/images/powerofi4.png
 lang: en
 ---
+{% include reading-time.html %}
+
 In mathematics, a **series** is the sum of the several numbers, or elements of a
 sequence. 
 

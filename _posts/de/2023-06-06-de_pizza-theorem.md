@@ -6,6 +6,8 @@ categories: Geometry
 image: assets/images/pizza.jpg
 lang: de
 ---
+{% include reading-time.html %}
+
 Hey, ich hab uns was mitgebracht…
 
 ![walking]({{ site.baseurl }}/assets/images/pizza-above.jpg){:style="width: 60%"}

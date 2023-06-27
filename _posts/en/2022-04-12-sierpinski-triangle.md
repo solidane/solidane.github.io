@@ -6,6 +6,8 @@ categories: Fractals
 image: assets/images/sptriangle.png
 lang: en
 ---
+{% include reading-time.html %}
+
 Fractals are irregular geometric shapes that have the same degree of irregularity on all scales. 
 In other words a fractal is a pattern, where when you zoom in, similar patterns appear at all smaller scales. Fractals can be thought of as never-ending patterns.
 They are capable of describing many irregularly shaped objects or spatially non-uniform phenomena in nature such as coastlines and mountain ranges.
