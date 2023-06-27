@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-de
 title:  "Die Summe negativer Potenzen von 4"
 author: moritz
 categories: [Series, Fractals]

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-de
 title:  "Sierpinski-Dreieck"
 author: moritz
 categories: Fractals

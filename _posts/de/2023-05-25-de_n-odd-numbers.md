@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-de
 title:  "Die Summe von n ungeraden Zahlen"
 author: moritz
 categories: [Series, Algebra]

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-de
 title:  "Fibonacci-Folge"
 author: moritz
 categories: Series

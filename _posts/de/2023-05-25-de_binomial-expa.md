@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-de
 title:  "Polynomielle Erweiterung"
 author: moritz
 categories: Algebra

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-de
 title:  "Pizza Theorem"
 author: moritz
 categories: Geometry
