@@ -10,7 +10,7 @@ Hey, I brought something for us…
 
 ![walking]({{ site.baseurl }}/assets/images/pizza-above.jpg){:style="width: 60%"}
 
-I’ve bought a pizza for us two to share! I mean, who can do math with an empty stomach. Now, I only need to cut it into slices..
+I’ve bought a pizza for us two to share! Who can do math with an empty stomach? Now, I only need to cut it into slices..
 
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-1.png){:style="width: 60%"}
 
@@ -22,11 +22,11 @@ This is also known as the **Pizza theorem**. Who says math isn't useful in the r
 
 ## Proving the pizza theorem
 
-Now, how do we want to prove that your four slices together have the same area as my four slices? After all, they all look completely different. In these scenarios, it can be helpful to add a few more lines to your geometric construction - or cuts to your pizza - to create more shapes which clearly have the same area. We call two shapes **congruent**, which have the exact same form, size and area. A good way to create kongruent shapes is by using symmetries, for example by mirroring some lines. That’s exactly what we are doing. We take the cuts that we made and shift them to the center of the pizza (shown in red). Mirroring the cutting point along those lines give us an octagon (in black).
+Now, how do we want to prove that your four slices together have the same area as my four slices? After all, they all look completely different. In these scenarios, it can be helpful to add a few more lines to your geometric construction - or cuts to your pizza - to create more shapes which clearly have the same area. We call two shapes **congruent** if they have the exact same form, size and area. A good way to create congruent shapes is by using symmetries, for example by mirroring some lines. That’s exactly what we are going to do! We take the cuts that we made and shift them to the center of the pizza (shown in red). Mirroring the cutting point along those lines give us an octagon (in black).
 
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-mirror.png){:style="width: 60%"}
 
-If we also mirror the cuts we have made earlier, we get the following cut up pizza.
+If we also mirror the cuts we have made earlier, we get the following cut-up pizza.
 
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-2-alt.png){:style="width: 60%"}
 

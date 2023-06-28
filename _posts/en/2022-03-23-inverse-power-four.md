@@ -6,51 +6,49 @@ categories: [Series, Fractals]
 image: assets/images/powerofi4.png
 lang: en
 ---
-In mathematics, a **series** is the sum of the several numbers, or elements of a
-sequence. 
+In mathematics, a **series** is the sum of several numbers, of which there may be finitely or even infinitely many. All the numbers, which we sum over, form a so-called **sequence**.
 
-Based on the amount of objects in the sequence
+How many elements are in the sequence?
 - If we are dealing with a <span style="color: red;">*finite*</span> sequence, meaning we have a limited
-number of elements in a sequence, the sum of that sequence would also be a <span style="color: red;">*finite*</span>
+number of elements we sum over, the sum of that sequence is a <span style="color: red;">*finite*</span>
 series.  **Example**: [The sum of <math display="inline"><mi>n</mi></math> odd integers](https://visualproofs.github.io/series/algebra/2022/04/15/n-odd-numbers.html) and [Gauss Summation](https://visualproofs.github.io/series/2022/05/12/gauss.html)
-- In the other hand a <span style="color: red;">*infinite*</span> series is the result of adding up a <span style="color: red;">*infinite*</span>
-sequence of numbers. Through use of limit we can determine if a infinite series
-converges or diverges. **Example**: look below
+- Alternatively, an <span style="color: red;">*infinite*</span> series is the result of adding up an <span style="color: red;">*infinite*</span>
+sequence of numbers. Through the use of limit we can determine if an infinite series
+converges or diverges. Let's look at an example!
 
-### Get your paints and brushes! We are painting in a canvas
-Okay, so we are on a task. We have this empty, square Canvas,
+### Get your paint and brushes! We are painting a canvas
+We start with an empty, square Canvas,
 
 ![walking]({{ site.baseurl }}/assets/images/canvas.png)
 
-and we want to paint <math display="inline"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> of it blue
+and we want to paint <math display="inline"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> of it blue:
 
 ![walking]({{ site.baseurl }}/assets/images/canvas1.png)
 
-we would end up with something like this. Now we want to paint another <math display="inline"><mfrac><mn>1</mn><mn>16</mn></mfrac></math> blue
+So we end up with something like this. Now, we want to paint another <math display="inline"><mfrac><mn>1</mn><mn>16</mn></mfrac></math> blue:
 
 ![walking]({{ site.baseurl }}/assets/images/canvas2.png)
 
-and this would be the resulting look. So we additionally painted <math display="inline"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>-th of <math display="inline"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>-th of the original canvas. We continue with <math display="inline"><mfrac><mn>1</mn><mn>64</mn></mfrac></math>:
+This would be the resulting look. So we additionally painted <math display="inline"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>-th of <math display="inline"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>-th of the original canvas. We continue with <math display="inline"><mfrac><mn>1</mn><mn>64</mn></mfrac></math>:
 
 ![walking]({{ site.baseurl }}/assets/images/canvas3.png)
 
-We paint then <math display="inline"><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>&times;</mo><mfrac><mn>1</mn><mn>64</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>256</mn></mfrac></math>.
+We then paint <math display="inline"><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>&times;</mo><mfrac><mn>1</mn><mn>64</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>256</mn></mfrac></math>.
 
 ![walking]({{ site.baseurl }}/assets/images/canvas4.png)
 
-After that we paint blue another <math display="inline"><mfrac><mn>1</mn><mn>1024</mn></mfrac></math>
+After that we paint blue another <math display="inline"><mfrac><mn>1</mn><mn>1024</mn></mfrac></math>:
 
 ![walking]({{ site.baseurl }}/assets/images/canvas5.png)
 
-and we can go so on, painting blue the <math display="inline"><msup><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow><mi>n</mi></msup></math> of the surface.
+We can go on like this, painting blue <math display="inline"><msup><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow><mi>n</mi></msup></math> of the surface in every step.
 
-Now notice how we have 3 equally divided squares after each step. Notice also how from each of these squares only one
-of them is painted blue, meaning we have 3 times identical pattern occurring and only one of them <math display="inline"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> is blue coloured.
-The blue pattern represents the sum of inverse power of four, and so we can conclude that the sum of inverse power of 4 converges to <math display="inline"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>.
+After every step, we have three identical squares, one of which is painted completely blue and the other two are left blank. In the fourth step, the pattern repeats on a smaller scale, we again have one blue and two white squares. This pattern continues infinitely, so that for every scale there is one blue and two white squares. So overall we have painted <math display="inline"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> of the canvas blue.
+The blue pattern represents the sum of inverse power of four, and so we can conclude that the sum of inverse powers of 4 converges to <math display="inline"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>.
 
 
 ### Try it yourself
-Use the slider below to see how the pattern converges to the above-mentioned value for different values of <math display="inline"><mi>n</mi></math>.
+Use the slider below to see how the painting converges to the above-mentioned pattern for different values of <math display="inline"><mi>n</mi></math>.
 
 <div id="observablehq-6c0f974d">
   <div class="observablehq-viewof-levels"></div>
@@ -110,7 +108,6 @@ Use the slider below to see how the pattern converges to the above-mentioned val
     <mi>i</mi>
     </msup>
     </mrow>
-
     <mo>=</mo>
     <mfrac>
       <mn>1</mn>

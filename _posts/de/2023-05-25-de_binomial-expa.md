@@ -24,8 +24,8 @@ Diesen gesamten Ausdruck viermal per Hand auszumultiplizieren dauert sehr lange.
 Das Pascalsche Dreieck hat seinen Namen dank des berühmten und revolutionären französischen Mathematiker [Blaise Pascal (1623-1662 n. Chr.)](https://de.wikipedia.org/wiki/Blaise_Pascal). Hier werden in Form eines Dreiecks sogenannte Binomialkoeffizienten dargestellt, die essentiell für das Ausmultiplizieren von Polynomen sind. Dieses Muster war der östlichen Welt schon lang bekannt, bevor es im Westen entdeckt wurde.
 
 #### Wie konstruiert man dieses Dreieck?
-- Das Dreieck startet mit einer 1 auf der linken und rechten Seite
-- Jede weitere Zahl ergibt sich als die Summe der beiden Zahlen schräg links und schräg rechts über ihr.
+- Das Dreieck startet mit einer 1 an der Spitze und darunter je eine 1 auf der linken und rechten Seite
+- In den folgenden Reihen ergibt sich jede weitere Zahl als die Summe der beiden Zahlen schräg links und schräg rechts über ihr.
 
 #### Wie kann man diesen Dreieck für polynomielle Erweiterung benutzen?
 Für einen beliebigen Exponennten <math display="inline"><mi>n</mi></math> können wir den Ausdruck  <math display="inline"><mrow><mo form="prefix" stretchy="false">(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msup><mo form="postfix" stretchy="false">)</mo><mi>n</mi></msup></mrow></math> mithilfe der Koeffizienten im Dreieck umschreiben. 
@@ -148,7 +148,7 @@ Das beweist die folgende algebraische Identität:
 
 ### Versuch es selbst
 
-Benutze den Schieber um verschiedene Werte für <math display="inline"><mi>n</mi></math> auszuprobieren.
+Benutze den Schieber, um verschiedene Anzahlen von Variablen auszuprobieren.
 <div id="observablehq-fc37ba2b">
   <div class="observablehq-viewof-numVars"></div>
   <div class="observablehq-numVars"></div>

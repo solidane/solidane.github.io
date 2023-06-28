@@ -36,9 +36,9 @@ Da wir nach einem Quadrat für die zweite Quadratzahl <math display="inline"> <m
 
 ![walking]({{ site.baseurl }}/assets/images/4cube2.png)
 
-Das passt tatsächlich, schließlich besteht unser Quadrat mit Breit 2 aus genau 4 Blöcken.
+Das passt tatsächlich, schließlich besteht unser Quadrat mit Breite 2 aus genau 4 Blöcken.
 
-Fügen wir nun die nächste ugnerade Zahl, 5, zu unseren Blöcken hinzu.
+Fügen wir nun die nächste ungerade Zahl, 5, zu unseren Blöcken hinzu.
 ![walking]({{ site.baseurl }}/assets/images/45Cubes.png)
 
 Wenn wir versuchen alles zu einem Quadrat zu ergänzen, sieht es wie folgt aus.

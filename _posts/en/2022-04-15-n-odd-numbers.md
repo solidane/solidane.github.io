@@ -6,11 +6,11 @@ categories: [Series, Algebra]
 image: assets/images/oddn.jpg
 lang: en
 ---
-The scope of odd numbers includes all of the integers, who have a remainder of one when divided by two.
+Odd numbers are all those integers, who have a remainder of one when divided by two.
 With <math display="inline"><mi>n</mi></math> being an integer, the general form of an odd number would be <math display="inline"><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></math>, and such numbers would be: 1, 3, 5, 7, 9, 11, 13...
 
 The sum of <math display="inline"><mi>n</mi></math> odd integers is nothing else but the summation (adding up) of a series of odd numbers starting 
-from 1 up to a certain <math display="inline"><mi>n</mi></math> or even infinity. 
+from 1 up to a certain <math display="inline"><mi>n</mi></math>. 
 
 ## Discovering patterns
 
@@ -21,14 +21,14 @@ Let's start small and sum up:
 
 #### Do you see a pattern emerging? 
 If you haven't noticed so far, that pattern says that if we add the first <math display="inline"> <mi>n</mi></math> odd numbers then the result is <math display="inline"> <msup> <mi>n</mi> <mn>2</mn> </msup> </math>. 
-We might be up to something, if this pattern holds?
+We might be up to something here, let's check whether this pattern holds.
 
 #### Are the sums of odd numbers related to square numbers?
-Up to this point the pattern holds and seems to be promising, but we still have to reassure that this is not some kind of unorthodox coincidence.
+Up to this point, the pattern seems to be promising, but we still have to reassure us that this is not just some coincidence.
 
-Let's think on ways on how one can represent square numbers. A trivial and very logical candidate would be a square cause of equivalent lengths of width and height.
+Let's think of ways one can represent square numbers. A trivial and very logical candidate would be a square with equal width and height.
 
-Now let's take for instance the first 2 odd numbers 1 and 3, and let's represent them as sets of squares:
+Let's take for instance the first 2 odd numbers 1 and 3, and let's represent them as sets of squares:
 
 ![walking]({{ site.baseurl }}/assets/images/4cube.png)
 
@@ -36,15 +36,15 @@ Since we are looking for a visual representation of <math display="inline"> <msu
 
 ![walking]({{ site.baseurl }}/assets/images/4cube2.png)
 
-Which can clearly be derived from the surface area of the square.
+This perfectly fits as our square of width 2 consists of 4 bricks.
 
-Let's add for instance the next odd number 5 to the existing blocks.
+Let's add the next odd number, 5, to the existing blocks.
 ![walking]({{ site.baseurl }}/assets/images/45Cubes.png)
 
-If it would be to fit in one square, it would look something like this:
+If we try to add it nicely to the first square, it would look something like this:
 ![walking]({{ site.baseurl }}/assets/images/9cube.png)
 
-To get to the next odd number we just have to add 2 to the previous odd number. Similar in this case every layers differs two blocks more or less from the neighbouring ones. Although we only illustrated for <math display="inline"><mi>n</mi><mo>=</mo><mn>3</mn></math>, one can see that this pattern holds!
+To get to the next odd number we just have to add 2 to the previous odd number. Similarly in every step, we need 2 more bricks than before to get to the next square. Although we only illustrated this for <math display="inline"><mi>n</mi><mo>=</mo><mn>3</mn></math>, we can see that this pattern holds!
 
 ### Try it yourself
 
@@ -65,7 +65,7 @@ Use the slider below to test it for different values of <math display="inline"><
 </script>
 
 ### The math behind it
-The formula to calculate this pattern is:
+The formula to calculate this pattern is
 
 <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
   <mrow>
