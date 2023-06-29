@@ -12,7 +12,7 @@ Eine **Erweiterung** eines Produkts von Summen nutzt das sogenannte Distributivg
 Nachdem wir diese beiden Begriffe eingeführt haben, können wir die folgende Frage beantworten:
 
 ### Was ist eine polynomielle Erweiterung?
-Die Erweiterung eines Polynoms ist die Erweiterung eines Polynoms, in der keine der Veriablen in Klammern vorkommt und alle Summanden miteinander kombiniert wurden.
+Die Erweiterung eines Polynoms ist die Erweiterung eines Polynoms, in der keine der Variablen in Klammern vorkommt und alle Summanden miteinander kombiniert wurden.
 
 ## Wie erweitert man ein Polynom?
 
@@ -20,7 +20,7 @@ Falls wir einen oder zwei Ausdrücke haben, die wie ausmultiplizieren sollen, k�
 Diesen gesamten Ausdruck viermal per Hand auszumultiplizieren dauert sehr lange.
 <p>Glücklicherweise gibt es dabei einige Muster, die wir uns zu Nutze machen können.</p>
 
-### Erweiterung mithilfe des Pascalschen Dreiecks Expansion with Pascal's Triangle
+### Erweiterung mithilfe des Pascalschen Dreiecks
 Das Pascalsche Dreieck hat seinen Namen dank des berühmten und revolutionären französischen Mathematiker [Blaise Pascal (1623-1662 n. Chr.)](https://de.wikipedia.org/wiki/Blaise_Pascal). Hier werden in Form eines Dreiecks sogenannte Binomialkoeffizienten dargestellt, die essentiell für das Ausmultiplizieren von Polynomen sind. Dieses Muster war der östlichen Welt schon lang bekannt, bevor es im Westen entdeckt wurde.
 
 #### Wie konstruiert man dieses Dreieck?

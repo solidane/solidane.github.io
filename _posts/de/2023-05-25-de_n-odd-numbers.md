@@ -8,7 +8,7 @@ lang: de
 
 ---
 Ungerade Zahlen sind alle ganzen Zahlen, die beim Teilen durch 2 einen Rest lassen.
-Für eine natürliche Zahl <math display="inline"><mi>n</mi></math> hat die <math display="inline"><mi>n</mi></math>-te natürliche Zahl die Form <math display="inline"><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></math>. Das gibt uns dann die bekannte Folge 1, 3, 5, 7, 9, 11, ...
+Für eine natürliche Zahl <math display="inline"><mi>n</mi></math> hat die <math display="inline"><mi>n</mi></math>-te ungerade Zahl die Form <math display="inline"><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></math>. Das gibt uns dann die bekannte Folge 1, 3, 5, 7, 9, 11, ...
 
 Nun die Frage: Was ist die Summe der ersten <math display="inline"><mi>n</mi></math> ungeraden Zahlen?
 
@@ -28,7 +28,7 @@ Das Muster hält bereits für die ersten drei Beispiele, aber wir müssen noch z
 
 Überlegen wir mal, wie wir die <math display="inline"><mi>n</mi></math>-te Quadratzahl darstellen können. Natürlich mit einem Quadrat, dessen Breite und Höhe genau <math display="inline"><mi>n</mi></math> enstpricht.
 
-Nehmen wir also die ersten beiden ugneraden Zahlen, 1 und 3, und fügen sie zu einem Quadrat zusammen:
+Nehmen wir also die ersten beiden ungeraden Zahlen, 1 und 3, und fügen sie zu einem Quadrat zusammen:
 
 ![walking]({{ site.baseurl }}/assets/images/4cube.png)
 

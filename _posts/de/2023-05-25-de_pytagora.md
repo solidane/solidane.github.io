@@ -10,9 +10,11 @@ lang: de
 
 ![walking]({{ site.baseurl }}/assets/images/pitagora.jpg)
 
-Der Satz des Pythagoras ist ein bekanntest und wegweisendes Theorem der Geometrie. Er besagt, dass in einem rechtwinkligen Dreieck (ein Dreieck mit einem 90°-Winkel) das Quadrat der Hypotenuse (die Seite gegenüber von dem 90°-Winkel) genauso groß ist wie die Fläche der beiden Quadrate über den kürzeren Seiten zusammengenommen.
+Der Satz des Pythagoras ist ein bekanntes und wegweisendes geometrisches Theorem. Es besagt, dass in einem rechtwinkligen Dreieck (ein Dreieck mit einem 90°-Winkel) das Quadrat der Hypotenuse (die Seite gegenüber von dem 90°-Winkel) genauso groß ist wie die Fläche der beiden Quadrate über den kürzeren Seiten zusammengenommen.
 
 Dieser Satz hat zahlreiche Anwendungen unter anderem in Ingenieurswissenschaften, Gesichtserkennung in Überwachungskameras, Navigationssystemen, etc...
+
+Dann schauen wir mal, ob wir den Satz beweisen können!
 
 **Zu zeigen:** In einem Dreieck mit einem rechten Winkel (90°-Winkel) hat das Quadrat über der längeren Seite die selbe Fläche wie die beiden Quadrate über der kürzeren Seite zusammen!
 

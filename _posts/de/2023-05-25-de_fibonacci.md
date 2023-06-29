@@ -17,10 +17,10 @@ Beispiele:
 ### Was ist die Fibonacci-Folge?
 Die **Fibonacci-Folge** ist eine Folge von Zahlen, wobei jedes Element als die Summe seiner beiden Vorgänger definiert ist. Normalerweise definieren wir die ersten beiden Elemente der Folge als 0 und 1, aber auch andere Starts sind möglich. Eine Folge mit diesem Anfang sähe wie folgt aus: 0, 1, 1, 2, 3, 5, 8, 13, ...
 
-Die Fibonacci-Zahlen wurden von indischen Mathematikern bereits 200 v.Chr. entdeckt, aber zum ersten Mal vom italienischen Mathematiker [Leonardo von Pisa (1170-1240 n. Chr.)](https://de.wikipedia.org/wiki/Leonardo_Fibonacci) im 13. Jahrhundert eingeführt.
+Die Fibonacci-Zahlen wurden von indischen Mathematikern bereits 200 v. Chr. entdeckt, aber zum ersten Mal vom italienischen Mathematiker [Leonardo von Pisa (1170-1240 n. Chr.)](https://de.wikipedia.org/wiki/Leonardo_Fibonacci) im 13. Jahrhundert eingeführt.
 
-Die Fibonacci-Folge erscheint in der Natur sehr häufig. Die Blüten von Blumen, Fruchständen von Pflanzen, Muscheln oder Orkane folgen zumeist dem Muster der Fibonacci-Zahlen.
-Anwendung findet diese berühmte Folge in verschiedensten Bereichen von Computerwissenschaften bis zu Fotografie, wo sie eng mit dem Phänomen des [Goldenen Schnitts](https://de.wikipedia.org/wiki/Goldener_Schnitt) verwandt ist.
+Die Fibonacci-Folge erscheint in der Natur sehr häufig. Die Blüten von Blumen, Fruchständen von Pflanzen, Muscheln oder Orkane folgen dem Muster der Fibonacci-Zahlen.
+Anwendung findet diese berühmte Folge in verschiedensten Bereichen von Computerwissenschaften bis zu Fotografie, wo sie eng mit dem Phänomen des [Goldenen Schnitts](https://de.wikipedia.org/wiki/Goldener_Schnitt) zusammenhängt.
 
 Tausende von bezaubernden Mustern ergeben sich durch die Fibonacci-Folge.
 

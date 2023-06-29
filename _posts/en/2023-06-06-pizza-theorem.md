@@ -95,6 +95,6 @@ And that’s it. We ate the entire pizza and in every step, we both got the same
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-u.png){:style="width: 60%"}
 
 ## Try it yourself
-Grab and move the cutting point around in the circle and see how if you can find the congruent slices.
+Grab and move the cutting point around in the circle and see if you can find the congruent slices.
 
 {% include pizza.html %}

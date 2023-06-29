@@ -14,7 +14,7 @@ Ich habe eine Pizza gekauft, die wir uns teilen können! Wer mag schon Mathe auf
 
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-1.png){:style="width: 60%"}
 
-Ups. Das schaut ja gar nicht gut aus! Die Schnitte sind alle schön regelmäßig, so dass alle acht Winkel zwischen den Schnitten genau 45° und damit gleich groß sind. Aber ihr Schnittpunkt liegt nicht im Zentrum der Pizza, so dass alle Stücke ziemlich komisch aussehen. Aber keine Angst: **Wenn wir reihum im Kreise um den Schnittpunkt gehen und wir uns mit den Stücken abwechseln, hat am Ende jeder von uns beiden gleich viel Pizza!**
+Ups. Das schaut ja gar nicht gut aus! Die Schnitte sind alle schön regelmäßig, so dass alle acht Winkel zwischen den Schnitten genau 45° und damit gleich groß sind. Aber ihr Schnittpunkt liegt nicht im Zentrum der Pizza, deshalb sehen alle Stücke ziemlich komisch aus. Aber keine Angst: **Wenn wir reihum im Kreis um den Schnittpunkt gehen und wir uns mit den Stücken abwechseln, hat am Ende jeder von uns beiden gleich viel Pizza!**
 
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-filled-alt.png){:style="width: 60%"}
 
@@ -42,11 +42,11 @@ Perfekt! Wir haben vier solche Stücke, alle vier perfekte Spiegelbilder voneina
 
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-b-alt.png){:style="width: 60%"}
 
-Was ist als Nächstes dran?
+Was ist als nächstes dran?
 
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-c-alt.png){:style="width: 60%"}
 
-Hier sind diese dickeren Stücke, jeweils eins links und rechts von den Stücken, die wir gerade gegessen haben. Also gibt es daovn insgesamt acht, und wieder vier für dich und vier für mich. Bon appetit!
+Hier sind diese dickeren Stücke, jeweils eins links und rechts von den Stücken, die wir gerade gegessen haben. Also gibt es davon insgesamt acht, und wieder vier für dich und vier für mich. Bon appetit!
 
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-e-alt.png){:style="width: 60%"}
 

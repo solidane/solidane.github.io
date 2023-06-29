@@ -7,7 +7,7 @@ image: assets/images/sptriangle.png
 lang: de
 ---
 Fraktale sind unregelmäßige, selbstähnliche geometrische Formen. Das heißt Fraktale bestehen aus Mustern, in welche man unendlich reinzoomen und immer wieder das selbe Muster auf kleinerer Ebene immer entdecken kann. 
-Sie können viele unregelmäßig geformte Objekte oder Phenomene in der Natur wie Küsten oder Bergketten beschreiben.
+Sie können viele unregelmäßig geformte Objekte oder Phänomene in der Natur wie Küsten oder Bergketten beschreiben.
 
 ## Jetzt wo wir Fraktale kennen, was ist das Sierpinski-Dreieck?
 Eins der bekanntesten Fraktale ist das sogenannnte Sierpinski-Dreieck. Die einfachste Art der Konstruktion funktioniert so: Man starte mit einem gleichseitigen Dreieck, was man in vier gleich große gleichseitige Dreiecke zerteilt. Nun entfernen wir das mittlere Dreieck, sodass nur noch drei Dreiecke übrig bleiben. Diese unterteilen wir nun wiederum in je vier kleinere Dreiecke und entfernen das mittlere. So verfahren wir rekursiv weiter und wenden das selbe Verfahren für alle Dreiecke an.
