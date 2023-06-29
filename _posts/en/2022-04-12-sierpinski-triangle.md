@@ -11,7 +11,7 @@ In other words a fractal is a pattern, where when you zoom in, similar patterns 
 They are capable of describing many irregularly shaped objects or spatially non-uniform phenomena in nature such as coastlines and mountain ranges.
 
 
-## Now that we know what fractals are, what is the Sierpinski's fractal?
+## Now that we know what fractals are, what is the Sierpinski triangle?
 One of the most well known examples of fractals is the Sierpinski triangle. The easiest way to construct such a triangle is by starting with an initial, equilateral triangle. We then divide this triangle into 4 smaller equiliteral triangles and remove the center copy to construct a shape that consists of three triangles. This is called the first approximation of the Sierpinski triangle. We then proceed recursively by applying this same procedure to these triangles, which creates smaller triangles to which we again apply this procedure and so forth. 
 
 [Wacław Sierpiński (1828-1969 AD)](https://en.wikipedia.org/wiki/Wac%C5%82aw_Sierpi%C5%84ski) was the first mathematician to think about the properties of this triangle, but this pattern is to be found in artwork, patterns, and mosaics many centuries earlier as in the pictures below:
