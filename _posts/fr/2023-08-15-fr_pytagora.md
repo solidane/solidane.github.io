@@ -6,7 +6,7 @@ categories: Geometry
 image: assets/images/pytagora.jpeg
 lang: fr
 ---
-[Pythagore de Samos (570-495 av. J.-C.)] (https://fr.wikipedia.org/wiki/Pythagore) était un philosophe grec très influent, dont les travaux ont contribué à de nombreux domaines tels que la musique, la philosophie, l'astronomie et les mathématiques.
+[Pythagore de Samos (570-495 av. J.-C.)](https://fr.wikipedia.org/wiki/Pythagore) était un philosophe grec très influent, dont les travaux ont contribué à de nombreux domaines tels que la musique, la philosophie, l'astronomie et les mathématiques.
 a contribué à de nombreux domaines tels que la musique, la philosophie, l'astronomie et les mathématiques, ces dernières incluant le célèbre théorème de Pythagore.
 
 ![walking]({{ site.baseurl }}/assets/images/pitagora.jpg)
@@ -21,8 +21,8 @@ Ce théorème a de nombreuses applications, notamment dans les domaines de l'ing
 ### Visualisons l'énoncé ci-dessus
 Nous dessinons un triangle rectangle et à côté des côtés du triangle, nous dessinons des carrés : 
 - Un <math display="inline"><mn>3</mn><mo>&times;</mo><mn>3</mn></math> carré pour la hauteur (côté)
-- Un <math display="inline"><mn>4</mn><mo>&fois;</mo><mn>4</mn></math> carré pour la largeur (côté)
-- Un <math display="inline"><mn>5</mn><mo>&fois;</mo><mn>5</mn></math> carré pour l'hypoténuse. 
+- Un <math display="inline"><mn>4</mn><mo>&times;</mo><mn>4</mn></math> carré pour la largeur (côté)
+- Un <math display="inline"><mn>5</mn><mo>&times;</mo><mn>5</mn></math> carré pour l'hypoténuse. 
 
 ![walking]({{ site.baseurl }}/assets/images/pyta.png)
 

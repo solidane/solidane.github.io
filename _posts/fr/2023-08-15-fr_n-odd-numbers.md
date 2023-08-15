@@ -10,7 +10,7 @@ Les nombres impairs sont tous les entiers qui ont un reste de un lorsqu'ils sont
 Si <math display="inline"><mi>n</mi></math> est un nombre entier, la forme générale d'un nombre impair serait <math display="inline"><mn>2</mn><mi>n</mi><mo>-</mo><mn>1</mn></math>, et de tels nombres seraient : 1, 3, 5, 7, 9, 11, 13...
 
 La somme des <math display="inline"><mi>n</mi></math> entiers impairs n'est rien d'autre que la sommation (l'addition) d'une série de nombres impairs commençant à 1 jusqu'à un certain <math display="inline"><mi>n</mi></math>. 
-à partir de 1 jusqu'à un certain <math display="inline"><mi>n</mi></math>. 
+
 
 ## Découvrir des modèles
 

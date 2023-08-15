@@ -12,8 +12,8 @@ Les séquences sont dites <span style="color: red;">*finies*</span> si elles ont
 Examples:
 - {1, 2, 3, 4, ...} - est une <span style="color: red;">*infinite*</span> suite d'entiers naturels
 - {2, 4, 6, 8, 10} - est une <span style="color: red;">*finite*</span> suite des <span style="color: purple;">*cinq premiers*</span> nombre pairs
-- {Z, Y, X, W, V} - est une <span style="color: red;">*finite*</span> suite de <span style="color: purple;">*cinq les cinq dernières*</span>  lettres de l'alphabet anglais.
-- {X, O, X, O, ...} - est une <span style="color: red;">*infinite*</span> séquence de X et O dans un ordre<span style="color: purple;">*alterné*</span>.
+- {Z, Y, X, W, V} - est une <span style="color: red;">*finite*</span> suite de <span style="color: purple;">*les cinq dernières*</span>  lettres de l'alphabet anglais.
+- {X, O, X, O, ...} - est une <span style="color: red;">*infinite*</span> séquence de X et O dans un ordre <span style="color: purple;">*alterné*</span>.
 
 ### Comment la suite de Fibonacci est-elle définie ?
 La **séquence de Fibonacci** est une suite de nombres, où chaque nombre est déterminé comme la somme des deux précédents. 
@@ -24,7 +24,7 @@ Les nombres de Fibonacci ont été mentionnés par des mathématiciens indiens d
 
 Les nombres de Fibonacci apparaissent très souvent dans le monde naturel. Le nombre de pétales d'une fleur, les têtes de graines, les coquillages et même les ouragans suivent souvent des schémas conformes aux nombres de Fibonacci.
 Cette célèbre séquence trouve des applications dans de nombreux départements, de l'informatique à la photographie, où elle est également fortement corrélée à ce que l'on appelle le "nombre de Fibonacci".
-fortement corrélée à ce que nous appelons le [nombre d'or] (https://fr.wikipedia.org/wiki/Nombre_d%27or). 
+fortement corrélée à ce que nous appelons le [nombre d'or](https://fr.wikipedia.org/wiki/Nombre_d%27or). 
 
 Les nombres de Fibonacci sont à l'origine de nombreux modèles numériques magnifiques.
 
@@ -35,14 +35,14 @@ Les nombres de Fibonacci sont à l'origine de nombreux modèles numériques magn
 Commençons par placer deux <math display="inline"><mn>1</mn><mo>&times;</mo><mn>1</mn></math> carrés l'un à côté de l'autre. 
 ![walking]({{ site.baseurl }}/assets/images/fib1.png)
 
-Nous obtenons ainsi un <math display="inline"><mn>1</mn><mo>&fois;</mo><mn>2</mn></math> rectangle. En dessous, plaçons un <math display="inline"><mn>2</mn><mo>&fois;</mo><mn>2</mn></math> carré pour que les longueurs des côtés adjacents correspondent.
+Nous obtenons ainsi un <math display="inline"><mn>1</mn><mo>&times;</mo><mn>2</mn></math> rectangle. En dessous, plaçons un <math display="inline"><mn>2</mn><mo>&times;</mo><mn>2</mn></math> carré pour que les longueurs des côtés adjacents correspondent.
 ![walking]({{ site.baseurl }}/assets/images/fib2.png)
 
 Et à côté, un <math display="inline"><mn>3</mn><mo>&times;</mo><mn>3</mn></math> carré
 ![walking]({{ site.baseurl }}/assets/images/fib3.png)
-En dessous, un <math display="inline"><mn>5</mn><mo>&fois;</mo><mn>5</mn></math> carré
+En dessous, un <math display="inline"><mn>5</mn><mo>&times;</mo><mn>5</mn></math> carré
 ![walking]({{ site.baseurl }}/assets/images/fib5.png)
-Nous avons maintenant créé un rectangle géant. Laissez-moi maintenant vous poser une question :
+Nous avons maintenant créé un rectangle géant. Laissez-moi maintenant vous poser une question:
 
 ##### Quelle est l'aire du rectangle final ?
 La réponse la plus triviale serait la somme des aires de tous les carrés à l'intérieur du rectangle. Mais comme il s'agit d'un rectangle 
@@ -56,7 +56,7 @@ Si nous continuons ainsi, nous générerons des rectangles des formes suivantes 
 - <math display="inline"><mrow><mn>34</mn><mo>&times;</mo><mn>55</mn></mrow></math>
 - <math display="inline"><mrow><mn>55</mn><mo>&times;</mo><mn>89</mn></mrow></math>
 
-En divisant la longueur du côté le plus grand par la longueur du côté le plus petit, on obtient.. :
+En divisant la longueur du côté le plus grand par la longueur du côté le plus petit, on obtient:
 - <math display="inline"><mrow><mn>13</mn><mo lspace="0.2222em" rspace="0.2222em">&divide;</mo><mn>8</mn><mo>=</mo><mn>1.625</mn></mrow></math>
 - <math display="inline"><mrow><mn>21</mn><mo lspace="0.2222em" rspace="0.2222em">&divide;</mo><mn>13</mn><mo>=</mo><mn>1.615</mn></mrow></math>
 - <math display="inline"><mrow><mn>34</mn><mo lspace="0.2222em" rspace="0.2222em">&divide;</mo><mn>21</mn><mo>=</mo><mn>1.619</mn></mrow></math>

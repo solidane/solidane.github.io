@@ -1,22 +1,23 @@
 ---
 layout: post
-title:  "Sum of inverse powers of four"
+title:  "Somme des puissances inverses de quatre"
 author: georges
 categories: [Series, Fractals]
 image: assets/images/powerofi4.png
 lang: fr
 ---
 En mathématiques, une **série** est la somme de plusieurs nombres, dont le nombre peut être fini ou même infini. L'ensemble des nombres dont on fait la somme forme ce que l'on appelle une **série**.
-Combien d'éléments contient la séquence ?
-- S'il s'agit d'une séquence <span style="color : red ;">*finie*</span>, cela signifie que nous avons un nombre limité d'éléments sur lesquels nous faisons la somme, la somme de cette séquence est une suite<span style="color: red;">*finie*</span>.  **Example**: [La somme des <math display="inline"><mi>n</mi></math> nombres entiers impairs](https://visualproofs.github.io/series/algebra/2023/08/15/fr_n-odd-numbers.html) et [Somme de Gauss](https://visualproofs.github.io/series/2023/08/15/fr_gauss.html)
+Combien d'éléments contient la séquence?
+- S'il s'agit d'une séquence <span style="color : red ;">*finie*</span>, cela signifie que nous avons un nombre limité d'éléments sur lesquels nous faisons la somme, la somme de cette séquence est une suite<span style="color: red;">*finie*</span>.  **Example**: [La somme des <math display="inline"><mi>n</mi></math> nombres entiers impairs](https://visualproofs.github.io/series/algebra/2023/08/15/fr_n-odd-numbers/) et [Somme de Gauss](https://visualproofs.github.io/series/2023/08/15/fr_gauss/)
 - Alternativement, une série <span style="color: red;">*infinite*</span> est le résultat de l'addition d'une séquence de nombres <span style="color: red;">*infinie*</span>. L'utilisation de la limite permet de déterminer si une série infinie
-converge ou diverge. Prenons un exemple !
+converge ou diverge. Prenons un exemple!
 
-### Prenez votre peinture et vos pinceaux ! Nous peignons une toile
+### Prenez votre peinture et vos pinceaux! Nous peignons une toile
 Nous commençons par une toile vide et carrée,
+
 ![walking]({{ site.baseurl }}/assets/images/canvas.png)
 
-et nous voulons peindre <math display="inline"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> of it blue:
+et nous voulons peindre <math display="inline"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> en bleu:
 
 ![walking]({{ site.baseurl }}/assets/images/canvas1.png)
 
