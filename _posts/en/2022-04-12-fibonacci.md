@@ -57,7 +57,7 @@ If we continue like this we will be generating rectangles of the following forms
 - <math display="inline"><mrow><mn>34</mn><mo>&times;</mo><mn>55</mn></mrow></math>
 - <math display="inline"><mrow><mn>55</mn><mo>&times;</mo><mn>89</mn></mrow></math>
 
-Now check this out, by diving the bigger side length by the smaller one we get:
+Now check this out, by dividing the bigger side length by the smaller one we get:
 - <math display="inline"><mrow><mn>13</mn><mo lspace="0.2222em" rspace="0.2222em">&divide;</mo><mn>8</mn><mo>=</mo><mn>1.625</mn></mrow></math>
 - <math display="inline"><mrow><mn>21</mn><mo lspace="0.2222em" rspace="0.2222em">&divide;</mo><mn>13</mn><mo>=</mo><mn>1.615</mn></mrow></math>
 - <math display="inline"><mrow><mn>34</mn><mo lspace="0.2222em" rspace="0.2222em">&divide;</mo><mn>21</mn><mo>=</mo><mn>1.619</mn></mrow></math>

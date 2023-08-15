@@ -38,7 +38,7 @@ There are three more parts like it. Can you find them?
 
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-a-alt.png){:style="width: 60%"}
 
-Perfect! We have four of these shapes, all perfect mirror images of eachother and therefore, they have the same size. And look, two of these are part of your slices and two are part of mine. So let’s eat those and we’ll both have had the same amount of pizza so far.
+Perfect! We have four of these shapes, all perfect mirror images of each other and therefore, they have the same size. And look, two of these are part of your slices and two are part of mine. So let’s eat those and we’ll both have had the same amount of pizza so far.
 
 ![walking]({{ site.baseurl }}/assets/images/pizza-sketch-b-alt.png){:style="width: 60%"}
 
