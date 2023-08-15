@@ -34,17 +34,15 @@ authors:
   georges:
     name: Georges Hattab
     display_name: Georges Hattab
-    email: solida@students.uni-marburg.de
-    description: ""
+    avatar: 'assets/images/georges.jfif'
+    email: hattabg@rki.de
+    description: "Georges leads the Visualization Group at the Robert Koch-Institute for Artifical Intelligence and Visualization and an adjunct professor at Freie Universität Berlin"
   moritz:
     name: Moritz Weckbecker
     display_name: Moritz Weckbecker
     avatar: 'assets/images/moritz.png'
     email: weckbeckerm@rki.de
     description: "Moritz is a researcher at the Robert Koch-Institute for Artifical Intelligence and Visualization"
-# Social
-social:
-  instagram: https://www.instagram.com/solidaneziri/
 
 # Plugins
 plugins: 

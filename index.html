@@ -40,13 +40,36 @@ background: '/img/bg-index.jpg'
   </div>
 </section>
 
-<h1 class="mt-5 mb-4 pb-2 border-bottom" id="{{ category[0] | replace: " ","-" }}"><span class="text-capitalize small font-weight-bold">Proofs in German</span></h1>
+<h1 class="mt-5 mb-4 pb-2 border-bottom" id="{{ category[0] | replace: " ","-" }}"><span class="text-capitalize small font-weight-bold">Beweise auf Deutsch</span></h1>
 <section class="row">
   <div class="col-sm-12">
     <div class="row">
       {% for post in paginator.posts %}
         {% unless post.featured == true %}
           {% if post.path contains '/de/' %}
+            <div class="col-md-4 mb-3">
+              {% include postbox.html %}
+            </div>
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
+    </div>
+    <!-- Pagination -->
+    <div class="bottompagination">
+      <span class="navigation" role="navigation">
+          {% include pagination.html %}
+      </span>
+    </div>
+  </div>
+</section>
+
+<h1 class="mt-5 mb-4 pb-2 border-bottom" id="{{ category[0] | replace: " ","-" }}"><span class="text-capitalize small font-weight-bold">Preuves en français</span></h1>
+<section class="row">
+  <div class="col-sm-12">
+    <div class="row">
+      {% for post in paginator.posts %}
+        {% unless post.featured == true %}
+          {% if post.path contains '/fr/' %}
             <div class="col-md-4 mb-3">
               {% include postbox.html %}
             </div>
